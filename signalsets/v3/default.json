@@ -1,2 +1,31 @@
-{ "commands": []
+{ "commands": [
+{ "hdr": "750", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1004"}, "freq": 5,
+  "signals": [
+    {"id": "CAMRY_TT_1", "path": "Tires", "fmt": {           "len": 8, "max": 100, "min": -30, "add": -40, "unit": "celsius" }, "name": "Rear right tire temperature"},
+    {"id": "CAMRY_TT_2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 100, "min": -30, "add": -40, "unit": "celsius" }, "name": "Rear left tire temperature"},
+    {"id": "CAMRY_TT_3", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 100, "min": -30, "add": -40, "unit": "celsius" }, "name": "Front right tire temperature"},
+    {"id": "CAMRY_TT_4", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 100, "min": -30, "add": -40, "unit": "celsius" }, "name": "Front left tire temperature"}
+  ]},
+{ "hdr": "750", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1005"}, "freq": 5,
+  "signals": [
+    {"id": "CAMRY_TP_1", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 56.8, "div": 4.125, "add": -5.6969697, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
+    {"id": "CAMRY_TP_2", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 56.8, "div": 4.125, "add": -5.6969697, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "CAMRY_TP_3", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 56.8, "div": 4.125, "add": -5.6969697, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
+    {"id": "CAMRY_TP_4", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 56.8, "div": 4.125, "add": -5.6969697, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "750", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "2021"}, "freq": 86400,
+  "signals": [
+    {"id": "CAMRY_TID_1", "path": "Tires", "fmt": {           "len": 8, "map": {"1":{"description":"Front left","value":"FL"},"2":{"description":"Front right","value":"FR"},"3":{"description":"Rear left","value":"RL"},"4":{"description":"Rear right","value":"RR"}} }, "name": "Tire 1 position"},
+    {"id": "CAMRY_TID_2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "map": {"1":{"description":"Front left","value":"FL"},"2":{"description":"Front right","value":"FR"},"3":{"description":"Rear left","value":"RL"},"4":{"description":"Rear right","value":"RR"}} }, "name": "Tire 2 position"},
+    {"id": "CAMRY_TID_3", "path": "Tires", "fmt": {"bix": 16, "len": 8, "map": {"1":{"description":"Front left","value":"FL"},"2":{"description":"Front right","value":"FR"},"3":{"description":"Rear left","value":"RL"},"4":{"description":"Rear right","value":"RR"}} }, "name": "Tire 3 position"},
+    {"id": "CAMRY_TID_4", "path": "Tires", "fmt": {"bix": 24, "len": 8, "map": {"1":{"description":"Front left","value":"FL"},"2":{"description":"Front right","value":"FR"},"3":{"description":"Rear left","value":"RL"},"4":{"description":"Rear right","value":"RR"}} }, "name": "Tire 4 position"}
+  ]},
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "03"}, "freq": 0.25,
+  "signals": [
+    {"id": "CAMRY_TIRE_FR_SPD", "path": "Movement", "fmt": {           "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "CAMRY_TIRE_FL_SPD", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "CAMRY_TIRE_RR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
+    {"id": "CAMRY_TIRE_RL_SPD", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]}
+]
 }
