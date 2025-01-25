@@ -32,6 +32,11 @@ The Toyota Camry has evolved through multiple generations to become one of Ameri
   
   Features Toyota Safety Sense 2.5+, available all-wheel drive on select models, and enhanced connectivity options. [[Toyota Camry Official Page]](https://www.toyota.com/camry/)
 
+## References
+
+- https://github.com/2m/gry/blob/main/exportedPIDs.csv
+- https://www.gr-yaris.co.uk/threads/reverse-engineering-pids.4680
+
 ## Contributing
 
 Contributions are welcome! If you would like to add support for additional model years or other configurations, please open an issue or submit a pull request.
