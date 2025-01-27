@@ -1,13 +1,13 @@
 { "commands": [
 { "hdr": "750", "eax": "2A", "tst": "2A", "tmo": "96", "fcm1": true, "cmd": {"21": "16"}, "freq": 5,
   "signals": [
-    {"id": "CAMRY_TT_FL",    "path": "Tires", "fmt": {           "len": 8, "min": -40, "max": 215, "add": -40, "unit": "celsius" }, "name": "Front left tire temperature"},
-    {"id": "CAMRY_TT_FR",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "min": -40, "max": 215, "add": -40, "unit": "celsius" }, "name": "Front right tire temperature"},
-    {"id": "CAMRY_TT_RL",    "path": "Tires", "fmt": {"bix": 16, "len": 8, "min": -40, "max": 215, "add": -40, "unit": "celsius" }, "name": "Rear left tire temperature"},
-    {"id": "CAMRY_TT_RR",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "min": -40, "max": 215, "add": -40, "unit": "celsius" }, "name": "Rear right tire temperature"},
-    {"id": "CAMRY_TT_SPARE", "path": "Tires", "fmt": {"bix": 32, "len": 8, "min": -40, "max": 215, "add": -40, "unit": "celsius" }, "name": "Spare tire temperature"}
+    {"id": "CAMRY_TT_FL",    "path": "Tires", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front left tire temperature"},
+    {"id": "CAMRY_TT_FR",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front right tire temperature"},
+    {"id": "CAMRY_TT_RL",    "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear left tire temperature"},
+    {"id": "CAMRY_TT_RR",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear right tire temperature"},
+    {"id": "CAMRY_TT_SPARE", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Spare tire temperature"}
   ]},
-{ "hdr": "750", "eax": "2A", "tst": "2A", "tmo": "96", "fcm1": true, "cmd": {"21": "30"}, "freq": 5,
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "tmo": "96", "fcm1": true, "cmd": {"21": "30"}, "freq": 5,
   "signals": [
     {"id": "CAMRY_TP_FL",    "path": "Tires", "fmt": {           "len": 8, "max": 4, "div": 58, "add": -0.5, "unit": "bars" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
     {"id": "CAMRY_TP_FR",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 4, "div": 58, "add": -0.5, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
