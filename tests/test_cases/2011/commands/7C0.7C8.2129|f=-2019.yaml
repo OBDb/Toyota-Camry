@@ -1,0 +1,8 @@
+command_id: 7C0.7C8.2129|f=-2019
+test_cases:
+- response: 7C80361290B
+  expected_values:
+    TOYOTA_FLI_VOL: 5.5
+- response: 7C803612980
+  expected_values:
+    TOYOTA_FLI_VOL: 64
