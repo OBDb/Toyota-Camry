@@ -1,0 +1,10 @@
+command_id: 750.758.2116|t=96,e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    CAMRY_TT_FL: 30
+    CAMRY_TT_FR: 24
+    CAMRY_TT_RL: 25
+    CAMRY_TT_RR: 27
+  response: |-
+    7582A10076116464041
+    7582A21430000000000

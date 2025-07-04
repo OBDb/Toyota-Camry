@@ -1,0 +1,11 @@
+command_id: 700.708.221017
+test_cases:
+- expected_values:
+    CAMRY_INJ_VOL: 1.00688
+  response: 708056210170C96
+- expected_values:
+    CAMRY_INJ_VOL: 1.01688
+  response: 708056210170CB6
+- expected_values:
+    CAMRY_INJ_VOL: 1.03656
+  response: 708056210170CF5
