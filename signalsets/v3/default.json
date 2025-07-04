@@ -56,6 +56,24 @@
   "signals": [
     {"id": "CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 639.9, "mul": 639.9, "div": 65535, "unit": "degrees" }, "name": "Intake VVT change angle bank 1"}
   ]},
+{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "10AA"}, "freq": 1,
+  "signals": [
+    {"id": "CAMRY_MISFIRE_LOAD",   "path": "Engine", "fmt": {           "len": 8, "max": 510,               "mul": 510,  "div": 255,              "unit": "percent" }, "name": "Misfire load"},
+    {"id": "CAMRY_MISFIRE_RPM",    "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 6375,              "mul": 6375, "div": 255,              "unit": "rpm"     }, "name": "Misfire RPM"},
+    {"id": "CAMRY_MISFIRE_MARGIN", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 127,  "min": -128,                          "add": -128, "unit": "rpm"     }, "name": "Misfire margin"}
+  ]},
+{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F3C"}, "freq": 1,
+  "signals": [
+    {"id": "CAMRY_CAT_T_BANK_1_SENSOR_1", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature, bank 1 sensor 1"}
+  ]},
+{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F3E"}, "freq": 1,
+  "signals": [
+    {"id": "CAMRY_CAT_T_BANK_1_SENSOR_2", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature, bank 1 sensor 2"}
+  ]},
+{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F5C"}, "freq": 1,
+  "signals": [
+    {"id": "CAMRY_EOT_V2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variation 2"}
+  ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "2848"}, "freq": 0.5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "CAMRY_EOP_CONTROL_VALVE", "path": "Engine", "fmt": { "len": 16, "max": 4999, "mul": 762.93, "div": 10000, "unit": "milliamps" }, "name": "Engine oil pressure control valve"}
