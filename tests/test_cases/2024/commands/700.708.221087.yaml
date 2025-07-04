@@ -1,0 +1,14 @@
+command_id: 700.708.221087
+test_cases:
+- expected_values:
+    CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 25.14294
+  response: 708056210870A0F
+- expected_values:
+    CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 25.16247
+  response: 708056210870A11
+- expected_values:
+    CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 25.22105
+  response: 708056210870A17
+- expected_values:
+    CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 25.29917
+  response: 708056210870A1F
