@@ -1,0 +1,8 @@
+command_id: 700.708.221F5C
+test_cases:
+- expected_values:
+    CAMRY_EOT_V2: 26
+  response: 70804621F5C42
+- expected_values:
+    CAMRY_EOT_V2: 106
+  response: 70804621F5C92

@@ -1,0 +1,7 @@
+command_id: 700.708.2210A5
+test_cases:
+- expected_values:
+    CAMRY_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A50000F9
+    7082100DB0000000000

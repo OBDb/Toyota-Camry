@@ -1,0 +1,8 @@
+command_id: 7E0.0147
+test_cases:
+- expected_values:
+    TP_B: 5.4902
+  response: 7E80341470E
+- expected_values:
+    TP_B: 7.05882
+  response: '7E803414712'
