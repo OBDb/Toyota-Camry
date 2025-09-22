@@ -1,0 +1,11 @@
+command_id: 701.709.221627
+test_cases:
+- expected_values:
+    CAMRY_TFP_T: 30
+  response: '709056216274600'
+- expected_values:
+    CAMRY_TFP_T: 31.875
+  response: '7090562162747E0'
+- expected_values:
+    CAMRY_TFP_T: 98.125
+  response: 709056216278A20

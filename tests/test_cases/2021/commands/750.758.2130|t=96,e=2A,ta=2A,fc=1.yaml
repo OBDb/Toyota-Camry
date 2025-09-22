@@ -1,0 +1,57 @@
+command_id: 750.758.2130|t=96,e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    CAMRY_TP_RR: 2
+  response: |-
+    7582A10076130000000
+    7582A21910000000000
+- expected_values:
+    CAMRY_TP_RR: 2.25862
+  response: |-
+    7582A10076130000000
+    7582A21A00000000000
+- expected_values:
+    CAMRY_TP_RL: 2.2931
+  response: |-
+    7582A100761300000A2
+    7582A21000000000000
+- expected_values:
+    CAMRY_TP_FL: 1.96552
+    CAMRY_TP_FR: 1.96552
+    CAMRY_TP_RL: 2.06897
+    CAMRY_TP_RR: 1.96552
+  response: |-
+    7582A100761308F8F95
+    7582A218F0000000000
+- expected_values:
+    CAMRY_TP_FL: 2.31034
+    CAMRY_TP_FR: 2.37931
+    CAMRY_TP_RL: 2.22414
+    CAMRY_TP_RR: 2.55172
+  response: |-
+    7582A10076130A3A79E
+    7582A21B10000000000
+- expected_values:
+    CAMRY_TP_FL: 2.43103
+    CAMRY_TP_FR: 2.37931
+    CAMRY_TP_RL: 2.48276
+    CAMRY_TP_RR: 2.39655
+  response: |-
+    7582A10076130AAA7AD
+    7582A21A80000000000
+- expected_values:
+    CAMRY_TP_FL: 2.48276
+    CAMRY_TP_FR: 2.56897
+    CAMRY_TP_RL: 2.41379
+    CAMRY_TP_RR: 2.7069
+  response: |-
+    7582A10076130ADB2A9
+    7582A21BA0000000000
+- expected_values:
+    CAMRY_TP_FL: 2.51724
+    CAMRY_TP_FR: 2.41379
+    CAMRY_TP_RL: 2.39655
+    CAMRY_TP_RR: 2.32759
+  response: |-
+    7582A10076130AFA9A8
+    7582A21A40000000000

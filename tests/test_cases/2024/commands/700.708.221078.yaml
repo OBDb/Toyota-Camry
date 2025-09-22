@@ -6,3 +6,9 @@ test_cases:
     CAMRY_IDLE_SAC_CYL_3: 0
     CAMRY_IDLE_SAC_CYL_4: 0
   response: '7080762107800000000'
+- expected_values:
+    CAMRY_IDLE_SAC_CYL_1: 0
+    CAMRY_IDLE_SAC_CYL_2: 1
+    CAMRY_IDLE_SAC_CYL_3: 1
+    CAMRY_IDLE_SAC_CYL_4: 2
+  response: '7080762107800101020'

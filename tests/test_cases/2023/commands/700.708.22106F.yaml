@@ -1,0 +1,11 @@
+command_id: 700.708.22106F
+test_cases:
+- expected_values:
+    CAMRY_INTAKE_VVT_TARGET_ANGLE_B1: 0
+  response: 7080562106F0000
+- expected_values:
+    CAMRY_INTAKE_VVT_TARGET_ANGLE_B1: 14.98812
+  response: 7080562106F05FF
+- expected_values:
+    CAMRY_INTAKE_VVT_TARGET_ANGLE_B1: 54.99225
+  response: 7080562106F1600
