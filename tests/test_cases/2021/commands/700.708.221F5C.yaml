@@ -4,5 +4,5 @@ test_cases:
     CAMRY_EOT_V2: 24
   response: 70804621F5C40
 - expected_values:
-    CAMRY_EOT_V2: 98
-  response: 70804621F5C8A
+    CAMRY_EOT_V2: 102
+  response: 70804621F5C8E
