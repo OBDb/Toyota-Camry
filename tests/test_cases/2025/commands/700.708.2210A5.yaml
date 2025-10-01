@@ -85,9 +85,9 @@ test_cases:
 - expected_values:
     CAMRY_MISFIRE_COUNT: 0
   response: |-
-    7ED03410D80
+    7ED03410D84
     70810086210A5000000
-    7082100D90000000000
+    7082100DC0000000000
 - expected_values:
     CAMRY_MISFIRE_COUNT: 0
   response: |-
