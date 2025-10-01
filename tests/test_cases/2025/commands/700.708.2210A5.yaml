@@ -73,6 +73,12 @@ test_cases:
 - expected_values:
     CAMRY_MISFIRE_COUNT: 0
   response: |-
+    7EA03410D71
+    70810086210A5000000
+    7082100E00000000000
+- expected_values:
+    CAMRY_MISFIRE_COUNT: 0
+  response: |-
     7EB044131EFFD
     70810086210A5000000
     7082100D80000000000
@@ -85,21 +91,15 @@ test_cases:
 - expected_values:
     CAMRY_MISFIRE_COUNT: 0
   response: |-
-    7ED044131F166
+    7ED044131FA57
     70810086210A5000000
-    7082100D20000000000
+    7082100CE0000000000
 - expected_values:
     CAMRY_MISFIRE_COUNT: 0
   response: |-
     7EE03410D00
     70810086210A500005A
     7082100D30000000000
-- expected_values:
-    CAMRY_MISFIRE_COUNT: 0
-  response: |-
-    7EE03410D75
-    70810086210A5000000
-    7082100E00000000000
 - expected_values:
     CAMRY_MISFIRE_COUNT: 0
   response: |-
