@@ -1,10 +1,10 @@
 command_id: 750.758.2130|t=96,e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
-    CAMRY_TP_RR: 2.63793
+    CAMRY_TP_RR: 2.55172
   response: |-
     7582A10076130000000
-    7582A21B60000000000
+    7582A21B10000000000
 - expected_values:
     CAMRY_TP_RR: 2.7931
   response: |-
