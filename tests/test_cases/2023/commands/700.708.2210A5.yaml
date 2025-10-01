@@ -24,7 +24,7 @@ test_cases:
     CAMRY_MISFIRE_COUNT: 0
   response: |-
     70810086210A5000100
-    7082100D30000000000
+    7082100D20000000000
 - expected_values:
     CAMRY_MISFIRE_COUNT: 3
   response: |-
