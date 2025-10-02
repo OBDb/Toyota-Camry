@@ -1,0 +1,8 @@
+command_id: 7B0.7B8.2103
+test_cases:
+- expected_values:
+    CAMRY_TIRE_FL_SPD: 37.12
+    CAMRY_TIRE_FR_SPD: 37.12
+    CAMRY_TIRE_RL_SPD: 37.12
+    CAMRY_TIRE_RR_SPD: 37.12
+  response: 7B80661031D1D1D1D
