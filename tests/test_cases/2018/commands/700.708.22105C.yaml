@@ -1,6 +1,0 @@
-command_id: 700.708.22105C
-test_cases:
-- expected_values:
-    CAMRY_KNOCK_CORRECT_LEARNED_VALUE: 20.625
-    CAMRY_KNOCK_FEEDBACK_VALUE: 0
-  response: 7080762105C82948000

@@ -1,5 +1,0 @@
-command_id: 700.708.221062
-test_cases:
-- expected_values:
-    CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.53681
-  response: '708056210620806'
