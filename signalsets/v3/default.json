@@ -1,9 +1,9 @@
 { "commands": [
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1017"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1017"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_INJ_VOL", "path": "Engine", "fmt": { "len": 16, "max": 20.4, "div": 3200, "unit": "liters" }, "name": "Injection volume"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "102A"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "102A"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_A_F_RATIO_LEARNED_IDLE_BANK_1",  "path": "Engine", "fmt": {           "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learned idle, bank 1"},
     {"id": "CAMRY_A_F_RATIO_LEARNED_LOW_BANK_1",   "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learned low, bank 1"},
@@ -11,82 +11,82 @@
     {"id": "CAMRY_A_F_RATIO_LEARNED_MID_2_BANK_1", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learned mid 2, bank 1"},
     {"id": "CAMRY_A_F_RATIO_LEARNED_HIGH_BANK_1",  "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learned high, bank 1"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1043"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1043"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_EWP_TARGET_VSS", "path": "Engine", "fmt": {          "len": 8, "max": 6375, "mul": 25, "unit": "rpm" }, "name": "Electric water pump target speed"},
     {"id": "CAMRY_EWP_RPM",        "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 6375, "mul": 25, "unit": "rpm" }, "name": "Electric water pump RPM"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "105C"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "105C"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_KNOCK_CORRECT_LEARNED_VALUE", "path": "Engine", "fmt": {           "len": 16, "max": 1023, "min": -1024, "mul": 312.5, "div": 10000, "add": -1024, "unit": "scalar" }, "name": "Knock correction, learned value"},
     {"id": "CAMRY_KNOCK_FEEDBACK_VALUE",        "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1023, "min": -1024, "mul": 312.5, "div": 10000, "add": -1024, "unit": "scalar" }, "name": "Knock feedback value"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "105E"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "years": [2022], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "105E"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "years": [2022], "from": 2026 },
   "signals": [
     {"id": "CAMRY_ECU_INTERNAL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "ECU internal temperature"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1062"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1062"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 400, "mul": 400, "div": 65535, "unit": "percent" }, "name": "Exhaust VVT oil control valve control duty"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "106F"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "106F"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_INTAKE_VVT_TARGET_ANGLE_B1", "path": "Engine", "fmt": { "len": 16, "max": 639.9, "mul": 639.9, "div": 65535, "unit": "degrees" }, "name": "Intake VVT target angle B1"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1071"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1071"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_EXHAUST_VVT_TARGET_ANGLE_B1", "path": "Engine", "fmt": { "len": 16, "max": 639.9, "mul": 639.9, "div": 65535, "unit": "degrees" }, "name": "Exhaust VVT target angle B1"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1074"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1074"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_EOP", "path": "Engine", "fmt": { "len": 16, "max": 5119, "div": 12.8, "unit": "kilopascal" }, "name": "Engine oil pressure"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1078"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1078"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_IDLE_SAC_CYL_1", "path": "Engine", "fmt": {           "len": 8, "max": 15.9375, "mul": 6.25, "div": 100, "unit": "degrees" }, "name": "Idle spark advance control, cylinder 1"},
     {"id": "CAMRY_IDLE_SAC_CYL_2", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 15.9375, "mul": 6.25, "div": 100, "unit": "degrees" }, "name": "Idle spark advance control, cylinder 2"},
     {"id": "CAMRY_IDLE_SAC_CYL_3", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 15.9375, "mul": 6.25, "div": 100, "unit": "degrees" }, "name": "Idle spark advance control, cylinder 3"},
     {"id": "CAMRY_IDLE_SAC_CYL_4", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 15.9375, "mul": 6.25, "div": 100, "unit": "degrees" }, "name": "Idle spark advance control, cylinder 4"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "107B"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "years": [2022], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "107B"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "years": [2022], "from": 2025 },
   "signals": [
     {"id": "CAMRY_EOT", "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1087"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1087"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 639.9, "mul": 639.9, "div": 65535, "unit": "degrees" }, "name": "Intake VVT change angle bank 1"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "10A5"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "10A5"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_MISFIRE_COUNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire, all cylinders counter"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "10AA"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "10AA"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_MISFIRE_LOAD",   "path": "Engine", "fmt": {           "len": 8, "max": 510,               "mul": 510,  "div": 255,              "unit": "percent" }, "name": "Misfire load"},
     {"id": "CAMRY_MISFIRE_RPM",    "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 6375,              "mul": 6375, "div": 255,              "unit": "rpm"     }, "name": "Misfire RPM"},
     {"id": "CAMRY_MISFIRE_MARGIN", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 127,  "min": -128,                          "add": -128, "unit": "rpm"     }, "name": "Misfire margin"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "10CD"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "10CD"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_LFP", "path": "Fuel", "fmt": { "len": 16, "max": 100, "div": 10, "add": -3276.8, "unit": "kilopascal" }, "name": "Low fuel pressure sensor"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1F3C"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F3C"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_CAT_T_BANK_1_SENSOR_1", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature, bank 1 sensor 1"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1F3E"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F3E"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_CAT_T_BANK_1_SENSOR_2", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature, bank 1 sensor 2"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1F5C"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F5C"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_EOT_V2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variation 2"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "2848"}, "freq": 0.5, "filter": { "from": 2018 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "2848"}, "freq": 0.5, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "from": 2026 },
   "signals": [
     {"id": "CAMRY_EOP_CONTROL_VALVE", "path": "Engine", "fmt": { "len": 16, "max": 4999, "mul": 762.93, "div": 10000, "unit": "milliamps" }, "name": "Engine oil pressure control valve"}
   ]},
-{ "hdr": "701", "rax": "709", "cmd": {"22": "1627"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "years": [2022], "from": 2026 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "1627"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2017, "years": [2022], "from": 2025 },
   "signals": [
     {"id": "CAMRY_TFP_T", "path": "Transmission", "fmt": { "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission fluid pan temperature"}
   ]},
