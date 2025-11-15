@@ -1,0 +1,8 @@
+command_id: 700.708.22105E|f=2018-
+test_cases:
+- expected_values:
+    CAMRY_ECU_INTERNAL_T: 22
+  response: 7080462105E3E
+- expected_values:
+    CAMRY_ECU_INTERNAL_T: 77
+  response: '7080462105E75'

@@ -1,5 +1,0 @@
-command_id: 701.709.221627
-test_cases:
-- expected_values:
-    CAMRY_TFP_T: 35.625
-  response: 709056216274BA0

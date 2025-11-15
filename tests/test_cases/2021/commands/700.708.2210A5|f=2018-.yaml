@@ -1,0 +1,37 @@
+command_id: 700.708.2210A5|f=2018-
+test_cases:
+- expected_values:
+    CAMRY_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A5000000
+    7082100450000000000
+- expected_values:
+    CAMRY_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A5000000
+    70821007F0000000000
+- expected_values:
+    CAMRY_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A5000000
+    7082100800000000000
+- expected_values:
+    CAMRY_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A5000000
+    7082100F70000000000
+- expected_values:
+    CAMRY_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A50000FF
+    7082100C40000000000
+- expected_values:
+    CAMRY_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A5000100
+    7082100CB0000000000
+- expected_values:
+    CAMRY_MISFIRE_COUNT: 2
+  response: |-
+    70810086210A50200F8
+    7082100DC0000000000
