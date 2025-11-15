@@ -1,0 +1,42 @@
+command_id: 7B0.7B8.2147
+test_cases:
+- expected_values:
+    CAMRY_LAT_G: -25.11
+    CAMRY_LNG_G: -4.31737
+    CAMRY_YAW: -9
+  response: 7B8066147006A7718
+- expected_values:
+    CAMRY_LAT_G: -25.11
+    CAMRY_LNG_G: -2.55196
+    CAMRY_YAW: -23
+  response: 7B8066147007369F8
+- expected_values:
+    CAMRY_LAT_G: -25.11
+    CAMRY_LNG_G: -2.15965
+    CAMRY_YAW: 23
+  response: 7B80661470075977F
+- expected_values:
+    CAMRY_LAT_G: -25.11
+    CAMRY_LNG_G: -0.19808
+    CAMRY_YAW: 0
+  response: 7B8066147007F8000
+- expected_values:
+    CAMRY_LAT_G: -25.11
+    CAMRY_LNG_G: -0.00192
+    CAMRY_YAW: 0
+  response: 7B8066147008080FF
+- expected_values:
+    CAMRY_LAT_G: -18.83298
+    CAMRY_LNG_G: 13.14059
+    CAMRY_YAW: 18
+  response: 7B806614720C39266
+- expected_values:
+    CAMRY_LAT_G: 22.75227
+    CAMRY_LNG_G: -7.45588
+    CAMRY_YAW: -15
+  response: 7B8066147F45A711E
+- expected_values:
+    CAMRY_LAT_G: 24.91
+    CAMRY_LNG_G: -2.55196
+    CAMRY_YAW: -10
+  response: 7B8066147FF737628

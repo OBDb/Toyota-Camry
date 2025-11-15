@@ -1,14 +1,14 @@
 command_id: 700.708.221F3C|f=2018-
 test_cases:
 - expected_values:
-    CAMRY_CAT_T_BANK_1_SENSOR_1: 68.4
+    CAMRY_CAT_T_11: 68.4
   response: 70805621F3C043C
 - expected_values:
-    CAMRY_CAT_T_BANK_1_SENSOR_1: 267.1
+    CAMRY_CAT_T_11: 267.1
   response: 70805621F3C0BFF
 - expected_values:
-    CAMRY_CAT_T_BANK_1_SENSOR_1: 446.4
+    CAMRY_CAT_T_11: 446.4
   response: 70805621F3C1300
 - expected_values:
-    CAMRY_CAT_T_BANK_1_SENSOR_1: 779.5
+    CAMRY_CAT_T_11: 779.5
   response: 70805621F3C2003
