@@ -1,0 +1,11 @@
+command_id: 700.708.221002
+test_cases:
+- expected_values:
+    CAMRY_BAT_VOLTAGE: 13.71579
+  response: 708056210022BE4
+- expected_values:
+    CAMRY_BAT_VOLTAGE: 13.72555
+  response: 708056210022BEC
+- expected_values:
+    CAMRY_BAT_VOLTAGE: 13.73532
+  response: 708056210022BF4
