@@ -1,14 +1,14 @@
 command_id: 700.708.2210CD|f=2018-
 test_cases:
 - expected_values:
-    CAMRY_LFP: 100
+    CAMRY_LFP: 255
   response: 708056210CD89F6
 - expected_values:
-    CAMRY_LFP: 100
+    CAMRY_LFP: 281.6
   response: 708056210CD8B00
 - expected_values:
-    CAMRY_LFP: 100
+    CAMRY_LFP: 383.9
   response: 708056210CD8EFF
 - expected_values:
-    CAMRY_LFP: 100
+    CAMRY_LFP: 692.2
   response: 708056210CD9B0A

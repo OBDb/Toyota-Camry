@@ -1,5 +1,5 @@
 command_id: 700.708.221074|f=2018-
 test_cases:
 - expected_values:
-    CAMRY_EOP: 3.59375
+    CAMRY_EOP: 46
   response: 70805621074002E

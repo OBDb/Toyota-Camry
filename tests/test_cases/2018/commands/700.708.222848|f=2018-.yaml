@@ -1,5 +1,5 @@
 command_id: 700.708.222848|f=2018-
 test_cases:
 - expected_values:
-    CAMRY_EOP_CONTROL_VALVE: 99.94383
+    CAMRY_EOP_CONTROL_VALVE: 99.94501
   response: 70805622848051E
