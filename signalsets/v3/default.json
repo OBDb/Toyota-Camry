@@ -521,7 +521,7 @@
     {"id": "CAMRY_ZP_DEC2", "path": "Orientation", "fmt": {"bix": 8,  "len": 8, "max": 24.91, "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration 2"},
     {"id": "CAMRY_ZP_YAW",  "path": "Orientation", "fmt": {"bix": 16, "len": 8, "max": 127,   "min": -128,                        "add": -128,   "unit": "scalar"                 }, "name": "Zero point of yaw rate (degrees/sec)"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "47"}, "freq": 0.25,
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "CAMRY_LAT_G",          "path": "Orientation", "fmt": {           "len": 8,  "max": 24.91,  "min": -25.11,  "mul": 0.1961568627,            "add": -25.11,  "unit": "metersPerSecondSquared" }, "name": "Lateral g"},
     {"id": "CAMRY_LNG_G",          "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 24.91,  "min": -25.11,  "mul": 0.1961568627,            "add": -25.11,  "unit": "metersPerSecondSquared" }, "name": "Forward and rearward g"},
@@ -595,7 +595,7 @@
     {"id": "CAMRY_FRONT_AXLE_COUPLING_CLUTCH_POS_SENSOR", "path": "ECU", "fmt": {"bix": 8, "len": 1, "max": 1, "unit": "offon" }, "name": "[4WD] front axle coupling clutch position sensor status"},
     {"id": "CAMRY_REAR_AXLE_COUPLING_CLUTCH_POS_SENSOR",  "path": "ECU", "fmt": {"bix": 9, "len": 1, "max": 1, "unit": "offon" }, "name": "[4WD] rear axle coupling clutch position sensor status"}
   ]},
-{ "hdr": "7C0", "dbg": true, "cmd": {"21": "29"}, "freq": 1,
+{ "hdr": "7C0", "cmd": {"21": "29"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "CAMRY_FUEL_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel input"}
   ]},
