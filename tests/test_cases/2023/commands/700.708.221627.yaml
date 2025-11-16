@@ -1,0 +1,11 @@
+command_id: 700.708.221627
+test_cases:
+- expected_values:
+    CAMRY_TRANSMISSION_FLUID_PAN_T_VAR_3: 66.875
+  response: 708056216276AE0
+- expected_values:
+    CAMRY_TRANSMISSION_FLUID_PAN_T_VAR_3: 67.5
+  response: 708056216276B80
+- expected_values:
+    CAMRY_TRANSMISSION_FLUID_PAN_T_VAR_3: 70
+  response: '708056216276E00'
