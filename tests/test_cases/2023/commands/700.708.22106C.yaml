@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAMRY_DIST_SINCE_BAT_DISC: 64206
   response: 7080562106CFACE
+- expected_values:
+    CAMRY_DIST_SINCE_BAT_DISC: 64218
+  response: 7080562106CFADA
