@@ -1,0 +1,44 @@
+command_id: 7B0.7B8.2147
+test_cases:
+- expected_values:
+    CAMRY_LAT_G: -25.11
+    CAMRY_LNG_G: -25.11
+    CAMRY_STEERING_ANGLE: 0
+    CAMRY_YAW: 0
+  response: 7B80761470000808000
+- expected_values:
+    CAMRY_LAT_G: -25.11
+    CAMRY_LNG_G: 24.32153
+    CAMRY_STEERING_ANGLE: -1.5
+    CAMRY_YAW: 0
+  response: 7B807614700FC807FF1
+- expected_values:
+    CAMRY_LAT_G: -25.11
+    CAMRY_LNG_G: 24.91
+    CAMRY_STEERING_ANGLE: -3
+    CAMRY_YAW: -1
+  response: 7B807614700FF7F7FE2
+- expected_values:
+    CAMRY_LAT_G: -24.52153
+    CAMRY_LNG_G: -24.52153
+    CAMRY_STEERING_ANGLE: 361.5
+    CAMRY_YAW: -10
+  response: 7B80761470303768E1F
+- expected_values:
+    CAMRY_LAT_G: -21.38302
+    CAMRY_LNG_G: -25.11
+    CAMRY_STEERING_ANGLE: 187.5
+    CAMRY_YAW: 29
+  response: 7B807614713009D8753
+- expected_values:
+    CAMRY_LAT_G: 24.32153
+    CAMRY_LNG_G: -24.32537
+    CAMRY_STEERING_ANGLE: -165
+    CAMRY_YAW: -18
+  response: 7B8076147FC046E798E
+- expected_values:
+    CAMRY_LAT_G: 24.91
+    CAMRY_LNG_G: -23.34459
+    CAMRY_STEERING_ANGLE: -4.5
+    CAMRY_YAW: -1
+  response: 7B8076147FF097F7FD3
