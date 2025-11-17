@@ -1,0 +1,32 @@
+command_id: 700.708.221089
+test_cases:
+- expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 50.22014
+  response: '708056210892026'
+- expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 50.50084
+  response: '708056210892054'
+- expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 51.58091
+  response: '708056210892105'
+- expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 51.88601
+  response: '708056210892137'
+- expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 51.95924
+  response: '708056210892143'
+- expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 52.10569
+  response: 70805621089215B
+- expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 52.33146
+  response: '708056210892180'
+- expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 52.4413
+  response: '708056210892192'
+- expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 52.47791
+  response: '708056210892198'
+- expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 52.78302
+  response: 7080562108921CA

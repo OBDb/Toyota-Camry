@@ -1,0 +1,8 @@
+command_id: 700.708.22108F
+test_cases:
+- expected_values:
+    CAMRY_EXHAUST_VVT_OVER_ADV_LEARN_B1: 89.97067
+  response: 7080562108F23FD
+- expected_values:
+    CAMRY_EXHAUST_VVT_OVER_ADV_LEARN_B1: 90.13669
+  response: 7080562108F240E

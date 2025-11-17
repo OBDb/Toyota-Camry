@@ -1,0 +1,14 @@
+command_id: 700.708.22106A
+test_cases:
+- expected_values:
+    CAMRY_FUEL_PUMP_DUTY_RATIO: 141.03659
+  response: 7080562106A0909
+- expected_values:
+    CAMRY_FUEL_PUMP_DUTY_RATIO: 202.86585
+  response: 7080562106A0CFF
+- expected_values:
+    CAMRY_FUEL_PUMP_DUTY_RATIO: 202.92683
+  response: 7080562106A0D00
+- expected_values:
+    CAMRY_FUEL_PUMP_DUTY_RATIO: 220.18293
+  response: 7080562106A0E1B
