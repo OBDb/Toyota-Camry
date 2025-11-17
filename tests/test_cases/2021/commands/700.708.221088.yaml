@@ -1,0 +1,23 @@
+command_id: 700.708.221088
+test_cases:
+- expected_values:
+    CAMRY_EXHAUST_VVT_ANGLE_B1: 0.04882
+  response: '708056210880005'
+- expected_values:
+    CAMRY_EXHAUST_VVT_ANGLE_B1: 0.05859
+  response: '708056210880006'
+- expected_values:
+    CAMRY_EXHAUST_VVT_ANGLE_B1: 0.08788
+  response: '708056210880009'
+- expected_values:
+    CAMRY_EXHAUST_VVT_ANGLE_B1: 0.14646
+  response: 70805621088000F
+- expected_values:
+    CAMRY_EXHAUST_VVT_ANGLE_B1: 0.16599
+  response: '708056210880011'
+- expected_values:
+    CAMRY_EXHAUST_VVT_ANGLE_B1: 0.17576
+  response: '708056210880012'
+- expected_values:
+    CAMRY_EXHAUST_VVT_ANGLE_B1: 0.34175
+  response: '708056210880023'

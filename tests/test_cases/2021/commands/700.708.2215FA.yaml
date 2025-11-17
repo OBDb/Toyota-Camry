@@ -1,0 +1,8 @@
+command_id: 700.708.2215FA
+test_cases:
+- expected_values:
+    CAMRY_ALT_DUTY_CYCLE: 35.12195
+  response: 708056215FA1680
+- expected_values:
+    CAMRY_ALT_DUTY_CYCLE: 39.02439
+  response: 708056215FA1900
