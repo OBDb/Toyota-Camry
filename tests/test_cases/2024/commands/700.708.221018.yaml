@@ -4,11 +4,11 @@ test_cases:
     CAMRY_INJECTOR_PORT: 2.998
   response: 708056210180BB6
 - expected_values:
-    CAMRY_INJECTOR_PORT: 3.105
-  response: 708056210180C21
+    CAMRY_INJECTOR_PORT: 3.615
+  response: 708056210180E1F
 - expected_values:
-    CAMRY_INJECTOR_PORT: 4.846
-  response: 7080562101812EE
+    CAMRY_INJECTOR_PORT: 7.923
+  response: 708056210181EF3
 - expected_values:
-    CAMRY_INJECTOR_PORT: 8.538
-  response: 70805621018215A
+    CAMRY_INJECTOR_PORT: 9.775
+  response: 70805621018262F

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CAMRY_D_SIDE_: 1
   response: 7CC03612401
+- expected_values:
+    CAMRY_D_SIDE_: 2
+  response: 7CC03612402

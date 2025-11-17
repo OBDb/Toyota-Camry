@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     CAMRY_AMBIENT_T: 19
   response: 70804621F463B
+- expected_values:
+    CAMRY_AMBIENT_T: 20
+  response: 70804621F463C
+- expected_values:
+    CAMRY_AMBIENT_T: 21
+  response: 70804621F463D
+- expected_values:
+    CAMRY_AMBIENT_T: 22
+  response: 70804621F463E
