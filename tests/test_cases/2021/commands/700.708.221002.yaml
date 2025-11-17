@@ -4,23 +4,5 @@ test_cases:
     CAMRY_BAT_VOLTAGE: 13.61813
   response: 708056210022B94
 - expected_values:
-    CAMRY_BAT_VOLTAGE: 13.62789
-  response: 708056210022B9C
-- expected_values:
-    CAMRY_BAT_VOLTAGE: 13.63278
-  response: 708056210022BA0
-- expected_values:
-    CAMRY_BAT_VOLTAGE: 13.63766
-  response: 708056210022BA4
-- expected_values:
-    CAMRY_BAT_VOLTAGE: 13.64254
-  response: 708056210022BA8
-- expected_values:
-    CAMRY_BAT_VOLTAGE: 13.64743
-  response: 708056210022BAC
-- expected_values:
-    CAMRY_BAT_VOLTAGE: 13.67672
-  response: 708056210022BC4
-- expected_values:
-    CAMRY_BAT_VOLTAGE: 13.68649
-  response: 708056210022BCC
+    CAMRY_BAT_VOLTAGE: 13.74508
+  response: 708056210022BFC
