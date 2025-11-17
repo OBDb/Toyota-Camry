@@ -5,6 +5,9 @@ test_cases:
   response: '7080762101901518000'
 - expected_values:
     CAMRY_INJECTION: DIRECT
+  response: 7080762101901D68000
+- expected_values:
+    CAMRY_INJECTION: DIRECT
   response: 7080762101901DA8000
 - expected_values:
     CAMRY_INJECTION: BOTH
@@ -14,7 +17,16 @@ test_cases:
   response: 70807621019024C8000
 - expected_values:
     CAMRY_INJECTION: BOTH
+  response: 7080762101902A18000
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 7080762101902C68AD8
+- expected_values:
+    CAMRY_INJECTION: BOTH
   response: 7080762101902C88000
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 7080762101902DB8AA5
 - expected_values:
     CAMRY_INJECTION: BOTH
   response: 7080762101902E58BB8
