@@ -1,9 +1,9 @@
 command_id: 7B0.7B8.2106
 test_cases:
 - expected_values:
-    CAMRY_YAW_1: -10
-    CAMRY_YAW_2: -4
-  response: 7B8056106767C6D
+    CAMRY_YAW_1: -33
+    CAMRY_YAW_2: -11
+  response: 7B80561065F7565
 - expected_values:
     CAMRY_YAW_1: -9
     CAMRY_YAW_2: 14
