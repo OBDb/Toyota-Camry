@@ -4,5 +4,5 @@ test_cases:
     CAMRY_VEHICLE_SPEED_7B0: 0
   response: 7B803612100
 - expected_values:
-    CAMRY_VEHICLE_SPEED_7B0: 64
-  response: 7B803612132
+    CAMRY_VEHICLE_SPEED_7B0: 69.12
+  response: 7B803612136
