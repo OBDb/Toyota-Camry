@@ -14,4 +14,4 @@ test_cases:
   response: 7080762101902B38AF4
 - expected_values:
     CAMRY_INJECTION: BOTH
-  response: 7080762101902F08BB8
+  response: 7080762101902FF8000

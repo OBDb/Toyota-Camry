@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     CAMRY_GEAR: 7
   response: '7080462162107'
+- expected_values:
+    CAMRY_GEAR: 8
+  response: '7080462162108'

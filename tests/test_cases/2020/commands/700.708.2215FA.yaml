@@ -7,5 +7,5 @@ test_cases:
     CAMRY_ALT_DUTY_CYCLE: 39.02439
   response: 708056215FA1900
 - expected_values:
-    CAMRY_ALT_DUTY_CYCLE: 54.63415
-  response: 708056215FA2300
+    CAMRY_ALT_DUTY_CYCLE: 67.90244
+  response: 708056215FA2B80
