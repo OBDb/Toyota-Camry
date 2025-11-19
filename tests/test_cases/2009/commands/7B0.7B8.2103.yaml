@@ -1,0 +1,20 @@
+command_id: 7B0.7B8.2103
+test_cases:
+- expected_values:
+    CAMRY_TIRE_FL_SPD: 0
+    CAMRY_TIRE_FR_SPD: 0
+    CAMRY_TIRE_RL_SPD: 0
+    CAMRY_TIRE_RR_SPD: 0
+  response: 7B806610300000000
+- expected_values:
+    CAMRY_TIRE_FL_SPD: 16.64
+    CAMRY_TIRE_FR_SPD: 16.64
+    CAMRY_TIRE_RL_SPD: 16.64
+    CAMRY_TIRE_RR_SPD: 16.64
+  response: 7B80661030D0D0D0D
+- expected_values:
+    CAMRY_TIRE_FL_SPD: 67.84
+    CAMRY_TIRE_FR_SPD: 67.84
+    CAMRY_TIRE_RL_SPD: 67.84
+    CAMRY_TIRE_RR_SPD: 67.84
+  response: 7B806610335353535
