@@ -477,7 +477,7 @@
     {"id": "CAMRY_TIRE_POS_4", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "scalar" }, "name": "Tire position #4"},
     {"id": "CAMRY_TIRE_POS_5", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Tire position #5"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "03"}, "freq": 0.25, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012, 2016, 2021], "from": 2023 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "03"}, "freq": 0.25, "dbgfilter": { "to": 2006, "years": [2008, 2010, 2012, 2016, 2021], "from": 2023 },
   "signals": [
     {"id": "CAMRY_TIRE_FR_SPD", "path": "Movement", "fmt": {           "len": 8, "max": 326.4, "mul": 32, "div": 25, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
     {"id": "CAMRY_TIRE_FL_SPD", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 326.4, "mul": 32, "div": 25, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
@@ -494,12 +494,12 @@
     {"id": "CAMRY_RESERVOIR_WARNING_SW", "path": "ECU", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Reservoir warning SW"},
     {"id": "CAMRY_MAIN_IDLE_SW",         "path": "ECU", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Main idle SW"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1F"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1F"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "CAMRY_STOP_LIGHT_SW",    "path": "ECU", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light SW"},
     {"id": "CAMRY_PARKING_BRAKE_SW", "path": "ECU", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake SW"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "CAMRY_VEHICLE_SPEED_7B0", "path": "Movement", "fmt": { "len": 8, "max": 326.4, "mul": 326.4, "div": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed, 7B0"}
   ]},
@@ -507,7 +507,7 @@
   "signals": [
     {"id": "CAMRY_STOP_LIGHT_RELAY", "path": "Movement", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light relay"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3D"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3D"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "CAMRY_ABS_WARN",   "path": "Engine", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "ABS warning light"},
     {"id": "CAMRY_BRAKE_WARN", "path": "Engine", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake warning light"},
@@ -538,7 +538,7 @@
     {"id": "CAMRY_RR_WHEEL_VSC_CTRL_STATUS",     "path": "Tires", "fmt": {"bix": 10, "len": 1, "max": 1, "unit": "offon" }, "name": "Rear right wheel vehicle stability control status"},
     {"id": "CAMRY_RL_WHEEL_VSC_CTRL_STATUS",     "path": "Tires", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "offon" }, "name": "Rear left wheel vehicle stability control status"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5F"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5F"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "CAMRY_FR_WHEEL_ABS_CTRL_STATUS", "path": "Tires", "fmt": {           "len": 1, "max": 1, "unit": "offon" }, "name": "Front right wheel ABS status"},
     {"id": "CAMRY_FL_WHEEL_ABS_CTRL_STATUS", "path": "Tires", "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "offon" }, "name": "Front left wheel ABS status"},
@@ -553,7 +553,7 @@
   "signals": [
     {"id": "CAMRY_INSPECTION_MODE", "path": "ECU", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Inspection mode"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "BE"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "BE"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "CAMRY_FR_WHEEL_SPEED_OPEN",              "path": "Movement",    "fmt": {           "len": 1, "max": 1, "unit": "offon" }, "name": "Front right wheel speed open"},
     {"id": "CAMRY_FL_WHEEL_SPEED_OPEN",              "path": "Movement",    "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "offon" }, "name": "Front left wheel speed open"},
@@ -595,7 +595,7 @@
     {"id": "CAMRY_FRONT_AXLE_COUPLING_CLUTCH_POS_SENSOR", "path": "ECU", "fmt": {"bix": 8, "len": 1, "max": 1, "unit": "offon" }, "name": "[4WD] front axle coupling clutch position sensor status"},
     {"id": "CAMRY_REAR_AXLE_COUPLING_CLUTCH_POS_SENSOR",  "path": "ECU", "fmt": {"bix": 9, "len": 1, "max": 1, "unit": "offon" }, "name": "[4WD] rear axle coupling clutch position sensor status"}
   ]},
-{ "hdr": "7C0", "cmd": {"21": "29"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2016 },
+{ "hdr": "7C0", "cmd": {"21": "29"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2012, 2013, 2014], "from": 2016 },
   "signals": [
     {"id": "CAMRY_FUEL_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel input"}
   ]},
@@ -607,12 +607,12 @@
   "signals": [
     {"id": "CAMRY_D_SIDE_", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Solar sensor, driver side"}
   ]},
-{ "hdr": "7C4", "cmd": {"21": "43"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2022], "from": 2025 },
+{ "hdr": "7C4", "cmd": {"21": "43"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018, 2019, 2022], "from": 2025 },
   "signals": [
     {"id": "CAMRY_AIR_OUTLET_SERVO_PULSE_D",      "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air outlet servo pulse, driver"},
     {"id": "CAMRY_AIR_OUTLET_SERVO_ACTU_PULSE_D", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air outlet servo actual pulse, driver"}
   ]},
-{ "hdr": "7C4", "cmd": {"21": "44"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2022], "from": 2025 },
+{ "hdr": "7C4", "cmd": {"21": "44"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018, 2019, 2022], "from": 2025 },
   "signals": [
     {"id": "CAMRY_AIR_INLET_DAMPER_TARGET_PULSE", "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air inlet damper target pulse"},
     {"id": "CAMRY_AIR_INLET_DAMPER_ACTUAL_PULSE", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air inlet damper actual pulse"}
