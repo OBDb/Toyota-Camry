@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAMRY_LFP: 0
   response: 708056210CD7FCB
+- expected_values:
+    CAMRY_LFP: 515
+  response: 708056210CD941E

@@ -1,0 +1,20 @@
+command_id: 700.708.22108A
+test_cases:
+- expected_values:
+    CAMRY_VVT_IE_DUTY_RATIO_BANK_1: 11.65074
+  response: 7080562108A877D
+- expected_values:
+    CAMRY_VVT_IE_DUTY_RATIO_BANK_1: 13.81698
+  response: 7080562108A88E0
+- expected_values:
+    CAMRY_VVT_IE_DUTY_RATIO_BANK_1: 13.96954
+  response: 7080562108A88F9
+- expected_values:
+    CAMRY_VVT_IE_DUTY_RATIO_BANK_1: 14.31125
+  response: 7080562108A8931
+- expected_values:
+    CAMRY_VVT_IE_DUTY_RATIO_BANK_1: 15.19605
+  response: 7080562108A89C2
+- expected_values:
+    CAMRY_VVT_IE_DUTY_RATIO_BANK_1: 20.84658
+  response: 7080562108A8D60
