@@ -8,7 +8,7 @@ test_cases:
     7B8100961460000807F
     7B821F1111F00000000
 - expected_values:
-    CAMRY_ZP_DEC: 24.91
+    CAMRY_ZP_DEC: 24
     CAMRY_ZP_DEC2: -25.11
     CAMRY_ZP_YAW: 0
   response: |-

@@ -1,0 +1,23 @@
+command_id: 7C4.7CC.2124
+test_cases:
+- expected_values:
+    CAMRY_D_SIDE_: 0
+  response: 7CC03612400
+- expected_values:
+    CAMRY_D_SIDE_: 4
+  response: 7CC03612404
+- expected_values:
+    CAMRY_D_SIDE_: 6
+  response: 7CC03612406
+- expected_values:
+    CAMRY_D_SIDE_: 7
+  response: 7CC03612407
+- expected_values:
+    CAMRY_D_SIDE_: 8
+  response: 7CC03612408
+- expected_values:
+    CAMRY_D_SIDE_: 10
+  response: 7CC0361240A
+- expected_values:
+    CAMRY_D_SIDE_: 11
+  response: 7CC0361240B

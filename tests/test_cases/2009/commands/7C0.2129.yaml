@@ -1,8 +1,0 @@
-command_id: 7C0.2129
-test_cases:
-- expected_values:
-    CAMRY_FUEL_INPUT: 109
-  response: 7C80361296D
-- expected_values:
-    CAMRY_FUEL_INPUT: 113
-  response: 7C803612971

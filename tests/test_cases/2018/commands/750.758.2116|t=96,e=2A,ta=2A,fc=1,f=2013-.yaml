@@ -1,0 +1,15 @@
+command_id: 750.758.2116|t=96,e=2A,ta=2A,fc=1,f=2013-
+test_cases:
+- expected_values:
+    CAMRY_TIRE_T_FL: 14
+    CAMRY_TIRE_T_RR: 11
+  response: |-
+    7582A10076116360000
+    7582A21330000000000
+- expected_values:
+    CAMRY_TIRE_T_FL: 14
+    CAMRY_TIRE_T_FR: 13
+    CAMRY_TIRE_T_RR: 11
+  response: |-
+    7582A10076116363500
+    7582A21330000000000
