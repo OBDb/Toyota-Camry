@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     CAMRY_EVAPORATOR_TARGET_TEMP: 5
   response: 7CC04614C81F4
+- expected_values:
+    CAMRY_EVAPORATOR_TARGET_TEMP: 6.07
+  response: 7CC04614C825F
+- expected_values:
+    CAMRY_EVAPORATOR_TARGET_TEMP: 6.26
+  response: 7CC04614C8272
+- expected_values:
+    CAMRY_EVAPORATOR_TARGET_TEMP: 6.43
+  response: 7CC04614C8283
+- expected_values:
+    CAMRY_EVAPORATOR_TARGET_TEMP: 6.66
+  response: 7CC04614C829A
+- expected_values:
+    CAMRY_EVAPORATOR_TARGET_TEMP: 6.88
+  response: 7CC04614C82B0
+- expected_values:
+    CAMRY_EVAPORATOR_TARGET_TEMP: 7.1
+  response: 7CC04614C82C6
+- expected_values:
+    CAMRY_EVAPORATOR_TARGET_TEMP: 7.33
+  response: 7CC04614C82DD
+- expected_values:
+    CAMRY_EVAPORATOR_TARGET_TEMP: 7.52
+  response: 7CC04614C82F0
+- expected_values:
+    CAMRY_EVAPORATOR_TARGET_TEMP: 7.66
+  response: 7CC04614C82FE
