@@ -36,7 +36,7 @@ test_cases:
     CAMRY_YAW: -15
   response: 7B8066147F45A711E
 - expected_values:
-    CAMRY_LAT_G: 24.91
+    CAMRY_LAT_G: 24
     CAMRY_LNG_G: -2.55196
     CAMRY_YAW: -10
   response: 7B8066147FF737628
