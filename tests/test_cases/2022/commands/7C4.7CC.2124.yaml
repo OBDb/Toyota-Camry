@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     CAMRY_SOLAR_D_SIDE: 0
   response: 7CC03612400
+- expected_values:
+    CAMRY_SOLAR_D_SIDE: 4
+  response: 7CC03612404
+- expected_values:
+    CAMRY_SOLAR_D_SIDE: 5
+  response: 7CC03612405
+- expected_values:
+    CAMRY_SOLAR_D_SIDE: 6
+  response: 7CC03612406
+- expected_values:
+    CAMRY_SOLAR_D_SIDE: 7
+  response: 7CC03612407
+- expected_values:
+    CAMRY_SOLAR_D_SIDE: 8
+  response: 7CC03612408
