@@ -1,5 +1,5 @@
 command_id: 7C4.7CC.2124
 test_cases:
 - expected_values:
-    CAMRY_D_SIDE_: 0
+    CAMRY_SOLAR_D_SIDE: 0
   response: 7CC03612400
