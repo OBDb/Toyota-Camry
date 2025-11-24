@@ -1,6 +1,27 @@
 command_id: 700.708.22105E|f=2018-
 test_cases:
 - expected_values:
+    CAMRY_ECU_INTERNAL_T: 24
+  response: '7080462105E40'
+- expected_values:
+    CAMRY_ECU_INTERNAL_T: 25
+  response: '7080462105E41'
+- expected_values:
+    CAMRY_ECU_INTERNAL_T: 26
+  response: '7080462105E42'
+- expected_values:
+    CAMRY_ECU_INTERNAL_T: 27
+  response: '7080462105E43'
+- expected_values:
+    CAMRY_ECU_INTERNAL_T: 28
+  response: '7080462105E44'
+- expected_values:
+    CAMRY_ECU_INTERNAL_T: 29
+  response: '7080462105E45'
+- expected_values:
+    CAMRY_ECU_INTERNAL_T: 30
+  response: '7080462105E46'
+- expected_values:
     CAMRY_ECU_INTERNAL_T: 51
   response: 7080462105E5B
 - expected_values:

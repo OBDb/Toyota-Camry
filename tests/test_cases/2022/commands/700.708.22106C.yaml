@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     CAMRY_DIST_SINCE_BAT_DISC: 39658
   response: 7080562106C9AEA
+- expected_values:
+    CAMRY_DIST_SINCE_BAT_DISC: 39679
+  response: 7080562106C9AFF
+- expected_values:
+    CAMRY_DIST_SINCE_BAT_DISC: 39680
+  response: 7080562106C9B00
+- expected_values:
+    CAMRY_DIST_SINCE_BAT_DISC: 39681
+  response: 7080562106C9B01
+- expected_values:
+    CAMRY_DIST_SINCE_BAT_DISC: 39682
+  response: 7080562106C9B02
+- expected_values:
+    CAMRY_DIST_SINCE_BAT_DISC: 39683
+  response: 7080562106C9B03
+- expected_values:
+    CAMRY_DIST_SINCE_BAT_DISC: 39684
+  response: 7080562106C9B04
