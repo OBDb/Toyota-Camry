@@ -1,0 +1,5 @@
+command_id: 7C4.7CC.2143
+test_cases:
+- expected_values:
+    CAMRY_AIR_OUTLET_SERVO_PULSE_D: 97
+  response: 7CC03614361
