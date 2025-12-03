@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.2185
+test_cases:
+- expected_values:
+    CAMRY_GEAR_V2: 1
+    CAMRY_TORQUE_CONVERTER_LOCKUP: 0
+  response: '7E8056185010010'
