@@ -4,3 +4,23 @@ test_cases:
     CAMRY_GEAR_V2: 1
     CAMRY_TORQUE_CONVERTER_LOCKUP: 0
   response: '7E8056185010010'
+- expected_values:
+    CAMRY_GEAR_V2: 2
+    CAMRY_TORQUE_CONVERTER_LOCKUP: 0
+  response: '7E8056185020010'
+- expected_values:
+    CAMRY_GEAR_V2: 3
+    CAMRY_TORQUE_CONVERTER_LOCKUP: 0
+  response: '7E8056185030010'
+- expected_values:
+    CAMRY_GEAR_V2: 3
+    CAMRY_TORQUE_CONVERTER_LOCKUP: 0
+  response: '7E8056185032018'
+- expected_values:
+    CAMRY_GEAR_V2: 5
+    CAMRY_TORQUE_CONVERTER_LOCKUP: 0
+  response: '7E8056185052018'
+- expected_values:
+    CAMRY_GEAR_V2: 6
+    CAMRY_TORQUE_CONVERTER_LOCKUP: 0
+  response: '7E8056185062018'
