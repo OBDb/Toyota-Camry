@@ -1,0 +1,26 @@
+command_id: 7C4.7CC.2124
+test_cases:
+- expected_values:
+    CAMRY_SOLAR_D_SIDE: 35
+  response: 7CC03612423
+- expected_values:
+    CAMRY_SOLAR_D_SIDE: 37
+  response: 7CC03612425
+- expected_values:
+    CAMRY_SOLAR_D_SIDE: 48
+  response: 7CC03612430
+- expected_values:
+    CAMRY_SOLAR_D_SIDE: 56
+  response: 7CC03612438
+- expected_values:
+    CAMRY_SOLAR_D_SIDE: 57
+  response: 7CC03612439
+- expected_values:
+    CAMRY_SOLAR_D_SIDE: 58
+  response: 7CC0361243A
+- expected_values:
+    CAMRY_SOLAR_D_SIDE: 76
+  response: 7CC0361244C
+- expected_values:
+    CAMRY_SOLAR_D_SIDE: 80
+  response: 7CC03612450
