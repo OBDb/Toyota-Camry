@@ -1,0 +1,8 @@
+command_id: 700.708.221019
+test_cases:
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 70807621019021A8000
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: '7080762101902248000'
