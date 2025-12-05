@@ -1,0 +1,5 @@
+command_id: 700.708.22282C
+test_cases:
+- expected_values:
+    CAMRY_COOLANT_VALVE_1_CLOSE: 0
+  response: 7080562282C0100
