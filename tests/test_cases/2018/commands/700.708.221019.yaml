@@ -1,8 +1,17 @@
 command_id: 700.708.221019
 test_cases:
 - expected_values:
-    CAMRY_INJECTION: BOTH
-  response: 70807621019021A8000
+    CAMRY_INJECTION: DIRECT
+  response: 7080762101901D68000
 - expected_values:
     CAMRY_INJECTION: BOTH
-  response: '7080762101902248000'
+  response: '70807621019020E8000'
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 7080762101902318BB8
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 7080762101902D38AF0
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 7080762101902F88000

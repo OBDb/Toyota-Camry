@@ -4,5 +4,11 @@ test_cases:
     CAMRY_FUEL_LEVEL: 4.84
   response: 7C80562102201E4
 - expected_values:
-    CAMRY_FUEL_LEVEL: 5.01
-  response: 7C80562102201F5
+    CAMRY_FUEL_LEVEL: 30.72
+  response: 7C8056210220C00
+- expected_values:
+    CAMRY_FUEL_LEVEL: 35.83
+  response: 7C8056210220DFF
+- expected_values:
+    CAMRY_FUEL_LEVEL: 41.07
+  response: 7C805621022100B
