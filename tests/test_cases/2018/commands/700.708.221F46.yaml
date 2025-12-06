@@ -4,5 +4,5 @@ test_cases:
     CAMRY_AMBIENT_T: 9
   response: 70804621F4631
 - expected_values:
-    CAMRY_AMBIENT_T: 25
-  response: 70804621F4641
+    CAMRY_AMBIENT_T: 36
+  response: 70804621F464C

@@ -10,5 +10,8 @@ test_cases:
     CAMRY_COOLING_FAN_DUTY_RATIO: 36
   response: '7080462104648'
 - expected_values:
+    CAMRY_COOLING_FAN_DUTY_RATIO: 44
+  response: '7080462104658'
+- expected_values:
     CAMRY_COOLING_FAN_DUTY_RATIO: 47.5
   response: 708046210465F
