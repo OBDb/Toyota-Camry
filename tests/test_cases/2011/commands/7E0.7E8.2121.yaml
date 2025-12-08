@@ -1,0 +1,45 @@
+command_id: 7E0.7E8.2121
+test_cases:
+- expected_values:
+    CAMRY_CC_S: 0
+  response: '7E80761210000000000'
+- expected_values:
+    CAMRY_CC_S: 0
+  response: |-
+    7E807612100000080E0
+    7E807612100000080E0
+- expected_values:
+    CAMRY_CC_S: 0
+  response: 7E807612100000080F0
+- expected_values:
+    CAMRY_CC_S: 78
+  response: |-
+    7E807612123000080E0
+    7E8076121244E00BCE0
+- expected_values:
+    CAMRY_CC_S: 0
+  response: |-
+    7E80761212500008000
+    7E80761212600008000
+- expected_values:
+    CAMRY_CC_S: 0
+  response: |-
+    7E807612141000080E0
+    7E80761214200008000
+- expected_values:
+    CAMRY_CC_S: 68
+  response: 7E8076121444406FC00
+- expected_values:
+    CAMRY_CC_S: 0
+  response: |-
+    7E80761214B000080E0
+    7E80761214C00008000
+- expected_values:
+    CAMRY_CC_S: 140
+  response: 7E80761215E8C00BC00
+- expected_values:
+    CAMRY_CC_S: 131
+  response: 7E807612179834AFC00
+- expected_values:
+    CAMRY_CC_S: 0
+  response: 7E8076121A800008000
