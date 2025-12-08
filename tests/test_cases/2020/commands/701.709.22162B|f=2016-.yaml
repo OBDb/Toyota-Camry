@@ -1,0 +1,11 @@
+command_id: 701.709.22162B|f=2016-
+test_cases:
+- expected_values:
+    CAMRY_ATF_THERMAL_DEGRAD_EST: 3029
+  response: 7090562162B0BD5
+- expected_values:
+    CAMRY_ATF_THERMAL_DEGRAD_EST: 3030
+  response: 7090562162B0BD6
+- expected_values:
+    CAMRY_ATF_THERMAL_DEGRAD_EST: 3054
+  response: 7090562162B0BEE

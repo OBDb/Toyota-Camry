@@ -1,5 +1,0 @@
-command_id: 700.708.222843
-test_cases:
-- expected_values:
-    CAMRY_VVT_IE_OPENING_ANGLE_BANK_1: 0
-  response: '7080462284300'
