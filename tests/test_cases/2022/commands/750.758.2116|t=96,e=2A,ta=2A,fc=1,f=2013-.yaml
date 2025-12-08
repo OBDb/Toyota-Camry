@@ -1,6 +1,34 @@
 command_id: 750.758.2116|t=96,e=2A,ta=2A,fc=1,f=2013-
 test_cases:
 - expected_values:
+    CAMRY_TIRE_T_FR: 11
+    CAMRY_TIRE_T_RL: 14
+  response: |-
+    7582A10076116003336
+    7582A21000000000000
+- expected_values:
+    CAMRY_TIRE_T_FL: 7
+    CAMRY_TIRE_T_FR: 7
+    CAMRY_TIRE_T_RL: 7
+    CAMRY_TIRE_T_RR: 7
+  response: |-
+    7582A100761162F2F2F
+    7582A212F0000000000
+- expected_values:
+    CAMRY_TIRE_T_FL: 10
+    CAMRY_TIRE_T_RR: 14
+  response: |-
+    7582A10076116320000
+    7582A21360000000000
+- expected_values:
+    CAMRY_TIRE_T_FL: 14
+    CAMRY_TIRE_T_FR: 16
+    CAMRY_TIRE_T_RL: 20
+    CAMRY_TIRE_T_RR: 24
+  response: |-
+    7582A1007611636383C
+    7582A21400000000000
+- expected_values:
     CAMRY_TIRE_T_FL: 31
     CAMRY_TIRE_T_FR: 30
     CAMRY_TIRE_T_RL: 35

@@ -1,0 +1,11 @@
+command_id: 700.708.221627
+test_cases:
+- expected_values:
+    CAMRY_ATF_T_PAN_V3: 55
+  response: 708056216275F00
+- expected_values:
+    CAMRY_ATF_T_PAN_V3: 76.875
+  response: '7080562162774E0'
+- expected_values:
+    CAMRY_ATF_T_PAN_V3: 87.5
+  response: 708056216277F80
