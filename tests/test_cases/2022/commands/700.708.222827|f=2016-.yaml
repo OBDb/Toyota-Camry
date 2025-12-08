@@ -1,0 +1,32 @@
+command_id: 700.708.222827|f=2016-
+test_cases:
+- expected_values:
+    CAMRY_ELECTRIC_WATER_PUMP: 480
+  response: 708046228270C
+- expected_values:
+    CAMRY_ELECTRIC_WATER_PUMP: 960
+  response: '7080462282718'
+- expected_values:
+    CAMRY_ELECTRIC_WATER_PUMP: 1200
+  response: 708046228271E
+- expected_values:
+    CAMRY_ELECTRIC_WATER_PUMP: 1360
+  response: '7080462282722'
+- expected_values:
+    CAMRY_ELECTRIC_WATER_PUMP: 1520
+  response: '7080462282726'
+- expected_values:
+    CAMRY_ELECTRIC_WATER_PUMP: 1560
+  response: '7080462282727'
+- expected_values:
+    CAMRY_ELECTRIC_WATER_PUMP: 1600
+  response: '7080462282728'
+- expected_values:
+    CAMRY_ELECTRIC_WATER_PUMP: 1920
+  response: '7080462282730'
+- expected_values:
+    CAMRY_ELECTRIC_WATER_PUMP: 2960
+  response: 708046228274A
+- expected_values:
+    CAMRY_ELECTRIC_WATER_PUMP: 3520
+  response: '7080462282758'

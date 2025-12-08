@@ -1,0 +1,8 @@
+command_id: 700.708.222827|f=2016-
+test_cases:
+- expected_values:
+    CAMRY_ELECTRIC_WATER_PUMP: 2240
+  response: '7080462282738'
+- expected_values:
+    CAMRY_ELECTRIC_WATER_PUMP: 5640
+  response: 708046228278D
