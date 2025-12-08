@@ -1,0 +1,8 @@
+command_id: 700.708.22108D|f=2016-
+test_cases:
+- expected_values:
+    CAMRY_INTAKE_VVT_OVER_RET_LEARN_B1: 31.4746
+  response: 7080562108D0C97
+- expected_values:
+    CAMRY_INTAKE_VVT_OVER_RET_LEARN_B1: 31.74804
+  response: 7080562108D0CB3
