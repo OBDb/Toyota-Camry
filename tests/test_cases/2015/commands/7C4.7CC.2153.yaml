@@ -4,5 +4,5 @@ test_cases:
     CAMRY_REGULATOR_P: 0.27882
   response: 7CC03615332
 - expected_values:
-    CAMRY_REGULATOR_P: 0.44063
-  response: 7CC0361533D
+    CAMRY_REGULATOR_P: 0.61715
+  response: 7CC03615349

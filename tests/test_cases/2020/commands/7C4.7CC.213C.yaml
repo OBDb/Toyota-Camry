@@ -1,0 +1,26 @@
+command_id: 7C4.7CC.213C
+test_cases:
+- expected_values:
+    CAMRY_BLOWER_MOTOR_SPEED_LEVEL: 0
+  response: 7CC03613C00
+- expected_values:
+    CAMRY_BLOWER_MOTOR_SPEED_LEVEL: 3
+  response: 7CC03613C03
+- expected_values:
+    CAMRY_BLOWER_MOTOR_SPEED_LEVEL: 9
+  response: 7CC03613C09
+- expected_values:
+    CAMRY_BLOWER_MOTOR_SPEED_LEVEL: 12
+  response: 7CC03613C0C
+- expected_values:
+    CAMRY_BLOWER_MOTOR_SPEED_LEVEL: 13
+  response: 7CC03613C0D
+- expected_values:
+    CAMRY_BLOWER_MOTOR_SPEED_LEVEL: 16
+  response: 7CC03613C10
+- expected_values:
+    CAMRY_BLOWER_MOTOR_SPEED_LEVEL: 19
+  response: 7CC03613C13
+- expected_values:
+    CAMRY_BLOWER_MOTOR_SPEED_LEVEL: 21
+  response: 7CC03613C15

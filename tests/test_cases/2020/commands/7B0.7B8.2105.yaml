@@ -1,0 +1,62 @@
+command_id: 7B0.7B8.2105
+test_cases:
+- expected_values:
+    CAMRY_DECEL: -2.35271
+    CAMRY_DECEL_2: 0.78424
+  response: |-
+    7B8100961056F85062A
+    7B8213C0D6000000000
+- expected_values:
+    CAMRY_DECEL: -1.49718
+    CAMRY_DECEL_2: 0.64165
+  response: |-
+    7B81009610575840B35
+    7B8214E126000000000
+- expected_values:
+    CAMRY_DECEL: -0.21388
+    CAMRY_DECEL_2: 0.07129
+  response: |-
+    7B8100961057E8002D0
+    7B8211201A000000000
+- expected_values:
+    CAMRY_DECEL: -0.07129
+    CAMRY_DECEL_2: -0.35647
+  response: |-
+    7B8100961057F7D037F
+    7B82100034000000000
+- expected_values:
+    CAMRY_DECEL: 0.07129
+    CAMRY_DECEL_2: -0.07129
+  response: |-
+    7B810096105807F0530
+    7B82100006000000000
+- expected_values:
+    CAMRY_DECEL: 0.07129
+    CAMRY_DECEL_2: 1.63976
+  response: |-
+    7B810096105808B07D4
+    7B8215518E000000000
+- expected_values:
+    CAMRY_DECEL: 0.21388
+    CAMRY_DECEL_2: -0.07129
+  response: |-
+    7B810096105817F0499
+    7B8211D066000000000
+- expected_values:
+    CAMRY_DECEL: 0.49906
+    CAMRY_DECEL_2: -0.07129
+  response: |-
+    7B810096105837F047A
+    7B8210002E000000000
+- expected_values:
+    CAMRY_DECEL: 0.64165
+    CAMRY_DECEL_2: -0.07129
+  response: |-
+    7B810096105847F02FC
+    7B82100014000000000
+- expected_values:
+    CAMRY_DECEL: 2.06753
+    CAMRY_DECEL_2: -0.07129
+  response: |-
+    7B8100961058E7F0597
+    7B82120040000000000
