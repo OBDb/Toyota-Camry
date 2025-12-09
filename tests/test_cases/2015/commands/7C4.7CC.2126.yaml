@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.2126
 test_cases:
 - expected_values:
-    CAMRY_ECT: 39.8
-  response: 7CC0361266E
+    CAMRY_ECT: 16.7
+  response: 7CC0361262C
 - expected_values:
     CAMRY_ECT: 88.45
   response: 7CC036126F9

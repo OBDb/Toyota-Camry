@@ -4,26 +4,5 @@ test_cases:
     CAMRY_ADJUSTED_AMBIENT_T: -4.24
   response: 7CC03613D53
 - expected_values:
-    CAMRY_ADJUSTED_AMBIENT_T: -3.92
-  response: 7CC03613D54
-- expected_values:
-    CAMRY_ADJUSTED_AMBIENT_T: -3.6
-  response: 7CC03613D55
-- expected_values:
-    CAMRY_ADJUSTED_AMBIENT_T: -3.28
-  response: 7CC03613D56
-- expected_values:
-    CAMRY_ADJUSTED_AMBIENT_T: -2.96
-  response: 7CC03613D57
-- expected_values:
-    CAMRY_ADJUSTED_AMBIENT_T: -2.64
-  response: 7CC03613D58
-- expected_values:
-    CAMRY_ADJUSTED_AMBIENT_T: -2.32
-  response: 7CC03613D59
-- expected_values:
-    CAMRY_ADJUSTED_AMBIENT_T: -2
-  response: 7CC03613D5A
-- expected_values:
-    CAMRY_ADJUSTED_AMBIENT_T: -1.68
-  response: 7CC03613D5B
+    CAMRY_ADJUSTED_AMBIENT_T: 4.08
+  response: 7CC03613D6D
