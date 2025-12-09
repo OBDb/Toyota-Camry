@@ -1,0 +1,17 @@
+command_id: 7C4.7CC.2153
+test_cases:
+- expected_values:
+    CAMRY_REGULATOR_P: 0.41121
+  response: 7CC0361533B
+- expected_values:
+    CAMRY_REGULATOR_P: 0.42592
+  response: 7CC0361533C
+- expected_values:
+    CAMRY_REGULATOR_P: 0.45534
+  response: 7CC0361533E
+- expected_values:
+    CAMRY_REGULATOR_P: 0.47005
+  response: 7CC0361533F
+- expected_values:
+    CAMRY_REGULATOR_P: 0.51418
+  response: 7CC03615342
