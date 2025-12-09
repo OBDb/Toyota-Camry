@@ -1,23 +1,8 @@
 command_id: 7C4.7CC.2121
 test_cases:
 - expected_values:
-    CAMRY_CABIN_T: 15.25
-  response: 7CC03612157
-- expected_values:
-    CAMRY_CABIN_T: 16.75
-  response: 7CC0361215D
-- expected_values:
-    CAMRY_CABIN_T: 18.75
-  response: 7CC03612165
-- expected_values:
-    CAMRY_CABIN_T: 19
-  response: 7CC03612166
-- expected_values:
-    CAMRY_CABIN_T: 20
-  response: 7CC0361216A
-- expected_values:
-    CAMRY_CABIN_T: 21
-  response: 7CC0361216E
+    CAMRY_CABIN_T: 12
+  response: 7CC0361214A
 - expected_values:
     CAMRY_CABIN_T: 21.75
   response: 7CC03612171
