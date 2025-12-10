@@ -10,6 +10,9 @@ test_cases:
     CAMRY_BLOWER_MOTOR_SPEED_LEVEL: 4
   response: 7CC03613C04
 - expected_values:
+    CAMRY_BLOWER_MOTOR_SPEED_LEVEL: 5
+  response: 7CC03613C05
+- expected_values:
     CAMRY_BLOWER_MOTOR_SPEED_LEVEL: 6
   response: 7CC03613C06
 - expected_values:
