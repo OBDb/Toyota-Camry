@@ -4,5 +4,5 @@ test_cases:
     CAMRY_EVAP_FIN_THERMISTOR: -0.3
   response: 7CC03614B54
 - expected_values:
-    CAMRY_EVAP_FIN_THERMISTOR: 13.7
-  response: 7CC03614B7C
+    CAMRY_EVAP_FIN_THERMISTOR: 16.85
+  response: 7CC03614B85
