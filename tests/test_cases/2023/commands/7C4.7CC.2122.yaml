@@ -1,0 +1,32 @@
+command_id: 7C4.7CC.2122
+test_cases:
+- expected_values:
+    CAMRY_AAT_7C4: 11
+  response: 7CC03612262
+- expected_values:
+    CAMRY_AAT_7C4: 11.35
+  response: 7CC03612263
+- expected_values:
+    CAMRY_AAT_7C4: 11.7
+  response: 7CC03612264
+- expected_values:
+    CAMRY_AAT_7C4: 12.05
+  response: 7CC03612265
+- expected_values:
+    CAMRY_AAT_7C4: 12.75
+  response: 7CC03612267
+- expected_values:
+    CAMRY_AAT_7C4: 13.1
+  response: 7CC03612268
+- expected_values:
+    CAMRY_AAT_7C4: 13.45
+  response: 7CC03612269
+- expected_values:
+    CAMRY_AAT_7C4: 13.8
+  response: 7CC0361226A
+- expected_values:
+    CAMRY_AAT_7C4: 14.15
+  response: 7CC0361226B
+- expected_values:
+    CAMRY_AAT_7C4: 14.85
+  response: 7CC0361226D
