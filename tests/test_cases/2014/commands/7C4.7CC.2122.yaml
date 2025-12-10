@@ -6,3 +6,18 @@ test_cases:
 - expected_values:
     CAMRY_AAT_7C4: 9.95
   response: 7CC0361225F
+- expected_values:
+    CAMRY_AAT_7C4: 26.4
+  response: 7CC0361228E
+- expected_values:
+    CAMRY_AAT_7C4: 26.75
+  response: 7CC0361228F
+- expected_values:
+    CAMRY_AAT_7C4: 27.1
+  response: 7CC03612290
+- expected_values:
+    CAMRY_AAT_7C4: 27.8
+  response: 7CC03612292
+- expected_values:
+    CAMRY_AAT_7C4: 28.15
+  response: 7CC03612293
