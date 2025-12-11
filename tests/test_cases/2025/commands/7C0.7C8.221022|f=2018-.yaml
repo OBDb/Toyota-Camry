@@ -1,0 +1,26 @@
+command_id: 7C0.7C8.221022|f=2018-
+test_cases:
+- expected_values:
+    CAMRY_FUEL_LEVEL: 49.65
+  response: 7C8056210221365
+- expected_values:
+    CAMRY_FUEL_LEVEL: 49.66
+  response: 7C8056210221366
+- expected_values:
+    CAMRY_FUEL_LEVEL: 49.67
+  response: 7C8056210221367
+- expected_values:
+    CAMRY_FUEL_LEVEL: 49.68
+  response: 7C8056210221368
+- expected_values:
+    CAMRY_FUEL_LEVEL: 49.69
+  response: 7C8056210221369
+- expected_values:
+    CAMRY_FUEL_LEVEL: 49.71
+  response: 7C805621022136B
+- expected_values:
+    CAMRY_FUEL_LEVEL: 49.72
+  response: 7C805621022136C
+- expected_values:
+    CAMRY_FUEL_LEVEL: 49.75
+  response: 7C805621022136F
