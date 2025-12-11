@@ -1,0 +1,11 @@
+command_id: 700.708.221018
+test_cases:
+- expected_values:
+    CAMRY_INJECTOR_PORT: 0
+  response: '708056210180000'
+- expected_values:
+    CAMRY_INJECTOR_PORT: 3.32
+  response: 708056210180CF8
+- expected_values:
+    CAMRY_INJECTOR_PORT: 4.158
+  response: 70805621018103E
