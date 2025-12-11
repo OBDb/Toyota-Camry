@@ -1,6 +1,21 @@
 command_id: 700.708.221F46|f=2016-
 test_cases:
 - expected_values:
+    CAMRY_AMBIENT_T: 3
+  response: 70804621F462B
+- expected_values:
+    CAMRY_AMBIENT_T: 4
+  response: 70804621F462C
+- expected_values:
+    CAMRY_AMBIENT_T: 5
+  response: 70804621F462D
+- expected_values:
+    CAMRY_AMBIENT_T: 7
+  response: 70804621F462F
+- expected_values:
+    CAMRY_AMBIENT_T: 9
+  response: 70804621F4631
+- expected_values:
     CAMRY_AMBIENT_T: 13
   response: 70804621F4635
 - expected_values:
