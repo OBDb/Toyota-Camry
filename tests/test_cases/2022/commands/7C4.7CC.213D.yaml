@@ -1,0 +1,11 @@
+command_id: 7C4.7CC.213D
+test_cases:
+- expected_values:
+    CAMRY_ADJUSTED_AMBIENT_T: 15.92
+  response: 7CC03613D92
+- expected_values:
+    CAMRY_ADJUSTED_AMBIENT_T: 16.24
+  response: 7CC03613D93
+- expected_values:
+    CAMRY_ADJUSTED_AMBIENT_T: 16.56
+  response: 7CC03613D94
