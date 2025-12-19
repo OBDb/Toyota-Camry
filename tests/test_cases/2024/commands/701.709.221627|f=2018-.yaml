@@ -1,26 +1,14 @@
 command_id: 701.709.221627|f=2018-
 test_cases:
 - expected_values:
-    CAMRY_ATF_T_PAN: 24.375
-  response: '709056216274060'
+    CAMRY_ATF_T_PAN: 14.375
+  response: '709056216273660'
 - expected_values:
-    CAMRY_ATF_T_PAN: 25
-  response: '709056216274100'
+    CAMRY_ATF_T_PAN: 16.875
+  response: '7090562162738E0'
 - expected_values:
-    CAMRY_ATF_T_PAN: 25.625
-  response: 7090562162741A0
-- expected_values:
-    CAMRY_ATF_T_PAN: 33.125
-  response: '709056216274920'
-- expected_values:
-    CAMRY_ATF_T_PAN: 67.5
-  response: 709056216276B80
-- expected_values:
-    CAMRY_ATF_T_PAN: 68.75
-  response: 709056216276CC0
-- expected_values:
-    CAMRY_ATF_T_PAN: 69.375
-  response: 709056216276D60
+    CAMRY_ATF_T_PAN: 20
+  response: 709056216273C00
 - expected_values:
     CAMRY_ATF_T_PAN: 70
   response: '709056216276E00'
