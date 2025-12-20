@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     CAMRY_ATF_THERMAL_DEGRAD_EST: 3054
   response: 7090562162B0BEE
+- expected_values:
+    CAMRY_ATF_THERMAL_DEGRAD_EST: 3081
+  response: 7090562162B0C09
