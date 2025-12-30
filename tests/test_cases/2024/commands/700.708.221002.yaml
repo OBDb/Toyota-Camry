@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CAMRY_12V_V: 14.05758
   response: 708056210022CFC
+- expected_values:
+    CAMRY_12V_V: 14.07223
+  response: 708056210022D08
