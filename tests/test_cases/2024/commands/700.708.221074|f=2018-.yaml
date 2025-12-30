@@ -10,5 +10,5 @@ test_cases:
     CAMRY_EOP: 1537
   response: '708056210740601'
 - expected_values:
-    CAMRY_EOP: 2944
-  response: 708056210740B80
+    CAMRY_EOP: 3743
+  response: 708056210740E9F
