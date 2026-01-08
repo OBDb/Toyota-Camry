@@ -1,6 +1,14 @@
 command_id: 700.708.22107B|f=2018-
 test_cases:
 - expected_values:
+    CAMRY_EOT: 12
+  response: |-
+    708102262107B002A07
+    70821220100007FB582
+    70822EF7FAE7F6580BF
+    708238070800400005C
+    70824343C3C2F2F0002
+- expected_values:
     CAMRY_EOT: 46
   response: |-
     708102262107B003205
