@@ -7,5 +7,5 @@ test_cases:
     CAMRY_ATF_T_PAN: 5
   response: 709056216272D00
 - expected_values:
-    CAMRY_ATF_T_PAN: 95
-  response: '709056216278700'
+    CAMRY_ATF_T_PAN: 96.25
+  response: '709056216278840'
