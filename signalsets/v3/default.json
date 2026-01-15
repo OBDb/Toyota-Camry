@@ -547,7 +547,7 @@
     {"id": "CAMRY_MILON_RUN_DISTANCE",             "path": "DTCs", "fmt": {"bix": 48, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "MIL ON run distance"},
     {"id": "CAMRY_RUNNING_TIME_FROM_MIL_ON",       "path": "DTCs", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "minutes"    }, "name": "Running time from MIL ON"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013], "from": 2015 },
   "signals": [
     {"id": "CAMRY_CC_S", "path": "Cruise control", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"}
   ]},
