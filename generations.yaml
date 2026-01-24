@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Toyota_Camry"
+
 generations:
   - name: "First Generation (V10)"
     start_year: 1982
