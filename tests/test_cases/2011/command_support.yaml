@@ -133,6 +133,7 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 014D:MIL_TIME
   - 014E:CLR_TIME
+  - 7E1.7E9.0131
 unsupported_commands_by_ecu:
   "700":
   - 700.221F2F
@@ -213,4 +214,3 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.21DA:CAMRY_GEAR_V3
   "7E1":
   - 7E1.7E9.010D
-  - 7E1.7E9.0131
