@@ -1,6 +1,30 @@
 command_id: 700.708.221041
 test_cases:
 - expected_values:
+    CAMRY_ECT_IGN: 18.75
+    CAMRY_ECT_INIT: 19.375
+  response: 708056210415E5F
+- expected_values:
+    CAMRY_ECT_IGN: 18.75
+    CAMRY_ECT_INIT: 53.125
+  response: '708056210415E95'
+- expected_values:
+    CAMRY_ECT_IGN: 18.75
+    CAMRY_ECT_INIT: 55
+  response: '708056210415E98'
+- expected_values:
+    CAMRY_ECT_IGN: 18.75
+    CAMRY_ECT_INIT: 55.625
+  response: '708056210415E99'
+- expected_values:
+    CAMRY_ECT_IGN: 18.75
+    CAMRY_ECT_INIT: 56.25
+  response: 708056210415E9A
+- expected_values:
+    CAMRY_ECT_IGN: 18.75
+    CAMRY_ECT_INIT: 58.125
+  response: 708056210415E9D
+- expected_values:
     CAMRY_ECT_IGN: 26.875
     CAMRY_ECT_INIT: 22.5
   response: 708056210416B64

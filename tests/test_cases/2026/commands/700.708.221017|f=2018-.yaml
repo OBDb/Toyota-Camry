@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     CAMRY_INJ_VOL: 0
   response: '708056210170000'
+- expected_values:
+    CAMRY_INJ_VOL: 0.84031
+  response: 708056210170A81
+- expected_values:
+    CAMRY_INJ_VOL: 2.07312
+  response: 7080562101719EA
+- expected_values:
+    CAMRY_INJ_VOL: 2.14875
+  response: 708056210171ADC
+- expected_values:
+    CAMRY_INJ_VOL: 2.66281
+  response: '708056210172149'
+- expected_values:
+    CAMRY_INJ_VOL: 2.70844
+  response: 7080562101721DB
+- expected_values:
+    CAMRY_INJ_VOL: 3.6775
+  response: 708056210172DF8
+- expected_values:
+    CAMRY_INJ_VOL: 5.03062
+  response: 708056210173EE2
+- expected_values:
+    CAMRY_INJ_VOL: 5.14781
+  response: '708056210174059'
