@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     CAMRY_INJECTOR_PORT: 0
   response: '708056210180000'
+- expected_values:
+    CAMRY_INJECTOR_PORT: 2.706
+  response: 708056210180A92
+- expected_values:
+    CAMRY_INJECTOR_PORT: 3.342
+  response: 708056210180D0E
+- expected_values:
+    CAMRY_INJECTOR_PORT: 4.798
+  response: 7080562101812BE
+- expected_values:
+    CAMRY_INJECTOR_PORT: 6.567
+  response: 7080562101819A7
+- expected_values:
+    CAMRY_INJECTOR_PORT: 6.952
+  response: 708056210181B28
+- expected_values:
+    CAMRY_INJECTOR_PORT: 7.437
+  response: 708056210181D0D
+- expected_values:
+    CAMRY_INJECTOR_PORT: 7.802
+  response: 708056210181E7A

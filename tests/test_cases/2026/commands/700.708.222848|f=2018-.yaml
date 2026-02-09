@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     CAMRY_EOP_CONTROL_VALVE: 99.94501
   response: 70805622848051E
+- expected_values:
+    CAMRY_EOP_CONTROL_VALVE: 655.3646
+  response: 70805622848218E
+- expected_values:
+    CAMRY_EOP_CONTROL_VALVE: 690.61238
+  response: 70805622848235C
+- expected_values:
+    CAMRY_EOP_CONTROL_VALVE: 700.91206
+  response: '7080562284823E3'
+- expected_values:
+    CAMRY_EOP_CONTROL_VALVE: 732.8792
+  response: '708056228482586'
+- expected_values:
+    CAMRY_EOP_CONTROL_VALVE: 740.20342
+  response: '7080562284825E6'
+- expected_values:
+    CAMRY_EOP_CONTROL_VALVE: 743.25517
+  response: 70805622848260E
+- expected_values:
+    CAMRY_EOP_CONTROL_VALVE: 757.36955
+  response: 7080562284826C7
+- expected_values:
+    CAMRY_EOP_CONTROL_VALVE: 765.83817
+  response: '708056228482736'
+- expected_values:
+    CAMRY_EOP_CONTROL_VALVE: 779.57107
+  response: 7080562284827EA
