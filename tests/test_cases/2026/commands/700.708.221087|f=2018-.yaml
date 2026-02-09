@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 0
   response: '708056210870000'
+- expected_values:
+    CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 19.97765
+  response: 7080562108707FE
+- expected_values:
+    CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 20.27058
+  response: 70805621087081C
+- expected_values:
+    CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 24.73284
+  response: '7080562108709E5'
+- expected_values:
+    CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 24.98671
+  response: 7080562108709FF
+- expected_values:
+    CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 27.33989
+  response: 708056210870AF0
+- expected_values:
+    CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 30.48398
+  response: 708056210870C32
+- expected_values:
+    CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 31.06007
+  response: 708056210870C6D
+- expected_values:
+    CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 53.76195
+  response: '708056210871582'
+- expected_values:
+    CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 53.85959
+  response: 70805621087158C
