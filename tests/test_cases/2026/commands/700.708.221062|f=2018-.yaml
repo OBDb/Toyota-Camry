@@ -1,0 +1,26 @@
+command_id: 700.708.221062|f=2018-
+test_cases:
+- expected_values:
+    CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.61006
+  response: '708056210620812'
+- expected_values:
+    CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.62226
+  response: '708056210620814'
+- expected_values:
+    CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.64057
+  response: '708056210620817'
+- expected_values:
+    CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.64668
+  response: '708056210620818'
+- expected_values:
+    CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.65278
+  response: '708056210620819'
+- expected_values:
+    CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.67109
+  response: 70805621062081C
+- expected_values:
+    CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.6772
+  response: 70805621062081D
+- expected_values:
+    CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.76875
+  response: 70805621062082C

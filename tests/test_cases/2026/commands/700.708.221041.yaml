@@ -1,0 +1,10 @@
+command_id: 700.708.221041
+test_cases:
+- expected_values:
+    CAMRY_ECT_IGN: 26.875
+    CAMRY_ECT_INIT: 22.5
+  response: 708056210416B64
+- expected_values:
+    CAMRY_ECT_IGN: 26.875
+    CAMRY_ECT_INIT: 23.125
+  response: 708056210416B65
