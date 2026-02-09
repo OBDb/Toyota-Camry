@@ -1,0 +1,6 @@
+command_id: 700.708.221043|f=2018-
+test_cases:
+- expected_values:
+    CAMRY_EWP_RPM: 150
+    CAMRY_EWP_TARGET_VSS: 2100
+  response: '708056210435406'
