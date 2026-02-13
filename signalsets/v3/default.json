@@ -54,7 +54,7 @@
   "signals": [
     {"id": "CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 400, "mul": 400, "div": 65535, "unit": "percent" }, "name": "Exhaust VVT oil control valve control duty"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "106A"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2027 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "106A"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2027 },
   "signals": [
     {"id": "CAMRY_FUEL_PUMP_DUTY_RATIO", "path": "Fuel", "fmt": { "len": 16, "max": 3996, "mul": 0.0609756098, "unit": "kilopascal" }, "name": "Fuel pump duty ratio"}
   ]},
