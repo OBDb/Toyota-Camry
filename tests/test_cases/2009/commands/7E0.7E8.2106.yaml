@@ -1,0 +1,34 @@
+command_id: 7E0.7E8.2106
+test_cases:
+- expected_values:
+    CAMRY_MIL: 0
+    CAMRY_NUMBER_OF_EMISSION_DTC: 124
+  response: 7E80361067C
+- expected_values:
+    CAMRY_MIL: 0
+    CAMRY_NUMBER_OF_EMISSION_DTC: 126
+  response: 7E80361067E
+- expected_values:
+    CAMRY_MIL: 0
+    CAMRY_NUMBER_OF_EMISSION_DTC: 127
+  response: 7E80361067F
+- expected_values:
+    CAMRY_MIL: 1
+    CAMRY_NUMBER_OF_EMISSION_DTC: 0
+  response: '7E803610680'
+- expected_values:
+    CAMRY_MIL: 1
+    CAMRY_NUMBER_OF_EMISSION_DTC: 1
+  response: '7E803610681'
+- expected_values:
+    CAMRY_MIL: 1
+    CAMRY_NUMBER_OF_EMISSION_DTC: 2
+  response: '7E803610682'
+- expected_values:
+    CAMRY_MIL: 1
+    CAMRY_NUMBER_OF_EMISSION_DTC: 3
+  response: '7E803610683'
+- expected_values:
+    CAMRY_MIL: 1
+    CAMRY_NUMBER_OF_EMISSION_DTC: 4
+  response: '7E803610684'
