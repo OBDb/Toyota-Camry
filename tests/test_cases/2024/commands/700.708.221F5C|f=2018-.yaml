@@ -1,6 +1,17 @@
 command_id: 700.708.221F5C|f=2018-
 test_cases:
 - expected_values:
+    CAMRY_EOT_V2: 12
+  response: |-
+    221F5C
+    70804621F5C34
+- expected_values:
+    CAMRY_EOT_V2: 42
+  response: '708 04 62 1F 5C 52 '
+- expected_values:
+    CAMRY_EOT_V2: 46
+  response: '708 04 62 1F 5C 56 '
+- expected_values:
     CAMRY_EOT_V2: 8
   response: 70804621F5C30
 - expected_values:

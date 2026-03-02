@@ -2,19 +2,18 @@ command_id: 700.708.221621
 test_cases:
 - expected_values:
     CAMRY_GEAR: 1
-  response: '7080462162101'
-- expected_values:
-    CAMRY_GEAR: 2
-  response: '7080462162102'
+  response: |-
+    221621
+    7080462162101
 - expected_values:
     CAMRY_GEAR: 3
-  response: '7080462162103'
+  response: '708 04 62 16 21 03 '
 - expected_values:
-    CAMRY_GEAR: 5
-  response: '7080462162105'
+    CAMRY_GEAR: 4
+  response: '708 04 62 16 21 04 '
 - expected_values:
-    CAMRY_GEAR: 6
-  response: '7080462162106'
+    CAMRY_GEAR: 1
+  response: '7080462162101'
 - expected_values:
-    CAMRY_GEAR: 7
-  response: '7080462162107'
+    CAMRY_GEAR: 8
+  response: '7080462162108'
