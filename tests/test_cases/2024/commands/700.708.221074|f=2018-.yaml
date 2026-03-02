@@ -1,6 +1,20 @@
 command_id: 700.708.221074|f=2018-
 test_cases:
 - expected_values:
+    CAMRY_EOP: 1787
+  response: |-
+    221074
+    7080562107406FB
+- expected_values:
+    CAMRY_EOP: 1479
+  response: '708 05 62 10 74 05 C7 '
+- expected_values:
+    CAMRY_EOP: 1524
+  response: '708 05 62 10 74 05 F4 '
+- expected_values:
+    CAMRY_EOP: 1604
+  response: '708 05 62 10 74 06 44 '
+- expected_values:
     CAMRY_EOP: 0
   response: '708056210740000'
 - expected_values:
