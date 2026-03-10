@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAMRY_EVAPORATOR_TARGET_TEMP: 1
   response: 7CC04614C8064
+- expected_values:
+    CAMRY_EVAPORATOR_TARGET_TEMP: 1.42
+  response: 7CC04614C808E

@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     CAMRY_EOP: 122
   response: 70805621074007A
+- expected_values:
+    CAMRY_EOP: 1067
+  response: 70805621074042B
+- expected_values:
+    CAMRY_EOP: 1114
+  response: 70805621074045A
