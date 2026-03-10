@@ -5,6 +5,10 @@ test_cases:
     CAMRY_EWP_TARGET_VSS: 0
   response: '708056210430006'
 - expected_values:
+    CAMRY_EWP_RPM: 1650
+    CAMRY_EWP_TARGET_VSS: 1650
+  response: '708056210434242'
+- expected_values:
     CAMRY_EWP_RPM: 3175
     CAMRY_EWP_TARGET_VSS: 3175
   response: 708056210437F7F

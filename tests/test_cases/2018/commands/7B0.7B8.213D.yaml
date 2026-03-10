@@ -7,3 +7,10 @@ test_cases:
     CAMRY_ECB_WARN: 0
     CAMRY_SLIP_WARN: 0
   response: 7B804613D0000
+- expected_values:
+    CAMRY_ABS_WARN: 0
+    CAMRY_BRAKE_WARN: 0
+    CAMRY_BUZZER: 0
+    CAMRY_ECB_WARN: 0
+    CAMRY_SLIP_WARN: 0
+  response: 7B805613D000000
