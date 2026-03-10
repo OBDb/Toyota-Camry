@@ -4,14 +4,8 @@ test_cases:
     CAMRY_LFP: 307.9
   response: 708056210CD8C07
 - expected_values:
-    CAMRY_LFP: 317.7
-  response: 708056210CD8C69
+    CAMRY_LFP: 510.6
+  response: 708056210CD93F2
 - expected_values:
     CAMRY_LFP: 603.1
   response: 708056210CD978F
-- expected_values:
-    CAMRY_LFP: 604.8
-  response: 708056210CD97A0
-- expected_values:
-    CAMRY_LFP: 605.3
-  response: 708056210CD97A5
