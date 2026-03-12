@@ -412,7 +412,7 @@
     {"id": "CAMRY_SEAT_BELT_BEEP_PASSENGER", "path": "Seatbelts", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Seat belt beep, passenger"},
     {"id": "CAMRY_SEAT_BELT_BEEP_REMINDER",  "path": "Seatbelts", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Seat belt beep, reminder"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "AC"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "AC"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012], "from": 2014 },
   "signals": [
     {"id": "CAMRY_REVERSE_BEEP", "path": "Seatbelts", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "onoff" }, "name": "Reverse beep"}
   ]},
