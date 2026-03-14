@@ -1,0 +1,11 @@
+command_id: 7C0.7C8.2121
+test_cases:
+- expected_values:
+    CAMRY_VSS: 25
+  response: 7C803612119
+- expected_values:
+    CAMRY_VSS: 39
+  response: 7C803612127
+- expected_values:
+    CAMRY_VSS: 60
+  response: 7C80361213C

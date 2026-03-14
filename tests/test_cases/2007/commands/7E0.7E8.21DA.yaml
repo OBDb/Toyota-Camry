@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.21DA
+test_cases:
+- expected_values:
+    CAMRY_GEAR_V3: 1
+  response: 7E80561DA010400
+- expected_values:
+    CAMRY_GEAR_V3: 4
+  response: 7E80561DA040400
