@@ -386,7 +386,7 @@
   "signals": [
     {"id": "CAMRY_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "23"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2010, 2012, 2013], "from": 2016 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "23"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2010, 2012], "from": 2016 },
   "signals": [
     {"id": "CAMRY_ECT_7C0", "path": "Engine", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Engine coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
