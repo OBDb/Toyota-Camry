@@ -81,6 +81,7 @@ supported_commands_by_ecu:
   - 7E0.0151:FUEL_TYP
   - 7E0.015A:APP_R
   - 7E0.7E8.2121:CAMRY_CC_S
+  - 7E0.7E8.2128:CAMRY_ODO_7E0
 unsupported_commands_by_ecu:
   "700":
   - 700.708.221002:CAMRY_12V_V
