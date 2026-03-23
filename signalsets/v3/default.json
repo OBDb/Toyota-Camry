@@ -274,7 +274,7 @@
     {"id": "CAMRY_STOP_LIGHT_SW",    "path": "Lights",  "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light"},
     {"id": "CAMRY_PARKING_BRAKE_SW", "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 0.25, "dbgfilter": { "to": 2006, "years": [2008, 2010, 2013, 2016, 2017, 2019], "from": 2021 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 0.25, "dbgfilter": { "to": 2006, "years": [2008, 2010, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "CAMRY_VEHICLE_SPEED_7B0", "path": "Movement", "fmt": { "len": 8, "max": 326.4, "mul": 326.4, "div": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed, 7B0", "suggestedMetric": "speed"}
   ]},
