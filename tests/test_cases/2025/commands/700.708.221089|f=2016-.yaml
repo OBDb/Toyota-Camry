@@ -4,5 +4,8 @@ test_cases:
     CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 48.47495
   response: 708056210891F08
 - expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 49.2316
+  response: 708056210891F84
+- expected_values:
     CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 49.82351
   response: 708056210891FE5
