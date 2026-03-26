@@ -45,13 +45,16 @@ supported_commands_by_ecu:
   - 7DF.0105
   - 7DF.0106
   - 7DF.010D
+  - 7DF.0110
   - 7DF.0111
   - 7DF.011C
   - 7DF.0131
   - 7DF.0134
   - 7DF.0142
   - 7DF.0144
+  - 7DF.0147
   - 7DF.015B
+  - 7DF.015C
   - 7DF.015E
   - 7DF.01A6
   - 7DF.01D2
@@ -123,6 +126,8 @@ supported_commands_by_ecu:
   - 014D:MIL_TIME
   - 014E:CLR_TIME
   - 7E5.7ED.0105
+  "7E6":
+  - 7E6.7EE.0105
 unsupported_commands_by_ecu:
   "700":
   - 700.708.22107B|f=2018-:CAMRY_EOT
@@ -203,6 +208,7 @@ unsupported_commands_by_ecu:
   - 7E0.0142:VPWR
   - 7E0.0144:EQ_RAT
   - 7E0.0146:AAT
+  - 7E0.0147:TP_B
   - 7E0.014E:CLR_TIME
   - 7E0.015C:EOT
   - 7E0.015E:FUEL_RATE
@@ -258,7 +264,6 @@ unsupported_commands_by_ecu:
   - 7E5.7ED.0142
   "7E6":
   - 7E6.7EE.0104
-  - 7E6.7EE.0105
   - 7E6.7EE.010D
   - 7E6.7EE.0111
   - 7E6.7EE.011F
