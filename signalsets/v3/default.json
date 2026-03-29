@@ -420,7 +420,7 @@
   "signals": [
     {"id": "CAMRY_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2016, 2017, 2019], "from": 2025 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2014, 2016, 2017, 2019], "from": 2025 },
   "signals": [
     {"id": "CAMRY_CABIN_T", "path": "Climate", "fmt": { "len": 8, "max": 57.25, "min": -6.5, "mul": 63.75, "div": 255, "add": -6.5, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
