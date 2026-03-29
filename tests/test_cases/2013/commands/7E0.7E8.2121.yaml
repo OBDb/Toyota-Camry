@@ -18,6 +18,11 @@ test_cases:
     CAMRY_CC_S: 0
   response: |-
     > 7C0.7C8.2121
+    7E80761210000000000
+- expected_values:
+    CAMRY_CC_S: 0
+  response: |-
+    > 7C0.7C8.2121
     7E807612100000080E0
 - expected_values:
     CAMRY_CC_S: 0
