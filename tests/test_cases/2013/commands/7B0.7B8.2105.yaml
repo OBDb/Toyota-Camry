@@ -1,6 +1,12 @@
 command_id: 7B0.7B8.2105
 test_cases:
 - expected_values:
+    CAMRY_DECEL: -0.35647
+    CAMRY_DECEL_2: 0.64165
+  response: |-
+    7B8100961057D840528
+    7B82100082000000000
+- expected_values:
     CAMRY_DECEL: -0.21388
     CAMRY_DECEL_2: 0.07129
   response: |-

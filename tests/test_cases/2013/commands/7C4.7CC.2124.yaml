@@ -9,3 +9,21 @@ test_cases:
 - expected_values:
     CAMRY_SOLAR_DRIVER: 2
   response: 7CC03612402
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 68
+  response: 7CC03612444
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 83
+  response: 7CC03612453
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 120
+  response: 7CC03612478
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 123
+  response: 7CC0361247B
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 126
+  response: 7CC0361247E
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 127
+  response: 7CC0361247F
