@@ -4,5 +4,5 @@ test_cases:
     CAMRY_FUEL_INPUT: 96
   response: 7C803612960
 - expected_values:
-    CAMRY_FUEL_INPUT: 120
-  response: 7C803612978
+    CAMRY_FUEL_INPUT: 122
+  response: 7C80361297A
