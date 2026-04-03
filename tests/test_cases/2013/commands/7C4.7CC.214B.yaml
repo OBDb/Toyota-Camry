@@ -1,0 +1,29 @@
+command_id: 7C4.7CC.214B
+test_cases:
+- expected_values:
+    CAMRY_EVAP_FIN_THERMISTOR: 4.25
+  response: 7CC03614B61
+- expected_values:
+    CAMRY_EVAP_FIN_THERMISTOR: 4.6
+  response: 7CC03614B62
+- expected_values:
+    CAMRY_EVAP_FIN_THERMISTOR: 4.95
+  response: 7CC03614B63
+- expected_values:
+    CAMRY_EVAP_FIN_THERMISTOR: 5.3
+  response: 7CC03614B64
+- expected_values:
+    CAMRY_EVAP_FIN_THERMISTOR: 5.65
+  response: 7CC03614B65
+- expected_values:
+    CAMRY_EVAP_FIN_THERMISTOR: 6
+  response: 7CC03614B66
+- expected_values:
+    CAMRY_EVAP_FIN_THERMISTOR: 6.35
+  response: 7CC03614B67
+- expected_values:
+    CAMRY_EVAP_FIN_THERMISTOR: 6.7
+  response: 7CC03614B68
+- expected_values:
+    CAMRY_EVAP_FIN_THERMISTOR: 7.05
+  response: 7CC03614B69
