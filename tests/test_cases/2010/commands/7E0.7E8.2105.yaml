@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.2105
+test_cases:
+- expected_values:
+    CAMRY_CATALYST_T_B1S1: 342.8
+    CAMRY_CATALYST_T_B1S2: 32.8
+  response: 7E80861054CD30EF402D8
+- expected_values:
+    CAMRY_CATALYST_T_B1S1: 389.6
+    CAMRY_CATALYST_T_B1S2: 41.6
+  response: 7E80861054CD310C80330
