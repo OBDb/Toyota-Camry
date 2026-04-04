@@ -5,7 +5,7 @@ test_cases:
   response: 7D80461620100
 - expected_values:
     CAMRY_PARKING_BRAKE_2: 1
-  response: 7D80461620177
+  response: 7D80461620180
 - expected_values:
     CAMRY_PARKING_BRAKE_2: 1
   response: 7D80461620901
