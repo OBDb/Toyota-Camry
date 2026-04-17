@@ -4,5 +4,5 @@ test_cases:
     CAMRY_ECT: 23.35
   response: 7CC0361263F
 - expected_values:
-    CAMRY_ECT: 68.85
-  response: 7CC036126C1
+    CAMRY_ECT: 90.55
+  response: 7CC036126FF
