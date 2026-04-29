@@ -28,10 +28,10 @@ test_cases:
     CAMRY_TIRE_P_RR: 2.62069
   response: "758 2A 10 07 61 30 B6 B2 B4 \n758 2A 21 B5 00 00 00 00 00 "
 - expected_values:
-    CAMRY_TIRE_P_RR: 2.17241
+    CAMRY_TIRE_P_RR: 2.12069
   response: |-
     7582A10076130000000
-    7582A219B0000000000
+    7582A21980000000000
 - expected_values:
     CAMRY_TIRE_P_RR: 2.24138
   response: |-
