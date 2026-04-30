@@ -227,7 +227,7 @@
     {"id": "CAMRY_TIRE_T_RR",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Rear right tire temperature",  "suggestedMetric": "rearRightTireTemperature"},
     {"id": "CAMRY_TIRE_T_SPARE", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Spare tire temperature"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "tmo": "96", "fcm1": true, "cmd": {"21": "30"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016], "from": 2025 },
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "tmo": "96", "fcm1": true, "cmd": {"21": "30"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016, 2025], "from": 2027 },
   "signals": [
     {"id": "CAMRY_TIRE_P_FL",    "path": "Tires", "fmt": {           "len": 8, "max": 3.896, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
     {"id": "CAMRY_TIRE_P_FR",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 3.896, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
