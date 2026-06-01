@@ -1,14 +1,14 @@
 command_id: 701.709.221627|f=2018-
 test_cases:
 - expected_values:
-    CAMRY_ATF_T_PAN: 35.625
-  response: 709056216274BA0
+    CAMRY_ATF_T_PAN: 34.375
+  response: 709056216274A60
+- expected_values:
+    CAMRY_ATF_T_PAN: 35
+  response: 709056216274B00
 - expected_values:
     CAMRY_ATF_T_PAN: 36.875
   response: 709056216274CE0
-- expected_values:
-    CAMRY_ATF_T_PAN: 75
-  response: '709056216277300'
 - expected_values:
     CAMRY_ATF_T_PAN: 97.5
   response: '709056216278980'
