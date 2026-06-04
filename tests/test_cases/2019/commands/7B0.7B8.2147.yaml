@@ -1,0 +1,20 @@
+command_id: 7B0.7B8.2147
+test_cases:
+- expected_values:
+    CAMRY_LAT_G: -24.91384
+    CAMRY_LNG_G: -24.91384
+    CAMRY_STEERING_ANGLE: 3
+    CAMRY_YAW: 0
+  response: 7B8076147010180801E
+- expected_values:
+    CAMRY_LAT_G: -24.71769
+    CAMRY_LNG_G: -25.11
+    CAMRY_STEERING_ANGLE: 1.5
+    CAMRY_YAW: 0
+  response: 7B8076147020080800F
+- expected_values:
+    CAMRY_LAT_G: -24.71769
+    CAMRY_LNG_G: -24.91384
+    CAMRY_STEERING_ANGLE: 3
+    CAMRY_YAW: 0
+  response: 7B8076147020180801E
