@@ -4,3 +4,7 @@ test_cases:
     CAMRY_MAIN_IDLE_SW: 0
     CAMRY_RESERVOIR_WARNING_SW: 0
   response: 7B803611D00
+- expected_values:
+    CAMRY_MAIN_IDLE_SW: 1
+    CAMRY_RESERVOIR_WARNING_SW: 0
+  response: 7B803611D20

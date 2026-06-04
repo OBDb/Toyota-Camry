@@ -1,5 +1,32 @@
 command_id: 700.708.22108F|f=2016-
 test_cases:
 - expected_values:
+    CAMRY_EXHAUST_VVT_OVER_ADV_LEARN_B1: 95.21481
+  response: 7080562108F2616
+- expected_values:
+    CAMRY_EXHAUST_VVT_OVER_ADV_LEARN_B1: 95.26364
+  response: 7080562108F261B
+- expected_values:
+    CAMRY_EXHAUST_VVT_OVER_ADV_LEARN_B1: 95.28317
+  response: 7080562108F261D
+- expected_values:
+    CAMRY_EXHAUST_VVT_OVER_ADV_LEARN_B1: 95.36129
+  response: 7080562108F2625
+- expected_values:
+    CAMRY_EXHAUST_VVT_OVER_ADV_LEARN_B1: 95.48825
+  response: 7080562108F2632
+- expected_values:
+    CAMRY_EXHAUST_VVT_OVER_ADV_LEARN_B1: 95.50778
+  response: 7080562108F2634
+- expected_values:
+    CAMRY_EXHAUST_VVT_OVER_ADV_LEARN_B1: 95.52731
+  response: 7080562108F2636
+- expected_values:
+    CAMRY_EXHAUST_VVT_OVER_ADV_LEARN_B1: 95.83981
+  response: 7080562108F2656
+- expected_values:
+    CAMRY_EXHAUST_VVT_OVER_ADV_LEARN_B1: 95.8984
+  response: 7080562108F265C
+- expected_values:
     CAMRY_EXHAUST_VVT_OVER_ADV_LEARN_B1: 95.90817
   response: 7080562108F265D
