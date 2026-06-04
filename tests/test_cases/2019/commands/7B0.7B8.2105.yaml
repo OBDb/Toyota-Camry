@@ -1,0 +1,20 @@
+command_id: 7B0.7B8.2105
+test_cases:
+- expected_values:
+    CAMRY_DECEL: 0.07129
+    CAMRY_DECEL_2: 0.07129
+  response: |-
+    7B81009610580800774
+    7B821000FA000000000
+- expected_values:
+    CAMRY_DECEL: 0.21388
+    CAMRY_DECEL_2: 0.07129
+  response: |-
+    7B81009610581800773
+    7B821000EE000000000
+- expected_values:
+    CAMRY_DECEL: 0.21388
+    CAMRY_DECEL_2: 0.21388
+  response: |-
+    7B81009610581810774
+    7B821000B6000000000
