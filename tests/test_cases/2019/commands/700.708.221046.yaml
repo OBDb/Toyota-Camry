@@ -1,0 +1,11 @@
+command_id: 700.708.221046
+test_cases:
+- expected_values:
+    CAMRY_COOLING_FAN_DUTY_RATIO: 40.5
+  response: '7080462104651'
+- expected_values:
+    CAMRY_COOLING_FAN_DUTY_RATIO: 41.5
+  response: '7080462104653'
+- expected_values:
+    CAMRY_COOLING_FAN_DUTY_RATIO: 42
+  response: '7080462104654'
