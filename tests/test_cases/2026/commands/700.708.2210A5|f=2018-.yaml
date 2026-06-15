@@ -18,6 +18,11 @@ test_cases:
 - expected_values:
     CAMRY_MISFIRE_CNT: 0
   response: |-
+    70810086210A5000125
+    7082100CE0000000000
+- expected_values:
+    CAMRY_MISFIRE_CNT: 0
+  response: |-
     70810086210A5000186
     7082100BB0000000000
 - expected_values:
