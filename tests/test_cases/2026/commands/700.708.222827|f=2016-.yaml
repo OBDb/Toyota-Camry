@@ -4,6 +4,9 @@ test_cases:
     CAMRY_ELECTRIC_WATER_PUMP: 160
   response: '7080462282704'
 - expected_values:
+    CAMRY_ELECTRIC_WATER_PUMP: 1960
+  response: '7080462282731'
+- expected_values:
     CAMRY_ELECTRIC_WATER_PUMP: 2120
   response: '7080462282735'
 - expected_values:
