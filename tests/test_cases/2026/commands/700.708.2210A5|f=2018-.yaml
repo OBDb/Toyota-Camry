@@ -9,7 +9,7 @@ test_cases:
     CAMRY_MISFIRE_CNT: 0
   response: |-
     70810086210A5000000
-    7082100AE0000000000
+    7082100DF0000000000
 - expected_values:
     CAMRY_MISFIRE_CNT: 0
   response: |-
