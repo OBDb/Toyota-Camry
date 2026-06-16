@@ -36,3 +36,7 @@ test_cases:
     CAMRY_ECT_IGN: 35.625
     CAMRY_ECT_INIT: 91.875
   response: 7080562104179D3
+- expected_values:
+    CAMRY_ECT_IGN: 40.625
+    CAMRY_ECT_INIT: 91.25
+  response: 7080562104181D2
