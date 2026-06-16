@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY: 42.04166
   response: 708056210621AE8
+- expected_values:
+    CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY: 45.72213
+  response: 708056210621D43

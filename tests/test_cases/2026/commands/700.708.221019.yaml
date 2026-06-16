@@ -5,6 +5,15 @@ test_cases:
   response: 70807621019013A8AF0
 - expected_values:
     CAMRY_INJECTION: BOTH
+  response: 70807621019025C8AF0
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 7080762101902688AF0
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 70807621019026D8AF0
+- expected_values:
+    CAMRY_INJECTION: BOTH
   response: '7080762101902998000'
 - expected_values:
     CAMRY_INJECTION: BOTH
