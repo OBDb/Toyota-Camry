@@ -35,16 +35,16 @@ test_cases:
 - expected_values:
     CAMRY_TIRE_T_FL: 37
     CAMRY_TIRE_T_FR: 37
-    CAMRY_TIRE_T_RL: 35
-    CAMRY_TIRE_T_RR: 35
-  response: |-
-    7582A100761164D4D4B
-    7582A214B0000000000
-- expected_values:
-    CAMRY_TIRE_T_FL: 37
-    CAMRY_TIRE_T_FR: 37
     CAMRY_TIRE_T_RL: 44
     CAMRY_TIRE_T_RR: 45
   response: |-
     7582A100761164D4D54
     7582A21550000000000
+- expected_values:
+    CAMRY_TIRE_T_FL: 39
+    CAMRY_TIRE_T_FR: 37
+    CAMRY_TIRE_T_RL: 34
+    CAMRY_TIRE_T_RR: 36
+  response: |-
+    7582A100761164F4D4A
+    7582A214C0000000000
