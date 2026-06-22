@@ -22,6 +22,9 @@ test_cases:
     CAMRY_FUEL_PUMP_DUTY_RATIO: 235.2439
   response: 7080562106A0F12
 - expected_values:
+    CAMRY_FUEL_PUMP_DUTY_RATIO: 243.47561
+  response: 7080562106A0F99
+- expected_values:
     CAMRY_FUEL_PUMP_DUTY_RATIO: 247.68293
   response: 7080562106A0FDE
 - expected_values:
