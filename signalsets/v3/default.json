@@ -215,7 +215,7 @@
   "signals": [
     {"id": "CAMRY_ATF_T_PAN", "path": "Transmission", "fmt": { "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, pan", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "701", "rax": "709", "cmd": {"22": "162B"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2019, "from": 2025 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "162B"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2018, "from": 2025 },
   "signals": [
     {"id": "CAMRY_ATF_THERMAL_DEGRAD_EST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Automatic transmission fluid thermal degradation estimate"}
   ]},
