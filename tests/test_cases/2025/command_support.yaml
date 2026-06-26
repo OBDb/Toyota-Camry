@@ -41,6 +41,7 @@ supported_commands_by_ecu:
   "7C0":
   - 7C0.7C8.221022|f=2018-:CAMRY_FUEL_LEVEL
   "7DF":
+  - 7DF.0103
   - 7DF.0104
   - 7DF.0105
   - 7DF.0106
@@ -56,6 +57,9 @@ supported_commands_by_ecu:
   - 7DF.015B
   - 7DF.015C
   - 7DF.015E
+  - 7DF.016D
+  - 7DF.019D
+  - 7DF.019E
   - 7DF.01A6
   - 7DF.01D2
   "7E0":
