@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     CAMRY_EXHAUST_VVT_OVER_ADV_LEARN_B1: 90.0195
   response: 7080562108F2402
+- expected_values:
+    CAMRY_EXHAUST_VVT_OVER_ADV_LEARN_B1: 92.97848
+  response: 7080562108F2531
