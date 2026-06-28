@@ -4,5 +4,5 @@ test_cases:
     CAMRY_CABIN_T: 12
   response: 7CC0361214A
 - expected_values:
-    CAMRY_CABIN_T: 21.75
-  response: 7CC03612171
+    CAMRY_CABIN_T: 26.75
+  response: 7CC03612185
