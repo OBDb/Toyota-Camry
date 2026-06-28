@@ -4,5 +4,11 @@ test_cases:
     CAMRY_DIST_SINCE_BAT_DISC: 26067
   response: 7080562106C65D3
 - expected_values:
+    CAMRY_DIST_SINCE_BAT_DISC: 26072
+  response: 7080562106C65D8
+- expected_values:
+    CAMRY_DIST_SINCE_BAT_DISC: 26089
+  response: 7080562106C65E9
+- expected_values:
     CAMRY_DIST_SINCE_BAT_DISC: 65535
   response: 7080562106CFFFF
