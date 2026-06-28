@@ -32,6 +32,12 @@ test_cases:
     7B82100FF6000000000
 - expected_values:
     CAMRY_DECEL: 0.07129
+    CAMRY_DECEL_2: -0.07129
+  response: |-
+    7B810096105807F02C1
+    7B82100FFE000000000
+- expected_values:
+    CAMRY_DECEL: 0.07129
     CAMRY_DECEL_2: 1.63976
   response: |-
     7B810096105808B07D4
