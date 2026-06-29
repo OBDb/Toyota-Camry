@@ -1,10 +1,10 @@
 command_id: 750.758.2130|t=96,e=2A,ta=2A,fc=1,f=2013-
 test_cases:
 - expected_values:
-    CAMRY_TIRE_P_RR: 2.36207
+    CAMRY_TIRE_P_RR: 2.34483
   response: |-
     7582A10076130000000
-    7582A21A60000000000
+    7582A21A50000000000
 - expected_values:
     CAMRY_TIRE_P_RL: 3.27586
     CAMRY_TIRE_P_RR: 3.36207
