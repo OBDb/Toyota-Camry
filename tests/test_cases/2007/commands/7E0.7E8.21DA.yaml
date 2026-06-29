@@ -4,5 +4,20 @@ test_cases:
     CAMRY_GEAR_V3: 1
   response: 7E80561DA010400
 - expected_values:
+    CAMRY_GEAR_V3: 2
+  response: 7E80561DA020400
+- expected_values:
+    CAMRY_GEAR_V3: 3
+  response: 7E80561DA030400
+- expected_values:
+    CAMRY_GEAR_V3: 4
+  response: 7E80561DA040000
+- expected_values:
     CAMRY_GEAR_V3: 4
   response: 7E80561DA040400
+- expected_values:
+    CAMRY_GEAR_V3: 21
+  response: 7E80561DA150400
+- expected_values:
+    CAMRY_GEAR_V3: 85
+  response: 7E80561DA550400

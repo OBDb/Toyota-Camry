@@ -10,5 +10,20 @@ test_cases:
     CAMRY_ECT_7C0: 50.5
   response: 7C803612365
 - expected_values:
+    CAMRY_ECT_7C0: 84
+  response: 7C8036123A8
+- expected_values:
+    CAMRY_ECT_7C0: 85.5
+  response: 7C8036123AB
+- expected_values:
+    CAMRY_ECT_7C0: 86
+  response: 7C8036123AC
+- expected_values:
+    CAMRY_ECT_7C0: 86.5
+  response: 7C8036123AD
+- expected_values:
+    CAMRY_ECT_7C0: 88
+  response: 7C8036123B0
+- expected_values:
     CAMRY_ECT_7C0: 88.5
   response: 7C8036123B1
