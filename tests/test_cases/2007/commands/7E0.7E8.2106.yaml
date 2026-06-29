@@ -9,6 +9,30 @@ test_cases:
     CAMRY_NUMBER_OF_EMISSION_DTC: 122
   response: 7E80361067A
 - expected_values:
+    CAMRY_MIL: 0
+    CAMRY_NUMBER_OF_EMISSION_DTC: 123
+  response: 7E80361067B
+- expected_values:
+    CAMRY_MIL: 0
+    CAMRY_NUMBER_OF_EMISSION_DTC: 125
+  response: 7E80361067D
+- expected_values:
+    CAMRY_MIL: 0
+    CAMRY_NUMBER_OF_EMISSION_DTC: 126
+  response: 7E80361067E
+- expected_values:
+    CAMRY_MIL: 0
+    CAMRY_NUMBER_OF_EMISSION_DTC: 127
+  response: 7E80361067F
+- expected_values:
     CAMRY_MIL: 1
     CAMRY_NUMBER_OF_EMISSION_DTC: 0
   response: '7E803610680'
+- expected_values:
+    CAMRY_MIL: 1
+    CAMRY_NUMBER_OF_EMISSION_DTC: 4
+  response: '7E803610684'
+- expected_values:
+    CAMRY_MIL: 1
+    CAMRY_NUMBER_OF_EMISSION_DTC: 5
+  response: '7E803610685'
