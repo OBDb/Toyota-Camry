@@ -9,3 +9,24 @@ test_cases:
 - expected_values:
     CAMRY_FUEL_INPUT: 80
   response: 7C803612950
+- expected_values:
+    CAMRY_FUEL_INPUT: 109
+  response: 7C80361296D
+- expected_values:
+    CAMRY_FUEL_INPUT: 116
+  response: 7C803612974
+- expected_values:
+    CAMRY_FUEL_INPUT: 118
+  response: 7C803612976
+- expected_values:
+    CAMRY_FUEL_INPUT: 120
+  response: 7C803612978
+- expected_values:
+    CAMRY_FUEL_INPUT: 122
+  response: 7C80361297A
+- expected_values:
+    CAMRY_FUEL_INPUT: 123
+  response: 7C80361297B
+- expected_values:
+    CAMRY_FUEL_INPUT: 128
+  response: 7C803612980

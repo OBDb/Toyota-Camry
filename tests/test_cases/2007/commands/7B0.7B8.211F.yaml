@@ -4,3 +4,7 @@ test_cases:
     CAMRY_PARKING_BRAKE_SW: 0
     CAMRY_STOP_LIGHT_SW: 0
   response: 7B803611F00
+- expected_values:
+    CAMRY_PARKING_BRAKE_SW: 0
+    CAMRY_STOP_LIGHT_SW: 1
+  response: 7B803611F80
