@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     CAMRY_INTAKE_VVT_OVER_RET_LEARN_B1: 29.2285
   response: 7080562108D0BB1
+- expected_values:
+    CAMRY_INTAKE_VVT_OVER_RET_LEARN_B1: 29.40429
+  response: 7080562108D0BC3
