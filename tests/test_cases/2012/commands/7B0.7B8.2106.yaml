@@ -1,0 +1,30 @@
+command_id: 7B0.7B8.2106
+test_cases:
+- expected_values:
+    CAMRY_YAW_1: -19
+    CAMRY_YAW_2: -7
+  response: 7B80561066D7961
+- expected_values:
+    CAMRY_YAW_1: -15
+    CAMRY_YAW_2: -11
+  response: 7B8056106717529
+- expected_values:
+    CAMRY_YAW_1: -2
+    CAMRY_YAW_2: -3
+  response: 7B80561067E7DC6
+- expected_values:
+    CAMRY_YAW_1: 0
+    CAMRY_YAW_2: -2
+  response: 7B8056106807EF2
+- expected_values:
+    CAMRY_YAW_1: 0
+    CAMRY_YAW_2: -1
+  response: 7B8056106807FD3
+- expected_values:
+    CAMRY_YAW_1: 0
+    CAMRY_YAW_2: -1
+  response: 7B8056106807FE2
+- expected_values:
+    CAMRY_YAW_1: 0
+    CAMRY_YAW_2: 0
+  response: 7B805610680800F

@@ -1,0 +1,9 @@
+command_id: 7B0.7B8.213D
+test_cases:
+- expected_values:
+    CAMRY_ABS_WARN: 0
+    CAMRY_BRAKE_WARN: 0
+    CAMRY_BUZZER: 0
+    CAMRY_ECB_WARN: 0
+    CAMRY_SLIP_WARN: 0
+  response: 7B803613D00
