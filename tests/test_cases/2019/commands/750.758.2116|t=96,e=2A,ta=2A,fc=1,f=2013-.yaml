@@ -1,0 +1,59 @@
+command_id: 750.758.2116|t=96,e=2A,ta=2A,fc=1,f=2013-
+test_cases:
+- expected_values:
+    CAMRY_TIRE_T_RR: 32
+  response: |-
+    7582A10076116000000
+    7582A21480000000000
+- expected_values:
+    CAMRY_TIRE_T_RL: 44
+    CAMRY_TIRE_T_RR: 39
+  response: |-
+    7582A10076116000054
+    7582A214F0000000000
+- expected_values:
+    CAMRY_TIRE_T_FL: 24
+    CAMRY_TIRE_T_FR: 25
+    CAMRY_TIRE_T_RL: 26
+    CAMRY_TIRE_T_RR: 24
+  response: |-
+    7582A10076116404142
+    7582A21400000000000
+- expected_values:
+    CAMRY_TIRE_T_FL: 33
+    CAMRY_TIRE_T_FR: 34
+    CAMRY_TIRE_T_RL: 42
+    CAMRY_TIRE_T_RR: 41
+  response: |-
+    7582A10076116494A52
+    7582A21510000000000
+- expected_values:
+    CAMRY_TIRE_T_FL: 35
+    CAMRY_TIRE_T_FR: 40
+  response: |-
+    7582A100761164B5000
+    7582A21000000000000
+- expected_values:
+    CAMRY_TIRE_T_FL: 43
+    CAMRY_TIRE_T_FR: 57
+    CAMRY_TIRE_T_RL: 57
+    CAMRY_TIRE_T_RR: 47
+  response: |-
+    7582A10076116536161
+    7582A21570000000000
+- expected_values:
+    CAMRY_TIRE_T_FL: 46
+    CAMRY_TIRE_T_FR: 61
+    CAMRY_TIRE_T_RL: 57
+    CAMRY_TIRE_T_RR: 47
+  response: |-
+    7582A10076116566561
+    7582A21570000000000
+- expected_values:
+    CAMRY_TIRE_T_FL: 57
+    CAMRY_TIRE_T_FR: 53
+    CAMRY_TIRE_T_RL: 46
+    CAMRY_TIRE_T_RR: 45
+  response: |-
+    7582A10076116615D56
+    7582A21550000000000

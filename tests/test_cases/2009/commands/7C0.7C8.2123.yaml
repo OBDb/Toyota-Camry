@@ -1,0 +1,8 @@
+command_id: 7C0.7C8.2123
+test_cases:
+- expected_values:
+    CAMRY_ECT_7C0: 86.5
+  response: 7C8036123AD
+- expected_values:
+    CAMRY_ECT_7C0: 87
+  response: 7C8036123AE

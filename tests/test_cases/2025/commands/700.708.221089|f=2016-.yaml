@@ -1,0 +1,14 @@
+command_id: 700.708.221089|f=2016-
+test_cases:
+- expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 47.59014
+  response: '708056210891E77'
+- expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 48.40782
+  response: 708056210891EFD
+- expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 48.45054
+  response: 708056210891F04
+- expected_values:
+    CAMRY_EXHAUST_VVT_HOLD_LEARN_B1: 50.14692
+  response: 70805621089201A

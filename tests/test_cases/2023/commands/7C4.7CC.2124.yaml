@@ -1,0 +1,32 @@
+command_id: 7C4.7CC.2124
+test_cases:
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 0
+  response: 7CC03612400
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 48
+  response: 7CC03612430
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 49
+  response: 7CC03612431
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 55
+  response: 7CC03612437
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 56
+  response: 7CC03612438
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 57
+  response: 7CC03612439
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 58
+  response: 7CC0361243A
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 59
+  response: 7CC0361243B
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 60
+  response: 7CC0361243C
+- expected_values:
+    CAMRY_SOLAR_DRIVER: 61
+  response: 7CC0361243D

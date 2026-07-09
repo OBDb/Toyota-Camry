@@ -1,0 +1,5 @@
+command_id: 700.708.222829|f=2016-
+test_cases:
+- expected_values:
+    CAMRY_ELECTRIC_THERMOSTAT_DUTY_RATIO: 0
+  response: '7080462282900'

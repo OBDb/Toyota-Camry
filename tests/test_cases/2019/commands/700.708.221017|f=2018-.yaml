@@ -1,0 +1,8 @@
+command_id: 700.708.221017|f=2018-
+test_cases:
+- expected_values:
+    CAMRY_INJ_VOL: 0
+  response: '708056210170000'
+- expected_values:
+    CAMRY_INJ_VOL: 20
+  response: 70805621017FA00

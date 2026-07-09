@@ -1,0 +1,32 @@
+command_id: 700.708.221078|f=2018-
+test_cases:
+- expected_values:
+    CAMRY_IDLE_SAC_CYL_1: 0
+    CAMRY_IDLE_SAC_CYL_2: 0
+    CAMRY_IDLE_SAC_CYL_3: 0
+    CAMRY_IDLE_SAC_CYL_4: 0
+  response: '7080762107800000000'
+- expected_values:
+    CAMRY_IDLE_SAC_CYL_1: 0
+    CAMRY_IDLE_SAC_CYL_2: 0
+    CAMRY_IDLE_SAC_CYL_3: 0
+    CAMRY_IDLE_SAC_CYL_4: 2
+  response: '7080762107800000020'
+- expected_values:
+    CAMRY_IDLE_SAC_CYL_1: 0
+    CAMRY_IDLE_SAC_CYL_2: 0
+    CAMRY_IDLE_SAC_CYL_3: 2
+    CAMRY_IDLE_SAC_CYL_4: 1
+  response: '7080762107800002010'
+- expected_values:
+    CAMRY_IDLE_SAC_CYL_1: 0
+    CAMRY_IDLE_SAC_CYL_2: 2
+    CAMRY_IDLE_SAC_CYL_3: 0
+    CAMRY_IDLE_SAC_CYL_4: 0
+  response: '7080762107800200000'
+- expected_values:
+    CAMRY_IDLE_SAC_CYL_1: 3
+    CAMRY_IDLE_SAC_CYL_2: 0
+    CAMRY_IDLE_SAC_CYL_3: 1
+    CAMRY_IDLE_SAC_CYL_4: 1
+  response: '7080762107830001010'

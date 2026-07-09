@@ -1,0 +1,18 @@
+command_id: 7B0.7B8.2106
+test_cases:
+- expected_values:
+    CAMRY_YAW_1: -9
+    CAMRY_YAW_2: -9
+  response: 7B8056106777745
+- expected_values:
+    CAMRY_YAW_1: -3
+    CAMRY_YAW_2: -2
+  response: 7B80561067D7EF2
+- expected_values:
+    CAMRY_YAW_1: 0
+    CAMRY_YAW_2: 0
+  response: 7B8056106808000
+- expected_values:
+    CAMRY_YAW_1: 21
+    CAMRY_YAW_2: 9
+  response: 7B8056106958915

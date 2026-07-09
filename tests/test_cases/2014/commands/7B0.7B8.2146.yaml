@@ -1,0 +1,23 @@
+command_id: 7B0.7B8.2146
+test_cases:
+- expected_values:
+    CAMRY_ZP_DEC: 24
+    CAMRY_ZP_DEC2: -0.00192
+    CAMRY_ZP_YAW: 0
+  response: |-
+    7B810086146FE808000
+    7B82119090000000000
+- expected_values:
+    CAMRY_ZP_DEC: 24
+    CAMRY_ZP_DEC2: -0.00192
+    CAMRY_ZP_YAW: 0
+  response: |-
+    7B810086146FE808000
+    7B821190A0000000000
+- expected_values:
+    CAMRY_ZP_DEC: 24
+    CAMRY_ZP_DEC2: -0.00192
+    CAMRY_ZP_YAW: 0
+  response: |-
+    7B810086146FE808000
+    7B821190B0000000000

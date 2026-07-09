@@ -1,0 +1,26 @@
+command_id: 700.708.22108D|f=2016-
+test_cases:
+- expected_values:
+    CAMRY_INTAKE_VVT_OVER_RET_LEARN_B1: 28.39843
+  response: 7080562108D0B5C
+- expected_values:
+    CAMRY_INTAKE_VVT_OVER_RET_LEARN_B1: 28.43749
+  response: 7080562108D0B60
+- expected_values:
+    CAMRY_INTAKE_VVT_OVER_RET_LEARN_B1: 29.16991
+  response: 7080562108D0BAB
+- expected_values:
+    CAMRY_INTAKE_VVT_OVER_RET_LEARN_B1: 29.2285
+  response: 7080562108D0BB1
+- expected_values:
+    CAMRY_INTAKE_VVT_OVER_RET_LEARN_B1: 29.3164
+  response: 7080562108D0BBA
+- expected_values:
+    CAMRY_INTAKE_VVT_OVER_RET_LEARN_B1: 29.33593
+  response: 7080562108D0BBC
+- expected_values:
+    CAMRY_INTAKE_VVT_OVER_RET_LEARN_B1: 29.37499
+  response: 7080562108D0BC0
+- expected_values:
+    CAMRY_INTAKE_VVT_OVER_RET_LEARN_B1: 29.40429
+  response: 7080562108D0BC3
