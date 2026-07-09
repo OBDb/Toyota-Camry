@@ -1,0 +1,22 @@
+command_id: 700.708.221043|f=2018-
+test_cases:
+- expected_values:
+    CAMRY_EWP_RPM: 450
+    CAMRY_EWP_TARGET_VSS: 450
+  response: '708056210431212'
+- expected_values:
+    CAMRY_EWP_RPM: 800
+    CAMRY_EWP_TARGET_VSS: 825
+  response: '708056210432120'
+- expected_values:
+    CAMRY_EWP_RPM: 850
+    CAMRY_EWP_TARGET_VSS: 825
+  response: '708056210432122'
+- expected_values:
+    CAMRY_EWP_RPM: 900
+    CAMRY_EWP_TARGET_VSS: 900
+  response: '708056210432424'
+- expected_values:
+    CAMRY_EWP_RPM: 925
+    CAMRY_EWP_TARGET_VSS: 900
+  response: '708056210432425'

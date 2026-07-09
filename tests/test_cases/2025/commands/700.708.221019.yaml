@@ -1,0 +1,32 @@
+command_id: 700.708.221019
+test_cases:
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 7080762101902408AF0
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 7080762101902568AF0
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 70807621019025A8AF0
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 70807621019025B8BB8
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: '7080762101902708000'
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 7080762101902728A8C
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 7080762101902A48000
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 7080762101902B48AF0
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 7080762101902DF8A8C
+- expected_values:
+    CAMRY_INJECTION: BOTH
+  response: 7080762101902F88AF0

@@ -1,0 +1,6 @@
+command_id: 7C4.7CC.2144
+test_cases:
+- expected_values:
+    CAMRY_AIR_INLET_DAMPER_ACTUAL_PULSE: 28
+    CAMRY_AIR_INLET_DAMPER_TARGET_PULSE: 28
+  response: 7CC0661441C1C0100

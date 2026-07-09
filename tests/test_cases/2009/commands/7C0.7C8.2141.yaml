@@ -1,0 +1,5 @@
+command_id: 7C0.7C8.2141
+test_cases:
+- expected_values:
+    CAMRY_OIL_CHANGE_ODO: 1609.344
+  response: 7C80361410A

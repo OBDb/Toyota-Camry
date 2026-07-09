@@ -1,0 +1,11 @@
+command_id: 700.708.221062|f=2018-
+test_cases:
+- expected_values:
+    CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY: 0
+  response: '708056210620000'
+- expected_values:
+    CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.49409
+  response: 7080562106207FF
+- expected_values:
+    CAMRY_EXHAUST_VVT_OCV_CONTROL_DUTY: 65.38796
+  response: 7080562106229D9

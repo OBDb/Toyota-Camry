@@ -1,0 +1,8 @@
+command_id: 7E0.0123
+test_cases:
+- expected_values:
+    FRP: 4120
+  response: 7E8044123019C
+- expected_values:
+    FRP: 7980
+  response: 7E8044123031E

@@ -1,0 +1,20 @@
+command_id: 7B0.7B8.2121
+test_cases:
+- expected_values:
+    CAMRY_VEHICLE_SPEED_7B0: 0
+  response: 7B803612100
+- expected_values:
+    CAMRY_VEHICLE_SPEED_7B0: 7.68
+  response: 7B803612106
+- expected_values:
+    CAMRY_VEHICLE_SPEED_7B0: 8.96
+  response: 7B803612107
+- expected_values:
+    CAMRY_VEHICLE_SPEED_7B0: 14.08
+  response: 7B80361210B
+- expected_values:
+    CAMRY_VEHICLE_SPEED_7B0: 40.96
+  response: 7B803612120
+- expected_values:
+    CAMRY_VEHICLE_SPEED_7B0: 47.36
+  response: 7B803612125
