@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 0
   response: '708056210870000'
+- expected_values:
+    CAMRY_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 17.15578
+  response: 7080562108706DD

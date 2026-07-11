@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAMRY_INTAKE_VVT_TARGET_ANGLE_B1: 0
   response: 7080562106F0000
+- expected_values:
+    CAMRY_INTAKE_VVT_TARGET_ANGLE_B1: 21.9305
+  response: 7080562106F08C6
