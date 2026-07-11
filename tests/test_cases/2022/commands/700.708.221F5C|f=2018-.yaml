@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     CAMRY_EOT_V2: 21
   response: 70804621F5C3D
+- expected_values:
+    CAMRY_EOT_V2: 31
+  response: 70804621F5C47
+- expected_values:
+    CAMRY_EOT_V2: 34
+  response: 70804621F5C4A
+- expected_values:
+    CAMRY_EOT_V2: 77
+  response: 70804621F5C75

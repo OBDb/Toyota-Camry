@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     CAMRY_DIST_SINCE_BAT_DISC: 39684
   response: 7080562106C9B04
+- expected_values:
+    CAMRY_DIST_SINCE_BAT_DISC: 65535
+  response: 7080562106CFFFF

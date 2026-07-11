@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAMRY_EXHAUST_VVT_TARGET_ANGLE_B1: 0
   response: '708056210710000'
+- expected_values:
+    CAMRY_EXHAUST_VVT_TARGET_ANGLE_B1: 26.12913
+  response: 708056210710A74
