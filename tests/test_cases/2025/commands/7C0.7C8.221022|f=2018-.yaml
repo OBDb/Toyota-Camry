@@ -1,8 +1,8 @@
 command_id: 7C0.7C8.221022|f=2018-
 test_cases:
 - expected_values:
-    CAMRY_FUEL_LEVEL: 8.95
-  response: 7C805621022037F
+    CAMRY_FUEL_LEVEL: 8.25
+  response: 7C8056210220339
 - expected_values:
     CAMRY_FUEL_LEVEL: 10.24
   response: 7C8056210220400
