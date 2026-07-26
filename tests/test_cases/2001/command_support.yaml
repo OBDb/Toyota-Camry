@@ -2,11 +2,13 @@ model_year: 2001
 supported_commands_by_ecu: {}
 unsupported_commands_by_ecu:
   "686A":
+  - 686A.0103|p=9141-2:FUELSYS1,FUELSYS2
   - 686A.0104|p=9141-2:LOAD_PCT
   - 686A.0105|p=9141-2:ECT
   - 686A.0106|p=9141-2:SHRTFT1
   - 686A.010D|p=9141-2:VSS
   - 686A.0111|p=9141-2:TP
+  - 686A.011C|p=9141-2:OBDSUP
   - 686A.0124|p=9141-2:LAMBDA11_VOLT,O2S11_VOLT
   "700":
   - 700.708.221002:CAMRY_12V_V
