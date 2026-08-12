@@ -1,5 +1,8 @@
 command_id: 7C4.7CC.2122
 test_cases:
 - expected_values:
+    CAMRY_AAT_7C4: 30.95
+  response: 7CC0361229B
+- expected_values:
     CAMRY_AAT_7C4: 33.4
   response: 7CC036122A2
