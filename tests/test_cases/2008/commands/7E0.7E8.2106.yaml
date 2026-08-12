@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.2106
+test_cases:
+- expected_values:
+    CAMRY_MIL: 0
+    CAMRY_NUMBER_OF_EMISSION_DTC: 101
+  response: '7E803610665'
+- expected_values:
+    CAMRY_MIL: 1
+    CAMRY_NUMBER_OF_EMISSION_DTC: 26
+  response: 7E80361069A

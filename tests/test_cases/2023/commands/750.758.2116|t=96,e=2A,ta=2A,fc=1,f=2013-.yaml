@@ -11,6 +11,11 @@ test_cases:
     7582A10076116000000
     7582A21400000000000
 - expected_values:
+    CAMRY_TIRE_T_RR: 39
+  response: |-
+    7582A10076116000000
+    7582A214F0000000000
+- expected_values:
     CAMRY_TIRE_T_RR: 40
   response: |-
     7582A10076116000000
@@ -20,12 +25,6 @@ test_cases:
   response: |-
     7582A10076116000031
     7582A21000000000000
-- expected_values:
-    CAMRY_TIRE_T_RL: 44
-    CAMRY_TIRE_T_RR: 39
-  response: |-
-    7582A10076116000054
-    7582A214F0000000000
 - expected_values:
     CAMRY_TIRE_T_FL: 33
     CAMRY_TIRE_T_FR: 33
