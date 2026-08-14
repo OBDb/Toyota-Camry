@@ -1,8 +1,8 @@
 command_id: 700.708.221002
 test_cases:
 - expected_values:
-    CAMRY_12V_V: 12.9443
-  response: 70805621002296C
+    CAMRY_12V_V: 12.91012
+  response: '708056210022950'
 - expected_values:
     CAMRY_12V_V: 13.74508
   response: 708056210022BFC
