@@ -10,5 +10,5 @@ test_cases:
     CAMRY_ODO_7E0: 364032
   response: 7E8056128058E00
 - expected_values:
-    CAMRY_ODO_7E0: 378624
-  response: 7E805612805C700
+    CAMRY_ODO_7E0: 378880
+  response: 7E805612805C800
