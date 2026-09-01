@@ -10,6 +10,9 @@ test_cases:
     CAMRY_ADJUSTED_AMBIENT_T: 27.76
   response: 7CC03613DB7
 - expected_values:
+    CAMRY_ADJUSTED_AMBIENT_T: 30
+  response: 7CC03613DBE
+- expected_values:
     CAMRY_ADJUSTED_AMBIENT_T: 40.56
   response: 7CC03613DDF
 - expected_values:
