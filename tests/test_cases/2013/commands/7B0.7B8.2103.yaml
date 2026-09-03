@@ -6,3 +6,9 @@ test_cases:
     CAMRY_TIRE_RL_SPD: 0
     CAMRY_TIRE_RR_SPD: 0
   response: 7B806610300000000
+- expected_values:
+    CAMRY_TIRE_FL_SPD: 30.72
+    CAMRY_TIRE_FR_SPD: 30.72
+    CAMRY_TIRE_RL_SPD: 30.72
+    CAMRY_TIRE_RR_SPD: 30.72
+  response: 7B806610318181818
