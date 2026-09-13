@@ -1,0 +1,32 @@
+command_id: 7B0.7B8.2105
+test_cases:
+- expected_values:
+    CAMRY_DECEL: -1.92494
+    CAMRY_DECEL_2: -0.92682
+  response: |-
+    7B810096105727902F6
+    7B8210002A000000000
+- expected_values:
+    CAMRY_DECEL: 0.07129
+    CAMRY_DECEL_2: -0.07129
+  response: |-
+    7B810096105807F054F
+    7B8211905C000000000
+- expected_values:
+    CAMRY_DECEL: 0.21388
+    CAMRY_DECEL_2: -0.21388
+  response: |-
+    7B810096105817E04C7
+    7B82112032000000000
+- expected_values:
+    CAMRY_DECEL: 0.21388
+    CAMRY_DECEL_2: 0.07129
+  response: |-
+    7B810096105818002EC
+    7B8210002A000000000
+- expected_values:
+    CAMRY_DECEL: 0.35647
+    CAMRY_DECEL_2: 0.07129
+  response: |-
+    7B81009610582800563
+    7B821280F0000000000

@@ -1,0 +1,14 @@
+command_id: 7D0.7D8.2162
+test_cases:
+- expected_values:
+    CAMRY_PARKING_BRAKE_2: 1
+  response: 7D8046162190B
+- expected_values:
+    CAMRY_PARKING_BRAKE_2: 1
+  response: 7D80461621932
+- expected_values:
+    CAMRY_PARKING_BRAKE_2: 1
+  response: 7D80461621949
+- expected_values:
+    CAMRY_PARKING_BRAKE_2: 1
+  response: 7D8046162194A
