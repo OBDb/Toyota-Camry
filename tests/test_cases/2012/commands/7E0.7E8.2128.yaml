@@ -12,3 +12,21 @@ test_cases:
 - expected_values:
     CAMRY_ODO_7E0: 227518
   response: 7E80561280378BE
+- expected_values:
+    CAMRY_ODO_7E0: 227525
+  response: 7E80561280378C5
+- expected_values:
+    CAMRY_ODO_7E0: 227526
+  response: 7E80561280378C6
+- expected_values:
+    CAMRY_ODO_7E0: 227528
+  response: 7E80561280378C8
+- expected_values:
+    CAMRY_ODO_7E0: 227530
+  response: 7E80561280378CA
+- expected_values:
+    CAMRY_ODO_7E0: 227531
+  response: 7E80561280378CB
+- expected_values:
+    CAMRY_ODO_7E0: 227533
+  response: 7E80561280378CD

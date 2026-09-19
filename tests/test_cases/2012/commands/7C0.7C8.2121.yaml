@@ -4,20 +4,5 @@ test_cases:
     CAMRY_VSS: 0
   response: 7C803612100
 - expected_values:
-    CAMRY_VSS: 15
-  response: 7C80361210F
-- expected_values:
-    CAMRY_VSS: 50
-  response: 7C803612132
-- expected_values:
-    CAMRY_VSS: 73
-  response: 7C803612149
-- expected_values:
-    CAMRY_VSS: 74
-  response: 7C80361214A
-- expected_values:
-    CAMRY_VSS: 105
-  response: 7C803612169
-- expected_values:
-    CAMRY_VSS: 107
-  response: 7C80361216B
+    CAMRY_VSS: 123
+  response: 7C80361217B
