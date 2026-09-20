@@ -1,6 +1,9 @@
 command_id: 700.708.22106C
 test_cases:
 - expected_values:
+    CAMRY_DIST_SINCE_BAT_DISC: 1111
+  response: 7080562106C0457
+- expected_values:
     CAMRY_DIST_SINCE_BAT_DISC: 25498
   response: 7080562106C639A
 - expected_values:
