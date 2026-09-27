@@ -1,4 +1,7 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" }
+  ],
+  "commands": [
 { "hdr": "700", "rax": "708", "cmd": {"22": "1002"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2027 },
   "signals": [
     {"id": "CAMRY_12V_V", "path": "Battery", "fmt": { "len": 16, "max": 79, "mul": 12.207, "div": 10000, "unit": "volts" }, "name": "Battery voltage", "suggestedMetric": "starterBatteryVoltage"}
