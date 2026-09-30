@@ -1,0 +1,11 @@
+command_id: 7B0.7B8.221006
+test_cases:
+- expected_values:
+    CAMRY_MASTER_CYL_TEMP: 32
+  response: 7B8056210067000
+- expected_values:
+    CAMRY_MASTER_CYL_TEMP: 33
+  response: 7B8056210067100
+- expected_values:
+    CAMRY_MASTER_CYL_TEMP: 34
+  response: 7B8056210067200
