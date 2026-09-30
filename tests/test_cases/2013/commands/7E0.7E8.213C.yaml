@@ -1,0 +1,49 @@
+command_id: 7E0.7E8.213C
+test_cases:
+- expected_values:
+    CAMRY_INJ_DUR_CYL_1: 2.455
+    CAMRY_INJ_VOL_CYL_1: 0.00011
+    CAMRY_TOT_FT_1: 1.17188
+  response: 7E807613C0DE9099783
+- expected_values:
+    CAMRY_INJ_DUR_CYL_1: 2.488
+    CAMRY_INJ_VOL_CYL_1: 0.00011
+    CAMRY_TOT_FT_1: 1.95312
+  response: 7E807613C0E3209B885
+- expected_values:
+    CAMRY_INJ_DUR_CYL_1: 2.496
+    CAMRY_INJ_VOL_CYL_1: 0.00011
+    CAMRY_TOT_FT_1: 1.5625
+  response: 7E807613C0E4509C084
+- expected_values:
+    CAMRY_INJ_DUR_CYL_1: 2.503
+    CAMRY_INJ_VOL_CYL_1: 0.00011
+    CAMRY_TOT_FT_1: 2.34375
+  response: 7E807613C0E4C09C786
+- expected_values:
+    CAMRY_INJ_DUR_CYL_1: 2.503
+    CAMRY_INJ_VOL_CYL_1: 0.00011
+    CAMRY_TOT_FT_1: 1.5625
+  response: 7E807613C0E5609C784
+- expected_values:
+    CAMRY_INJ_DUR_CYL_1: 3.418
+    CAMRY_INJ_VOL_CYL_1: 0.00013
+    CAMRY_TOT_FT_1: 0
+  response: 7E807613C0FF90D5A80
+- expected_values:
+    CAMRY_INJ_DUR_CYL_1: 2.833
+    CAMRY_INJ_VOL_CYL_1: 0.00014
+    CAMRY_TOT_FT_1: 0
+  response: 7E807613C112F0B1180
+- expected_values:
+    CAMRY_INJ_DUR_CYL_1: 2.844
+    CAMRY_INJ_VOL_CYL_1: 0.00014
+    CAMRY_TOT_FT_1: 0
+  response: 7E807613C11430B1C80
+- expected_values:
+    CAMRY_INJ_DUR_CYL_1: 2.455
+    CAMRY_INJ_VOL_CYL_1: 0.00011
+    CAMRY_TOT_FT_1: 1.17188
+  response: |-
+    > 7B0.7B8.213C
+    7E807613C0E07099783
