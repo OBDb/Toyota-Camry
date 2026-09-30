@@ -819,7 +819,7 @@
   ]},
 { "hdr": "7D0", "rax": "7D8", "cmd": {"21": "62"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2015, 2016, 2017], "from": 2025 },
   "signals": [
-    {"id": "CAMRY_PARKING_BRAKE_2", "path": "Control", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
+    {"id": "CAMRY_PARKING_BRAKE_2", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"01": "B4"}, "freq": 1,
   "signals": [
