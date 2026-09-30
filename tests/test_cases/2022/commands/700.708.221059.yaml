@@ -1,0 +1,37 @@
+command_id: 700.708.221059
+test_cases:
+- expected_values:
+    CAMRY_ACCEL_PEDAL: 0
+  response: |-
+    708100A621059285128
+    7082151000000000000
+- expected_values:
+    CAMRY_ACCEL_PEDAL: 0
+  response: |-
+    708100A621059285129
+    7082152000000000000
+- expected_values:
+    CAMRY_ACCEL_PEDAL: 1.40869
+  response: |-
+    708100A6210592B5529
+    7082152004000000000
+- expected_values:
+    CAMRY_ACCEL_PEDAL: 14.08475
+  response: |-
+    708100A6210593D6628
+    70821510A2600000000
+- expected_values:
+    CAMRY_ACCEL_PEDAL: 17.60587
+  response: |-
+    708100A621059426B28
+    70821510CC700000000
+- expected_values:
+    CAMRY_ACCEL_PEDAL: 18.3101
+  response: |-
+    708100A621059436C29
+    70821520D0700000000
+- expected_values:
+    CAMRY_ACCEL_PEDAL: 22.53545
+  response: |-
+    708100A621059497328
+    7082151111900000000
