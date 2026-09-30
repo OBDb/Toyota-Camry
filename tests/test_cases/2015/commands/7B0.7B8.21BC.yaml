@@ -1,4 +1,4 @@
-command_id: 7B0.21BC
+command_id: 7B0.7B8.21BC
 test_cases:
 - expected_values:
     CAMRY_HAZARD_SWITCH_HISTORY: INCOMPLETE
