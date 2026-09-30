@@ -1,8 +1,8 @@
 command_id: 7B0.7B8.2146
 test_cases:
 - expected_values:
-    CAMRY_ZP_DEC: 24
-    CAMRY_ZP_DEC2: -25.11
+    CAMRY_ZP_DEC: -0.02
+    CAMRY_ZP_DEC2: 0
     CAMRY_ZP_YAW: 0
   response: |-
     7B810096146FF00807F

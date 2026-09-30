@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.2101|f=-2011
+test_cases:
+- expected_values:
+    CAMRY_CALCULATED_LOAD_7E0_V2: 0
+    CAMRY_VEHICLE_LOAD_V2: 2.88853
+  response: '7E806610100076500'
+- expected_values:
+    CAMRY_CALCULATED_LOAD_7E0_V2: 50.58824
+    CAMRY_VEHICLE_LOAD_V2: 2.88853
+  response: '7E806610181076565'
