@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.210F
+test_cases:
+- expected_values:
+    CAMRY_IAT_21: 30
+  response: 7E803610F46
+- expected_values:
+    CAMRY_IAT_21: 48
+  response: 7E803610F58
