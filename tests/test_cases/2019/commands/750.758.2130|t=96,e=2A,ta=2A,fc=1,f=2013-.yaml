@@ -1,22 +1,20 @@
 command_id: 750.758.2130|t=96,e=2A,ta=2A,fc=1,f=2013-
 test_cases:
 - expected_values:
-    CAMRY_TIRE_P_RR: 2.34483
+    CAMRY_TIRE_P_FL: null
+    CAMRY_TIRE_P_FR: null
+    CAMRY_TIRE_P_RL: null
+    CAMRY_TIRE_P_RR: null
+    CAMRY_TIRE_P_SPARE: null
   response: |-
     7582A10076130000000
-    7582A21A50000000000
+    7582A21000000000000
 - expected_values:
     CAMRY_TIRE_P_RL: 3.27586
     CAMRY_TIRE_P_RR: 3.36207
   response: |-
     7582A100761300000DB
     7582A21E00000000000
-- expected_values:
-    CAMRY_TIRE_P_FR: 2.22414
-    CAMRY_TIRE_P_RL: 2.2931
-  response: |-
-    7582A10076130009EA2
-    7582A21000000000000
 - expected_values:
     CAMRY_TIRE_P_FL: 2.01724
     CAMRY_TIRE_P_FR: 2.24138
