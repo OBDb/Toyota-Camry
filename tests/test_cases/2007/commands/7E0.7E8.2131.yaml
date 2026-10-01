@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2131
+test_cases:
+- expected_values:
+    CAMRY_VALVEMATIC_CURRENT: 25.72266
+  response: 7E80461310A4A
+- expected_values:
+    CAMRY_VALVEMATIC_CURRENT: 25.87891
+  response: 7E80461310A5A

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2147
+test_cases:
+- expected_values:
+    CAMRY_EGR_STEP_POSITION: 128
+  response: '7E803614780'
+- expected_values:
+    CAMRY_EGR_STEP_POSITION: 172
+  response: 7E8036147AC
