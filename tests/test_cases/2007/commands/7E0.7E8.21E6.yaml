@@ -1,0 +1,27 @@
+command_id: 7E0.7E8.21E6
+test_cases:
+- expected_values:
+    CAMRY_AC_COMP: 1
+    CAMRY_FUEL_CUT: 0
+    CAMRY_IDLE_CTRL: 0
+  response: 7E80561E6200001
+- expected_values:
+    CAMRY_AC_COMP: 1
+    CAMRY_FUEL_CUT: 0
+    CAMRY_IDLE_CTRL: 0
+  response: 7E80561E6220001
+- expected_values:
+    CAMRY_AC_COMP: 1
+    CAMRY_FUEL_CUT: 0
+    CAMRY_IDLE_CTRL: 1
+  response: 7E80561E6600001
+- expected_values:
+    CAMRY_AC_COMP: 1
+    CAMRY_FUEL_CUT: 0
+    CAMRY_IDLE_CTRL: 1
+  response: 7E80561E6640001
+- expected_values:
+    CAMRY_AC_COMP: 1
+    CAMRY_FUEL_CUT: 0
+    CAMRY_IDLE_CTRL: 1
+  response: 7E80561E6640201

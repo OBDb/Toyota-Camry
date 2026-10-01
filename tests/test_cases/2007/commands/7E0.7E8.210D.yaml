@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.210D
+test_cases:
+- expected_values:
+    CAMRY_VSS_21: 0
+  response: 7E803610D00
+- expected_values:
+    CAMRY_VSS_21: 75
+  response: 7E803610D4B

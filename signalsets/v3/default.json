@@ -774,7 +774,7 @@
   "signals": [
     {"id": "CAMRY_ADJUSTED_AMBIENT_T", "path": "Climate", "fmt": { "len": 8, "max": 50.8, "min": -30.8, "mul": 81.6, "div": 255, "add": -30.8, "unit": "celsius" }, "name": "Adjusted ambient temperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "41"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "41"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "CAMRY_AIR_MIX_SERVO_TARG_D", "path": "Engine", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo target pulse, driver"},
     {"id": "CAMRY_AIR_MIX_SERVO_ACT_D",  "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo, actual pulse, d"}
@@ -914,27 +914,27 @@
     {"id": "CAMRY_MILON_RUN_DISTANCE",             "path": "DTCs", "fmt": {"bix": 48, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "MIL ON run distance"},
     {"id": "CAMRY_RUNNING_TIME_FROM_MIL_ON",       "path": "DTCs", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "minutes"    }, "name": "Running time from MIL ON"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "07"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "07"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_LTFT1_21", "path": "Engine", "fmt": { "len": 8, "max": 99.15, "min": -100, "mul": 0.7809803922, "add": -100, "unit": "percent" }, "name": "Long-term fuel trim, bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "0D"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_VSS_21", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "0E"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_SPARKADV_21", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Ignition advance"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "0F"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_IAT_21", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "10"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "10"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_MAF_21", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "gramsPerSecond" }, "name": "Mass air flow"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "11"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "11"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_THROTTLE_21", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Throttle position"}
   ]},
@@ -978,11 +978,11 @@
   "signals": [
     {"id": "CAMRY_ODO_7E0", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "2E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "2E"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_EVAP_PURGE_DUTY_7E0", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Evaporative purge duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "31"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "31"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_VALVEMATIC_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 639.9, "mul": 5, "div": 512, "unit": "degrees" }, "name": "Valvematic current angle"}
   ]},
@@ -1020,17 +1020,17 @@
     {"id": "CAMRY_O2_HEATER_CURR_VAL", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4.999,            "div": 13107, "unit": "amps"    }, "name": "O2 heater current val bank 1 sensor 2"},
     {"id": "CAMRY_O2_HEATER_B1S2",     "path": "Engine", "fmt": {"bix": 68, "len": 1,  "max": 1,                              "unit": "scalar"  }, "name": "O2 heater b1s2_active"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012], "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2012], "from": 2014 },
   "signals": [
     {"id": "CAMRY_INJ_VOL_CYL_1", "path": "Engine", "fmt": {           "len": 16, "max": 0.002047,                         "div": 32000000,             "unit": "liters"       }, "name": "Injection volume per 10 injections, cylinder 1"},
     {"id": "CAMRY_INJ_DUR_CYL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65.535,                           "div": 1000,                 "unit": "milliseconds" }, "name": "Injection duration for cylinder 1"},
     {"id": "CAMRY_TOT_FT_1",      "path": "Engine", "fmt": {"bix": 32, "len": 8,  "max": 49.6,     "min": -50, "mul": 100, "div": 256,      "add": -50, "unit": "percent"      }, "name": "Total fuel trim, bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "3E"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "3E"}, "freq": 5, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_CAT_T_B1S2", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature bank 1 sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "41"}, "freq": 3600, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "41"}, "freq": 3600, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010], "from": 2012 },
   "signals": [
     {"id": "CAMRY_THROTTLE_SENS_OPEN_1",      "path": "Engine",   "fmt": {            "len": 8,  "max": 4.98,   "mul": 5,   "div": 256,  "unit": "volts"   }, "name": "Throttle sensor open position 1"},
     {"id": "CAMRY_THROTTLE_SENS_OPEN_2",      "path": "Engine",   "fmt": {"bix": 8,   "len": 8,  "max": 4.98,   "mul": 5,   "div": 256,  "unit": "volts"   }, "name": "Throttle sensor open position 2"},
@@ -1054,7 +1054,7 @@
     {"id": "CAMRY_ACCEL_IDLE_POS_ON",         "path": "Movement", "fmt": {"bix": 148, "len": 1,  "max": 1,                               "unit": "scalar"  }, "name": "Accelerator idle position on"},
     {"id": "CAMRY_THROTTLE_IDLE_POS_ON",      "path": "Engine",   "fmt": {"bix": 149, "len": 1,  "max": 1,                               "unit": "scalar"  }, "name": "Throttle idle position on"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "42"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "42"}, "freq": 5, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_BAT_CURRENT",         "path": "Battery", "fmt": {           "len": 16, "max": 124.9,  "min": -125, "mul": 50, "div": 13107, "add": -125, "unit": "amps"    }, "name": "Battery current"},
     {"id": "CAMRY_BAT_T",               "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 6513.5,                                                    "unit": "celsius" }, "name": "Battery temperature"},
@@ -1062,7 +1062,7 @@
     {"id": "CAMRY_ALT_VOL_ACTIVE_TEST", "path": "Engine",  "fmt": {"bix": 48, "len": 16, "max": 79.998,              "mul": 5,  "div": 4096,               "unit": "volts"   }, "name": "Alt voltage - active test"},
     {"id": "CAMRY_ALTERNATOR_OUTPUT",   "path": "Engine",  "fmt": {"bix": 64, "len": 16, "max": 399.9,               "mul": 25, "div": 4096,               "unit": "percent" }, "name": "Alternator output duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "44"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "44"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010], "from": 2012 },
   "signals": [
     {"id": "CAMRY_VARIABLE_VLV_TIM_AIM_1", "path": "Engine", "fmt": {           "len": 16, "max": 399, "mul": 1333,         "div": 218450, "unit": "percent" }, "name": "Variable valve timing aim angle 1"},
     {"id": "CAMRY_VARIABLE_VLV_TIM_OIL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 399, "mul": 0.0061020829,                "unit": "percent" }, "name": "Variable valve timing oil control valve duty 1"},
@@ -1080,11 +1080,11 @@
     {"id": "CAMRY_IGNITION_TRIG_CNT",         "path": "Control",         "fmt": {"bix": 64, "len": 16, "max": 65535,                                                  "unit": "scalar"  }, "name": "Ignition trigger count"},
     {"id": "CAMRY_MISFIRE_MARGIN_V2",         "path": "Engine.Misfires", "fmt": {"bix": 80, "len": 8,  "max": 127,   "min": -128,                        "add": -128, "unit": "percent" }, "name": "Misfire margin"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "47"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "47"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_EGR_STEP_POSITION", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Exhaust gas recirculation step position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "49"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "49"}, "freq": 3600, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_REQ_ENG_TQ",           "path": "Engine",   "fmt": {           "len": 16, "max": 16383,                                     "div": 4,                 "unit": "scalar"       }, "name": "Requested engine torque"},
     {"id": "CAMRY_HIGH_V_TGT_RPM",       "path": "Movement", "fmt": {"bix": 16, "len": 8,  "max": 6375,                 "mul": 25,                                     "unit": "rpm"          }, "name": "High voltage, target engine speed"},
@@ -1170,7 +1170,7 @@
     {"id": "CAMRY_GEAR_V2",                 "path": "Transmission", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear, variant"},
     {"id": "CAMRY_TORQUE_CONVERTER_LOCKUP", "path": "Transmission", "fmt": {"bix": 8, "len": 1, "max": 1,   "unit": "offon"  }, "name": "Torque converter lockup"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "B2"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "B2"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_KNOCK_ADJUST",   "path": "Engine", "fmt": {           "len": 16, "max": 1984, "min": -64, "mul": 2048, "div": 65535, "add": -64, "unit": "degrees" }, "name": "Knock adjust"},
     {"id": "CAMRY_KNOCK_FEEDBACK", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1984, "min": -64, "mul": 2048, "div": 65535, "add": -64, "unit": "degrees" }, "name": "Knock feedback"}
@@ -1183,18 +1183,18 @@
   "signals": [
     {"id": "CAMRY_CVT_OIL_P", "path": "Engine", "fmt": { "len": 8, "max": 10200, "mul": 40, "unit": "kilopascal" }, "name": "Continuously variable transmission oil pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "C1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "C1"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_CYLINDER_NUMBER", "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 255,                            "unit": "scalar" }, "name": "Cylinder number"},
     {"id": "CAMRY_DESTINATION",     "path": "Engine", "fmt": {"bix": 120, "len": 8, "max": 255,                            "unit": "scalar" }, "name": "Destination"},
     {"id": "CAMRY_MODEL_YEAR",      "path": "Engine", "fmt": {"bix": 128, "len": 8, "max": 2155, "min": 1900, "add": 1900, "unit": "scalar" }, "name": "Model year"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "D3"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "D3"}, "freq": 0.25, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_CRUISE_CTRL_SPD", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"},
     {"id": "CAMRY_CRUISE_CTRL_ON",  "path": "Engine",   "fmt": {"bix": 25, "len": 1, "max": 1,   "unit": "offon"             }, "name": "Cruise control on"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "D9"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "D9"}, "freq": 5, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_ATF_T_V_14", "path": "Transmission", "fmt": {           "len": 16, "max": 215.996, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 14"},
     {"id": "CAMRY_ATF_T_V_21", "path": "Transmission", "fmt": {"bix": 24, "len": 8,  "max": 215,     "min": -40,             "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 21"},
@@ -1209,11 +1209,11 @@
   "signals": [
     {"id": "CAMRY_CVT_LEARNED", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "yesno" }, "name": "Continuously variable transmission learning complete"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "E1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "E1"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_CODES_INCLUDE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Codes, include history"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "E3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "E3"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_CHECK_MODE_ON",        "path": "Engine", "fmt": {           "len": 1, "max": 1, "unit": "scalar" }, "name": "Check mode on"},
     {"id": "CAMRY_SPD_TEST_RESULT",      "path": "Engine", "fmt": {"bix": 2,  "len": 1, "max": 1, "unit": "scalar" }, "name": "Vehicle speed sensor test result, incomplete"},
@@ -1225,13 +1225,13 @@
   "signals": [
     {"id": "CAMRY_INJ_PW", "path": "Engine", "fmt": { "len": 8, "max": 32.6, "mul": 163, "div": 1275, "unit": "milliseconds" }, "name": "Injector pulse width"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "E6"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "E6"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_IDLE_CTRL", "path": "Engine", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Idle control"},
     {"id": "CAMRY_AC_COMP",   "path": "Engine", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Air conditioning compressor"},
     {"id": "CAMRY_FUEL_CUT",  "path": "Fuel",   "fmt": {"bix": 9, "len": 1, "max": 1, "unit": "offon" }, "name": "Fuel cut"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "E7"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "E7"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_EGR_STEP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Exhaust gas recirculation valve step"}
   ]},
@@ -1239,7 +1239,7 @@
   "signals": [
     {"id": "CAMRY_EGR_T", "path": "Engine", "fmt": { "len": 8, "max": 159, "mul": 53, "div": 85, "unit": "celsius" }, "name": "Exhaust gas recirculation temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "F3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "F3"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
     {"id": "CAMRY_FUEL_INJ_TIM", "path": "Fuel",   "fmt": {           "len": 8, "max": 32.64, "mul": 16, "div": 125, "unit": "milliseconds" }, "name": "Fuel injection timing"},
     {"id": "CAMRY_INJ_WIDTH",    "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 32.64, "mul": 16, "div": 125, "unit": "milliseconds" }, "name": "Injector pulse width"}
