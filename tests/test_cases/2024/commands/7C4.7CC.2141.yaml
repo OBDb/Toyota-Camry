@@ -1,0 +1,10 @@
+command_id: 7C4.7CC.2141
+test_cases:
+- expected_values:
+    CAMRY_AIR_MIX_SERVO_ACT_D: 37
+    CAMRY_AIR_MIX_SERVO_TARG_D: 37
+  response: 7CC06614125250000
+- expected_values:
+    CAMRY_AIR_MIX_SERVO_ACT_D: 91
+    CAMRY_AIR_MIX_SERVO_TARG_D: 91
+  response: 7CC0661415B5B0000

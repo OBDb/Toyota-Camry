@@ -1,0 +1,11 @@
+command_id: 701.709.220103
+test_cases:
+- expected_values:
+    CAMRY_ODO: 28103
+  response: 7090762010302006DC7
+- expected_values:
+    CAMRY_ODO: 28159
+  response: 7090762010302006DFF
+- expected_values:
+    CAMRY_ODO: 28161
+  response: '7090762010302006E01'
