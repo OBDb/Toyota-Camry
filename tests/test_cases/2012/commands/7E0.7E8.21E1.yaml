@@ -1,0 +1,42 @@
+command_id: 7E0.7E8.21E1
+test_cases:
+- expected_values:
+    CAMRY_CODES_INCLUDE: 2
+  response: |-
+    7E8100A61E1020272CA
+    7E8210000171A000000
+- expected_values:
+    CAMRY_CODES_INCLUDE: 2
+  response: |-
+    7E8100A61E1020272CA
+    7E8210000183F000000
+- expected_values:
+    CAMRY_CODES_INCLUDE: 2
+  response: |-
+    7E8100A61E1020272CA
+    7E82100001AC8000000
+- expected_values:
+    CAMRY_CODES_INCLUDE: 2
+  response: |-
+    7E8100A61E1020272CA
+    7E82100001BAA000000
+- expected_values:
+    CAMRY_CODES_INCLUDE: 2
+  response: |-
+    7E8100A61E1020272CA
+    7E82100001E7C000000
+- expected_values:
+    CAMRY_CODES_INCLUDE: 2
+  response: |-
+    7E8100A61E1020272CA
+    7E82100001FAB000000
+- expected_values:
+    CAMRY_CODES_INCLUDE: 2
+  response: |-
+    7E8100A61E1020272CA
+    7E821000020F5000000
+- expected_values:
+    CAMRY_CODES_INCLUDE: 2
+  response: |-
+    7E8100A61E1020272CA
+    7E82100002427000000

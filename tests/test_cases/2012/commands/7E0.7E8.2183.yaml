@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.2183
+test_cases:
+- expected_values:
+    CAMRY_G_SENS_CALIBRATION: 0
+    CAMRY_TRANS_OIL_PRESS: 0
+  response: '7E803618300'
