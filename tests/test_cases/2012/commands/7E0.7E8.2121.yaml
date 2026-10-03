@@ -5,6 +5,15 @@ test_cases:
   response: '7E80761210000000080'
 - expected_values:
     CAMRY_CC_S: 0
+  response: 7E807612114000080E0
+- expected_values:
+    CAMRY_CC_S: 0
+  response: 7E8076121240000BCE0
+- expected_values:
+    CAMRY_CC_S: 47
+  response: 7E80761212E2F0FFC00
+- expected_values:
+    CAMRY_CC_S: 0
   response: '7E80761213200008000'
 - expected_values:
     CAMRY_CC_S: 0

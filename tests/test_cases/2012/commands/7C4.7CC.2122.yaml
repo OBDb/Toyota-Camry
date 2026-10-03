@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAMRY_AAT_7C4: 18
   response: 7CC03612276
+- expected_values:
+    CAMRY_AAT_7C4: 19.05
+  response: 7CC03612279

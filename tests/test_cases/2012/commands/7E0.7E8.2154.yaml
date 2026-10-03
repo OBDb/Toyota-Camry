@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2154
+test_cases:
+- expected_values:
+    CAMRY_AV_RPM_ALL_CYL: 51199
+    CAMRY_RPM_CYL_1: 51199
+    CAMRY_RPM_CYL_2: 51199
+    CAMRY_RPM_CYL_3: 51199
+    CAMRY_RPM_CYL_4: 51199
+  response: |-
+    7E8100C6154FFFFFFFF
+    7E821FFFFFFFFFFFF00
