@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.21B2
+test_cases:
+- expected_values:
+    CAMRY_KNOCK_ADJUST: -63.96875
+    CAMRY_KNOCK_FEEDBACK: 1032.01672
+  response: |-
+    7E8100D61B200018900
+    7E82118000000190000
