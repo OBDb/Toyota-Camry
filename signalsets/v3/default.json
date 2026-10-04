@@ -766,7 +766,7 @@
   "signals": [
     {"id": "CAMRY_T_DRIVER", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Set temperature, driver side"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2016, 2017], "from": 2025 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2016, 2017], "from": 2025 },
   "signals": [
     {"id": "CAMRY_BLOWER_MOTOR_SPEED_LEVEL", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Blower motor speed level"}
   ]},
@@ -978,7 +978,7 @@
   "signals": [
     {"id": "CAMRY_ODO_7E0", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "2E"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "2E"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008], "from": 2010 },
   "signals": [
     {"id": "CAMRY_EVAP_PURGE_DUTY_7E0", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Evaporative purge duty"}
   ]},
@@ -1020,7 +1020,7 @@
     {"id": "CAMRY_O2_HEATER_CURR_VAL", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4.999,            "div": 13107, "unit": "amps"    }, "name": "O2 heater current val bank 1 sensor 2"},
     {"id": "CAMRY_O2_HEATER_B1S2",     "path": "Engine", "fmt": {"bix": 68, "len": 1,  "max": 1,                              "unit": "scalar"  }, "name": "O2 heater b1s2_active"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010], "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2010], "from": 2014 },
   "signals": [
     {"id": "CAMRY_INJ_VOL_CYL_1", "path": "Engine", "fmt": {           "len": 16, "max": 0.002047,                         "div": 32000000,             "unit": "liters"       }, "name": "Injection volume per 10 injections, cylinder 1"},
     {"id": "CAMRY_INJ_DUR_CYL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65.535,                           "div": 1000,                 "unit": "milliseconds" }, "name": "Injection duration for cylinder 1"},
@@ -1239,7 +1239,7 @@
   "signals": [
     {"id": "CAMRY_EGR_T", "path": "Engine", "fmt": { "len": 8, "max": 159, "mul": 53, "div": 85, "unit": "celsius" }, "name": "Exhaust gas recirculation temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "F3"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "F3"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008], "from": 2010 },
   "signals": [
     {"id": "CAMRY_FUEL_INJ_TIM", "path": "Fuel",   "fmt": {           "len": 8, "max": 32.64, "mul": 16, "div": 125, "unit": "milliseconds" }, "name": "Fuel injection timing"},
     {"id": "CAMRY_INJ_WIDTH",    "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 32.64, "mul": 16, "div": 125, "unit": "milliseconds" }, "name": "Injector pulse width"}
