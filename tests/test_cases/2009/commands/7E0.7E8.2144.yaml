@@ -1,10 +1,7 @@
-command_id: 7C4.7CC.2144
+command_id: 7E0.7E8.2144
 test_cases:
 - expected_values:
-    CAMRY_AIR_INLET_DAMPER_TARGET_PULSE: 28
-  response: 7CC0361441C
-- expected_values:
-    CAMRY_AIR_INLET_DAMPER_TARGET_PULSE: 28
+    CAMRY_VARIABLE_VLV_TIM_AIM_1: 199.86762
   response: |-
     7E8046144765B000000
     7E80461447877000000
