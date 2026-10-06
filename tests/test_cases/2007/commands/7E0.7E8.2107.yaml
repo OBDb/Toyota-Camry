@@ -4,17 +4,5 @@ test_cases:
     CAMRY_LTFT1_21: -17.99706
   response: '7E803610769'
 - expected_values:
-    CAMRY_LTFT1_21: -16.4351
-  response: 7E80361076B
-- expected_values:
-    CAMRY_LTFT1_21: -15.65412
-  response: 7E80361076C
-- expected_values:
-    CAMRY_LTFT1_21: -14.87314
-  response: 7E80361076D
-- expected_values:
-    CAMRY_LTFT1_21: -14.09216
-  response: 7E80361076E
-- expected_values:
-    CAMRY_LTFT1_21: -13.31118
-  response: 7E80361076F
+    CAMRY_LTFT1_21: 6.21333
+  response: '7E803610788'

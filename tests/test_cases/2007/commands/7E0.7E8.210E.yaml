@@ -4,5 +4,5 @@ test_cases:
     CAMRY_SPARKADV_21: 5
   response: 7E803610E8A
 - expected_values:
-    CAMRY_SPARKADV_21: 31
-  response: 7E803610EBE
+    CAMRY_SPARKADV_21: 37.5
+  response: 7E803610ECB

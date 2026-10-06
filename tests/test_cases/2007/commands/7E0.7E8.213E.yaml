@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.213E
 test_cases:
 - expected_values:
-    CAMRY_CAT_T_B1S2: 375
-  response: 7E804613E1036
+    CAMRY_CAT_T_B1S2: 283
+  response: 7E804613E0C9E
 - expected_values:
     CAMRY_CAT_T_B1S2: 395.8
   response: 7E804613E1106
@@ -10,5 +10,5 @@ test_cases:
     CAMRY_CAT_T_B1S2: 548.6
   response: 7E804613E16FE
 - expected_values:
-    CAMRY_CAT_T_B1S2: 634.6
-  response: 7E804613E1A5A
+    CAMRY_CAT_T_B1S2: 740.1
+  response: 7E804613E1E79
