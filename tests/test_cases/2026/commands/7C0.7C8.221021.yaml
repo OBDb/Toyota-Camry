@@ -1,0 +1,20 @@
+command_id: 7C0.7C8.221021
+test_cases:
+- expected_values:
+    CAMRY_BATTERY_VOLTAGE_7C0: 12.6
+  response: '7C8 04 62 10 21 7E '
+- expected_values:
+    CAMRY_BATTERY_VOLTAGE_7C0: 12.7
+  response: '7C8 04 62 10 21 7F '
+- expected_values:
+    CAMRY_BATTERY_VOLTAGE_7C0: 12.6
+  response: 7C8046210217E
+- expected_values:
+    CAMRY_BATTERY_VOLTAGE_7C0: 12.7
+  response: 7C8046210217F
+- expected_values:
+    CAMRY_BATTERY_VOLTAGE_7C0: 13.5
+  response: 7C80462102187
+- expected_values:
+    CAMRY_BATTERY_VOLTAGE_7C0: 14.2
+  response: 7C8046210218E

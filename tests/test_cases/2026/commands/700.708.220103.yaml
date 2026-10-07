@@ -1,0 +1,20 @@
+command_id: 700.708.220103
+test_cases:
+- expected_values:
+    CAMRY_ENG_ODO: 19706
+  response: '708 07 62 01 03 02 00 4C FA '
+- expected_values:
+    CAMRY_ENG_ODO: 19701
+  response: 7080762010302004CF5
+- expected_values:
+    CAMRY_ENG_ODO: 19702
+  response: 7080762010302004CF6
+- expected_values:
+    CAMRY_ENG_ODO: 19703
+  response: 7080762010302004CF7
+- expected_values:
+    CAMRY_ENG_ODO: 19704
+  response: 7080762010302004CF8
+- expected_values:
+    CAMRY_ENG_ODO: 19705
+  response: 7080762010302004CF9
