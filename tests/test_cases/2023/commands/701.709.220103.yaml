@@ -1,0 +1,29 @@
+command_id: 701.709.220103
+test_cases:
+- expected_values:
+    CAMRY_ODO: 48029
+  response: 709076201030200BB9D
+- expected_values:
+    CAMRY_ODO: 48030
+  response: 709076201030200BB9E
+- expected_values:
+    CAMRY_ODO: 48032
+  response: 709076201030200BBA0
+- expected_values:
+    CAMRY_ODO: 48035
+  response: 709076201030200BBA3
+- expected_values:
+    CAMRY_ODO: 48036
+  response: 709076201030200BBA4
+- expected_values:
+    CAMRY_ODO: 48039
+  response: 709076201030200BBA7
+- expected_values:
+    CAMRY_ODO: 48043
+  response: 709076201030200BBAB
+- expected_values:
+    CAMRY_ODO: 48045
+  response: 709076201030200BBAD
+- expected_values:
+    CAMRY_ODO: 48046
+  response: 709076201030200BBAE

@@ -1,0 +1,26 @@
+command_id: 700.708.221F2F
+test_cases:
+- expected_values:
+    CAMRY_FLI: 55.29412
+  response: 70804621F2F8D
+- expected_values:
+    CAMRY_FLI: 58.82353
+  response: 70804621F2F96
+- expected_values:
+    CAMRY_FLI: 60
+  response: 70804621F2F99
+- expected_values:
+    CAMRY_FLI: 60.39216
+  response: 70804621F2F9A
+- expected_values:
+    CAMRY_FLI: 62.35294
+  response: 70804621F2F9F
+- expected_values:
+    CAMRY_FLI: 64.31373
+  response: 70804621F2FA4
+- expected_values:
+    CAMRY_FLI: 65.09804
+  response: 70804621F2FA6
+- expected_values:
+    CAMRY_FLI: 66.66667
+  response: 70804621F2FAA
