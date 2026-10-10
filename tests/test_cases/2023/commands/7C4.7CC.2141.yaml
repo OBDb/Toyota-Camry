@@ -1,0 +1,26 @@
+command_id: 7C4.7CC.2141
+test_cases:
+- expected_values:
+    CAMRY_AIR_MIX_SERVO_ACT_D: 108
+    CAMRY_AIR_MIX_SERVO_TARG_D: 108
+  response: 7CC0661416C6C0A04
+- expected_values:
+    CAMRY_AIR_MIX_SERVO_ACT_D: 111
+    CAMRY_AIR_MIX_SERVO_TARG_D: 111
+  response: 7CC0661416F6F0A04
+- expected_values:
+    CAMRY_AIR_MIX_SERVO_ACT_D: 114
+    CAMRY_AIR_MIX_SERVO_TARG_D: 114
+  response: 7CC06614172720A04
+- expected_values:
+    CAMRY_AIR_MIX_SERVO_ACT_D: 117
+    CAMRY_AIR_MIX_SERVO_TARG_D: 117
+  response: 7CC06614175750A04
+- expected_values:
+    CAMRY_AIR_MIX_SERVO_ACT_D: 125
+    CAMRY_AIR_MIX_SERVO_TARG_D: 125
+  response: 7CC0661417D7D0A04
+- expected_values:
+    CAMRY_AIR_MIX_SERVO_ACT_D: 129
+    CAMRY_AIR_MIX_SERVO_TARG_D: 129
+  response: 7CC06614181810A04
