@@ -922,7 +922,7 @@
   "signals": [
     {"id": "CAMRY_VSS_21", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "0E"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "0E"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008], "from": 2010 },
   "signals": [
     {"id": "CAMRY_SPARKADV_21", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Ignition advance"}
   ]},
@@ -1170,7 +1170,7 @@
     {"id": "CAMRY_GEAR_V2",                 "path": "Transmission", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear, variant"},
     {"id": "CAMRY_TORQUE_CONVERTER_LOCKUP", "path": "Transmission", "fmt": {"bix": 8, "len": 1, "max": 1,   "unit": "offon"  }, "name": "Torque converter lockup"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "B2"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011], "from": 2013 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "B2"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2010, 2011], "from": 2013 },
   "signals": [
     {"id": "CAMRY_KNOCK_ADJUST",   "path": "Engine", "fmt": {           "len": 16, "max": 1984, "min": -64, "mul": 2048, "div": 65535, "add": -64, "unit": "degrees" }, "name": "Knock adjust"},
     {"id": "CAMRY_KNOCK_FEEDBACK", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1984, "min": -64, "mul": 2048, "div": 65535, "add": -64, "unit": "degrees" }, "name": "Knock feedback"}
