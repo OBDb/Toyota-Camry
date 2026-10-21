@@ -1,6 +1,9 @@
 command_id: 700.708.221F2F
 test_cases:
 - expected_values:
+    CAMRY_FLI: 53.72549
+  response: 70804621F2F89
+- expected_values:
     CAMRY_FLI: 63.52941
   response: 70804621F2FA2
 - expected_values:
