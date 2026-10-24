@@ -1014,11 +1014,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "3A"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
-    {"id": "CAMRY_VALVEMATIC_TGT_ANG", "path": "Engine", "fmt": {           "len": 16, "max": 639.9, "mul": 5,  "div": 512,   "unit": "degrees" }, "name": "Valvematic, target angle"},
-    {"id": "CAMRY_PURGE_CUT_VSV_DUTY", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 399.9, "mul": 25, "div": 4096,  "unit": "percent" }, "name": "Purge cut vacuum switching valve duty"},
-    {"id": "CAMRY_F_HEATER_DUTY_B1S1", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 399.9, "mul": 25, "div": 4096,  "unit": "percent" }, "name": "A/F heater duty bank 1 sensor 1"},
-    {"id": "CAMRY_O2_HEATER_CURR_VAL", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4.999,            "div": 13107, "unit": "amps"    }, "name": "O2 heater current val bank 1 sensor 2"},
-    {"id": "CAMRY_O2_HEATER_B1S2",     "path": "Engine", "fmt": {"bix": 68, "len": 1,  "max": 1,                              "unit": "scalar"  }, "name": "O2 heater b1s2_active"}
+    {"id": "CAMRY_VALVEMATIC_TGT_ANG", "path": "Engine", "fmt": {           "len": 16, "max": 639.9, "mul": 5, "div": 512,   "unit": "degrees" }, "name": "Valvematic, target angle"},
+    {"id": "CAMRY_PURGE_CUT_VSV_DUTY", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65535,                         "unit": "scalar"  }, "name": "Purge cut vacuum switching valve duty, raw count"},
+    {"id": "CAMRY_F_HEATER_DUTY_B1S1", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 65535,                         "unit": "scalar"  }, "name": "A/F heater duty bank 1 sensor 1, raw count"},
+    {"id": "CAMRY_O2_HEATER_CURR_VAL", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4.999,           "div": 13107, "unit": "amps"    }, "name": "O2 heater current val bank 1 sensor 2"},
+    {"id": "CAMRY_O2_HEATER_B1S2",     "path": "Engine", "fmt": {"bix": 68, "len": 1,  "max": 1,                             "unit": "scalar"  }, "name": "O2 heater b1s2_active"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2010], "from": 2014 },
   "signals": [
@@ -1064,9 +1064,9 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "44"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2010], "from": 2013 },
   "signals": [
-    {"id": "CAMRY_VARIABLE_VLV_TIM_AIM_1", "path": "Engine", "fmt": {           "len": 16, "max": 399, "mul": 1333,         "div": 218450, "unit": "percent" }, "name": "Variable valve timing aim angle 1"},
-    {"id": "CAMRY_VARIABLE_VLV_TIM_OIL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 399, "mul": 0.0061020829,                "unit": "percent" }, "name": "Variable valve timing oil control valve duty 1"},
-    {"id": "CAMRY_VARIABLE_VLV_TIM_1",     "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 639, "mul": 0.0097642481,                "unit": "degrees" }, "name": "Variable valve timing change angle 1"}
+    {"id": "CAMRY_VARIABLE_VLV_TIM_AIM_1", "path": "Engine", "fmt": {           "len": 16, "max": 65535,                      "unit": "scalar"  }, "name": "Variable valve timing aim angle 1, raw count"},
+    {"id": "CAMRY_VARIABLE_VLV_TIM_OIL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 399,   "mul": 0.0061020829, "unit": "percent" }, "name": "Variable valve timing oil control valve duty 1"},
+    {"id": "CAMRY_VARIABLE_VLV_TIM_1",     "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 639,   "mul": 0.0097642481, "unit": "degrees" }, "name": "Variable valve timing change angle 1"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "45"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2016 },
   "signals": [

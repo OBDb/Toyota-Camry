@@ -1,7 +1,7 @@
 command_id: 7E0.7E8.2144
 test_cases:
 - expected_values:
-    CAMRY_VARIABLE_VLV_TIM_AIM_1: 199.86762
+    CAMRY_VARIABLE_VLV_TIM_AIM_1: 32754
   response: |-
     7E8046144765B000000
     7E80461447877000000
