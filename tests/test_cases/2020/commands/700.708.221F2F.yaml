@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CAMRY_FLI: 27.84314
   response: 70804621F2F47
+- expected_values:
+    CAMRY_FLI: 60.78431
+  response: 70804621F2F9B

@@ -1,5 +1,8 @@
 command_id: 701.709.220103
 test_cases:
 - expected_values:
+    CAMRY_ODO: 77952
+  response: '7090762010302013080'
+- expected_values:
     CAMRY_ODO: 119075
   response: 709076201030201D123

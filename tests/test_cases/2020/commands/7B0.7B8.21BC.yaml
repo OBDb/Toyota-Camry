@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAMRY_HAZARD_SWITCH_HISTORY: INCOMPLETE
   response: 7B80361BC04
+- expected_values:
+    CAMRY_HAZARD_SWITCH_HISTORY: INCOMPLETE
+  response: 7B80461BC0000
