@@ -1,6 +1,23 @@
 command_id: 750.758.221005|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
+    CAMRY_TP_1: 30.90909
+    CAMRY_TP_2: 31.39394
+    CAMRY_TP_4: 30.90909
+  response: |-
+    7582A100D6210050097
+    7582A21009900000097
+    7582A22000000000000
+- expected_values:
+    CAMRY_TP_1: 30.90909
+    CAMRY_TP_2: 31.39394
+    CAMRY_TP_3: 30.90909
+    CAMRY_TP_4: 31.15152
+  response: |-
+    7582A100D6210050097
+    7582A21009900970098
+    7582A22000000000000
+- expected_values:
     CAMRY_TP_1: 36.48485
     CAMRY_TP_2: 37.93939
     CAMRY_TP_3: 36.72727
