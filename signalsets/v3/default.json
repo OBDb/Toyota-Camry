@@ -944,7 +944,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2016 },
   "signals": [
-    {"id": "CAMRY_CC_S", "path": "Cruise control", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"}
+    {"id": "CAMRY_CC_S", "path": "Cruise control", "fmt": {"bix": 8, "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed", "suggestedMetric": "cruiseSetSpeed"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "24"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2012 },
   "signals": [

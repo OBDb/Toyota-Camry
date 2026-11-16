@@ -4,7 +4,10 @@ test_cases:
     CAMRY_CC_S: 0
   response: '7E80461210000'
 - expected_values:
-    CAMRY_CC_S: 255
+    CAMRY_CC_S: 254
+  response: 7E804612100FE
+- expected_values:
+    CAMRY_CC_S: null
   response: 7E804612100FF
 - expected_values:
     CAMRY_CC_S: 0
