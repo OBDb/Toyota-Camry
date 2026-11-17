@@ -1,8 +1,10 @@
 command_id: 701.709.220103
 test_cases:
 - expected_values:
-    CAMRY_ODO: 74710
+    CAMRY_ODO_RAW: 74710
+    CAMRY_ODO_UNIT: MI
   response: 70907620103020123D6
 - expected_values:
-    CAMRY_ODO: 74711
+    CAMRY_ODO_RAW: 74711
+    CAMRY_ODO_UNIT: MI
   response: 70907620103020123D7

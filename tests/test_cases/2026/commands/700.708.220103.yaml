@@ -1,20 +1,26 @@
 command_id: 700.708.220103
 test_cases:
 - expected_values:
-    CAMRY_ENG_ODO: 19706
+    CAMRY_ENG_ODO_RAW: 19706
+    CAMRY_ENG_ODO_UNIT: MI
   response: '708 07 62 01 03 02 00 4C FA '
 - expected_values:
-    CAMRY_ENG_ODO: 19701
+    CAMRY_ENG_ODO_RAW: 19701
+    CAMRY_ENG_ODO_UNIT: MI
   response: 7080762010302004CF5
 - expected_values:
-    CAMRY_ENG_ODO: 19702
+    CAMRY_ENG_ODO_RAW: 19702
+    CAMRY_ENG_ODO_UNIT: MI
   response: 7080762010302004CF6
 - expected_values:
-    CAMRY_ENG_ODO: 19703
+    CAMRY_ENG_ODO_RAW: 19703
+    CAMRY_ENG_ODO_UNIT: MI
   response: 7080762010302004CF7
 - expected_values:
-    CAMRY_ENG_ODO: 19704
+    CAMRY_ENG_ODO_RAW: 19704
+    CAMRY_ENG_ODO_UNIT: MI
   response: 7080762010302004CF8
 - expected_values:
-    CAMRY_ENG_ODO: 19705
+    CAMRY_ENG_ODO_RAW: 19705
+    CAMRY_ENG_ODO_UNIT: MI
   response: 7080762010302004CF9
