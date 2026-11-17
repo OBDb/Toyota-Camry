@@ -693,22 +693,22 @@
   "signals": [
     {"id": "CAMRY_STEERING_ANGLE_7B3", "path": "Control", "fmt": { "len": 16, "max": 410, "min": -410, "mul": 1.5, "sign": true, "unit": "degrees" }, "name": "Steering angle"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "12"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2010, 2011], "from": 2016 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "12"}, "freq": 1, "filter": { "to": 2017, "from": 2028 }, "dbgfilter": { "to": 2006, "years": [2008, 2010, 2011], "from": 2016 },
   "signals": [
     {"id": "CAMRY_TAIL_CANCEL_LIGHT",       "path": "Lights", "fmt": {"bix": 2,  "len": 1, "max": 1, "unit": "offon" }, "name": "Tail cancel SW"},
     {"id": "CAMRY_P_SEATBELT_BUCKLE_LIGHT", "path": "Lights", "fmt": {"bix": 8,  "len": 1, "max": 1, "unit": "offon" }, "name": "P-seatbelt buckle SW"},
     {"id": "CAMRY_CHECK_ENGINE_LIGHT",      "path": "Lights", "fmt": {"bix": 15, "len": 1, "max": 1, "unit": "offon" }, "name": "Check engine SW"},
     {"id": "CAMRY_EOP_LIGHT",               "path": "Lights", "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil pressure switch"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "13"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2010, 2011], "from": 2016 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "13"}, "freq": 1, "filter": { "to": 2017, "from": 2028 }, "dbgfilter": { "to": 2006, "years": [2008, 2010, 2011], "from": 2016 },
   "signals": [
     {"id": "CAMRY_BAT_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Battery voltage"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "21"}, "freq": 0.25, "dbgfilter": { "to": 2006, "years": [2008, 2010], "from": 2016 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "21"}, "freq": 0.25, "filter": { "to": 2017, "from": 2028 }, "dbgfilter": { "to": 2006, "years": [2008, 2010], "from": 2016 },
   "signals": [
     {"id": "CAMRY_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "23"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2010], "from": 2016 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "23"}, "freq": 1, "filter": { "to": 2017, "from": 2028 }, "dbgfilter": { "to": 2006, "years": [2008, 2010], "from": 2016 },
   "signals": [
     {"id": "CAMRY_ECT_7C0", "path": "Engine", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Engine coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
@@ -716,15 +716,15 @@
   "signals": [
     {"id": "CAMRY_FUEL_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel input"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "41"}, "freq": 5, "dbgfilter": { "to": 2006, "years": [2008, 2010], "from": 2016 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "41"}, "freq": 5, "filter": { "to": 2017, "from": 2028 }, "dbgfilter": { "to": 2006, "years": [2008, 2010], "from": 2016 },
   "signals": [
     {"id": "CAMRY_OIL_CHANGE_ODO", "path": "Fluids", "fmt": { "len": 8, "max": 41038.272, "mul": 2514600, "div": 15625, "unit": "kilometers" }, "name": "Distance since oil change"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "68"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008], "from": 2010 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "68"}, "freq": 1, "filter": { "to": 2011, "from": 2028 }, "dbgfilter": { "to": 2006, "years": [2008], "from": 2010 },
   "signals": [
     {"id": "CAMRY_RHEOSTAT", "path": "Lights", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Rheostat", "description": "Higher values are brighter"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "A1"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2010], "from": 2016 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "A1"}, "freq": 1, "filter": { "to": 2017, "from": 2028 }, "dbgfilter": { "to": 2006, "years": [2008, 2010], "from": 2016 },
   "signals": [
     {"id": "CAMRY_KEY_REMIND_SOUND", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Key remind sound"}
   ]},
