@@ -13,5 +13,8 @@ test_cases:
     CAMRY_BATTERY_VOLTAGE_7C0: 13.4
   response: 7C80462102186
 - expected_values:
+    CAMRY_BATTERY_VOLTAGE_7C0: 14.2
+  response: 7C8046210218E
+- expected_values:
     CAMRY_BATTERY_VOLTAGE_7C0: 14.3
   response: 7C8046210218F
