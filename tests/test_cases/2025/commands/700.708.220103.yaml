@@ -5,6 +5,26 @@ test_cases:
     CAMRY_ENG_ODO_UNIT: KM
   response: 70807620103010047AD
 - expected_values:
+    CAMRY_ENG_ODO_RAW: 45986
+    CAMRY_ENG_ODO_UNIT: MI
+  response: 708076201030200B3A2
+- expected_values:
+    CAMRY_ENG_ODO_RAW: 45987
+    CAMRY_ENG_ODO_UNIT: MI
+  response: 708076201030200B3A3
+- expected_values:
+    CAMRY_ENG_ODO_RAW: 45988
+    CAMRY_ENG_ODO_UNIT: MI
+  response: 708076201030200B3A4
+- expected_values:
+    CAMRY_ENG_ODO_RAW: 45989
+    CAMRY_ENG_ODO_UNIT: MI
+  response: 708076201030200B3A5
+- expected_values:
+    CAMRY_ENG_ODO_RAW: 45990
+    CAMRY_ENG_ODO_UNIT: MI
+  response: 708076201030200B3A6
+- expected_values:
     CAMRY_ENG_ODO_RAW: 48163
     CAMRY_ENG_ODO_UNIT: MI
   response: 708076201030200BC23
