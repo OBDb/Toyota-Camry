@@ -16,6 +16,11 @@ test_cases:
     CAMRY_IDLE_CTRL: 1
   response: 7E80561E6580000
 - expected_values:
+    CAMRY_AC_COMP: 0
+    CAMRY_FUEL_CUT: 0
+    CAMRY_IDLE_CTRL: 1
+  response: 7E80561E65C0000
+- expected_values:
     CAMRY_AC_COMP: 1
     CAMRY_FUEL_CUT: 0
     CAMRY_IDLE_CTRL: 1
@@ -30,3 +35,8 @@ test_cases:
     CAMRY_FUEL_CUT: 0
     CAMRY_IDLE_CTRL: 1
   response: 7E80561E66C0000
+- expected_values:
+    CAMRY_AC_COMP: 1
+    CAMRY_FUEL_CUT: 0
+    CAMRY_IDLE_CTRL: 1
+  response: 7E80561E6700000

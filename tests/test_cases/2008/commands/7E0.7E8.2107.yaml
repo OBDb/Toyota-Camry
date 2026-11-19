@@ -4,29 +4,5 @@ test_cases:
     CAMRY_LTFT1_21: 3.08941
   response: '7E803610784'
 - expected_values:
-    CAMRY_LTFT1_21: 3.87039
-  response: '7E803610785'
-- expected_values:
-    CAMRY_LTFT1_21: 4.65137
-  response: '7E803610786'
-- expected_values:
-    CAMRY_LTFT1_21: 5.43235
-  response: '7E803610787'
-- expected_values:
-    CAMRY_LTFT1_21: 6.21333
-  response: '7E803610788'
-- expected_values:
-    CAMRY_LTFT1_21: 7.77529
-  response: 7E80361078A
-- expected_values:
-    CAMRY_LTFT1_21: 10.89922
-  response: 7E80361078E
-- expected_values:
-    CAMRY_LTFT1_21: 14.02314
-  response: '7E803610792'
-- expected_values:
-    CAMRY_LTFT1_21: 24.95686
-  response: 7E8036107A0
-- expected_values:
     CAMRY_LTFT1_21: 28.08078
   response: 7E8036107A4

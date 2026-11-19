@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.213C
 test_cases:
 - expected_values:
-    CAMRY_INJ_VOL_CYL_1: 0.0002
-  response: 7E804613C1973
+    CAMRY_INJ_VOL_CYL_1: 9.3093749999999996e-05
+  response: 7E804613C0BA3
 - expected_values:
     CAMRY_INJ_VOL_CYL_1: 0.00021
   response: 7E804613C19FA
