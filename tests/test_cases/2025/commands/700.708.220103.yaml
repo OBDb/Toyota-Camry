@@ -9,9 +9,9 @@ test_cases:
     CAMRY_ENG_ODO_UNIT: MI
   response: 708076201030200B3A2
 - expected_values:
-    CAMRY_ENG_ODO_RAW: 46051
+    CAMRY_ENG_ODO_RAW: 46060
     CAMRY_ENG_ODO_UNIT: MI
-  response: 708076201030200B3E3
+  response: 708076201030200B3EC
 - expected_values:
     CAMRY_ENG_ODO_RAW: 48163
     CAMRY_ENG_ODO_UNIT: MI
