@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2142
 test_cases:
 - expected_values:
-    CAMRY_BAT_CURRENT: -72.47463
-  response: 7E804614235C9
+    CAMRY_BAT_CURRENT: -73.14603
+  response: '7E80461423519'
 - expected_values:
     CAMRY_BAT_CURRENT: -72.32586
   response: 7E804614235F0

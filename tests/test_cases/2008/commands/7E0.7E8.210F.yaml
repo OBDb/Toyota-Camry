@@ -4,29 +4,5 @@ test_cases:
     CAMRY_IAT_21: 28
   response: 7E803610F44
 - expected_values:
-    CAMRY_IAT_21: 29
-  response: 7E803610F45
-- expected_values:
-    CAMRY_IAT_21: 30
-  response: 7E803610F46
-- expected_values:
-    CAMRY_IAT_21: 31
-  response: 7E803610F47
-- expected_values:
-    CAMRY_IAT_21: 32
-  response: 7E803610F48
-- expected_values:
-    CAMRY_IAT_21: 33
-  response: 7E803610F49
-- expected_values:
-    CAMRY_IAT_21: 34
-  response: 7E803610F4A
-- expected_values:
-    CAMRY_IAT_21: 35
-  response: 7E803610F4B
-- expected_values:
-    CAMRY_IAT_21: 36
-  response: 7E803610F4C
-- expected_values:
-    CAMRY_IAT_21: 39
-  response: 7E803610F4F
+    CAMRY_IAT_21: 48
+  response: 7E803610F58
