@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2144
+test_cases:
+- expected_values:
+    CAMRY_VARIABLE_VLV_TIM_AIM_1: 25613
+  response: 7E8046144640D
+- expected_values:
+    CAMRY_VARIABLE_VLV_TIM_AIM_1: 29228
+  response: 7E8046144722C
+- expected_values:
+    CAMRY_VARIABLE_VLV_TIM_AIM_1: 29798
+  response: '7E80461447466'
+- expected_values:
+    CAMRY_VARIABLE_VLV_TIM_AIM_1: 30299
+  response: 7E8046144765B
+- expected_values:
+    CAMRY_VARIABLE_VLV_TIM_AIM_1: 31306
+  response: 7E80461447A4A
+- expected_values:
+    CAMRY_VARIABLE_VLV_TIM_AIM_1: 32684
+  response: 7E80461447FAC

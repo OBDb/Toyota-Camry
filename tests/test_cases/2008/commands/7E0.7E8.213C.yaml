@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.213C
+test_cases:
+- expected_values:
+    CAMRY_INJ_VOL_CYL_1: 0.0002
+  response: 7E804613C1973
+- expected_values:
+    CAMRY_INJ_VOL_CYL_1: 0.00021
+  response: 7E804613C19FA
+- expected_values:
+    CAMRY_INJ_VOL_CYL_1: 0.00024
+  response: 7E804613C1E09
+- expected_values:
+    CAMRY_INJ_VOL_CYL_1: 0.00028
+  response: 7E804613C22AD
