@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2110
+test_cases:
+- expected_values:
+    CAMRY_MAF_21: 1.71
+  response: 7E804611000AB
+- expected_values:
+    CAMRY_MAF_21: 10.23
+  response: 7E804611003FF
+- expected_values:
+    CAMRY_MAF_21: 25.79
+  response: 7E80461100A13
+- expected_values:
+    CAMRY_MAF_21: 76.39
+  response: 7E80461101DD7

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.210E
+test_cases:
+- expected_values:
+    CAMRY_SPARKADV_21: 3.5
+  response: 7E803610E87
+- expected_values:
+    CAMRY_SPARKADV_21: 35
+  response: 7E803610EC6
